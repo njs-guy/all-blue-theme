@@ -17,5 +17,8 @@
         "path": "./themes/Sunburst-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.8.1"
   }
 }
