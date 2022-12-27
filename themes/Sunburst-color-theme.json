@@ -1,45 +1,45 @@
 {
 	"name": "Sunburst",
 	"colors": {
-		"editor.background": "#002C4C",
+		"editor.background": "#002540",
 		"editor.foreground": "#eceff4",
 		"editorCursor.foreground": "#0094FF",
 		"activityBarBadge.background": "#0068B2",
 		"sideBarTitle.foreground": "#d8dee9",
-		"activityBar.background": "#002540",
+		"activityBar.background": "#002138",
 		"activityBar.foreground": "#d8dee9",
-		"sideBar.background": "#002540",
+		"sideBar.background": "#002138",
 		"sideBar.foreground": "#d8dee9",
-		"statusBar.background": "#002947",
+		"sideBarSectionHeader.background": "#001E33",
+		"statusBar.background": "#001E33",
 		"statusBar.foreground": "#d8dee9",
-		"menu.background": "#002C4C",
-		"titleBar.activeBackground": "#002C4C",
-		"titleBar.inactiveBackground": "#002540",
-		"tab.inactiveBackground": "#002947",
-		"tab.inactiveForeground": "#546E7A",
-		"editorGroupHeader.tabsBackground": "#002540",
+		"menu.background": "#002540",
+		"titleBar.activeBackground": "#002540",
+		"titleBar.inactiveBackground": "#002138",
+		"tab.inactiveBackground": "#001E33",
+		"tab.inactiveForeground": "#757C88",
+		"editorGroupHeader.tabsBackground": "#002138",
 		"editorLineNumber.activeForeground": "#eceff4",
-		"editorLineNumber.foreground": "#546E7A",
-		"list.hoverBackground": "#002947",
-		"list.inactiveSelectionBackground": "#002C4C",
-		"list.activeSelectionBackground": "#002C4C",
+		"editorLineNumber.foreground": "#757C88",
+		"list.hoverBackground": "#001E33",
+		"list.inactiveSelectionBackground": "#002540",
 		"list.activeSelectionForeground": "#eceff4",
-		"list.inactiveFocusOutline": "#002C4C",
-		"list.focusOutline": "#002C4C"
+		"list.inactiveFocusOutline": "#002540",
+		"list.focusOutline": "#002540"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#546E7A"
+				"foreground": "#757C88"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#76ABDF"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#63C5DA"
 			}
 		},
 		{
@@ -91,7 +91,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#BE93E4"
 			}
 		},
 		{
@@ -104,7 +104,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#0095ff"
 			}
 		},
 		{
@@ -165,7 +165,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#8DA399"
 			}
 		},
 		{
