@@ -1,24 +1,24 @@
 {
-  "name": "sunburst",
-  "displayName": "Sunburst",
-  "description": "VS Code theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Sunburst",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sunburst-color-theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "prettier": "2.8.1"
-  }
+	"name": "all-blue",
+	"displayName": "All Blue",
+	"description": "VS Code theme",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "All Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/all-blue.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"prettier": "2.8.1"
+	}
 }
