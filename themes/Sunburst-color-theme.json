@@ -1,17 +1,19 @@
 {
 	"name": "Sunburst",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#002C4C",
+		"editor.foreground": "#eceff4",
+		"activityBarBadge.background": "#0068B2",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"activityBar.background": "#002540",
+		"sideBar.background": "#002540",
+		"statusBar.background": "#002947"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
 		},
