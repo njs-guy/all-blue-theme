@@ -14,7 +14,7 @@
 			{
 				"label": "All Blue",
 				"uiTheme": "vs-dark",
-				"path": "./themes/all-blue.json"
+				"path": "./themes/all-blue-color-theme.json"
 			}
 		]
 	},
