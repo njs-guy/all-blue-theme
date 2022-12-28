@@ -115,17 +115,14 @@
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
-			"scope": ["support.other.variable", "string.other.link"],
+			"name": "Function Argument, Other Variable, String Link",
+			"scope": [
+				"variable.parameter",
+				"support.other.variable",
+				"string.other.link"
+			],
 			"settings": {
 				"foreground": "#FF8C00"
-			}
-		},
-		{
-			"name": "Function Argument",
-			"scope": ["variable.parameter"],
-			"settings": {
-				"foreground": "#9932CC"
 			}
 		},
 		{
@@ -140,7 +137,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#f76c6c"
+				"foreground": "#8A2BE2"
 			}
 		},
 		{
@@ -211,7 +208,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#8A2BE2"
 			}
 		},
 		{

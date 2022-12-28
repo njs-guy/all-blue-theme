@@ -17,14 +17,14 @@ These are the baseline colors for the theme.
 
 Standard
 
-| Property           | Color   |
-| ------------------ | ------- |
-| Comments           | #757C88 |
-| Operator, modifier | #63C5DA |
-| Variables          | #FF8C00 |
-| Arguments          | #9932CC |
-| Classes            | #AFDBF5 |
-| Types, strings     | Yellow  |
+| Property                      | Color   |
+| ----------------------------- | ------- |
+| Comments                      | #757C88 |
+| Operator, modifier            | #63C5DA |
+| Variables                     | #FF8C00 |
+| Classes                       | #AFDBF5 |
+| Numbers, Booleans, Null, this | #9932CC |
+| Types, strings                | Yellow  |
 
 Calm
 
