@@ -39,7 +39,7 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#0E81B9"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#0E81B9"
 			}
 		},
 		{
@@ -122,7 +122,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#0E81B9"
 			}
 		},
 		{
@@ -152,7 +152,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#BFF2D9"
+				"foreground": "#48D1CC"
 			}
 		},
 		{

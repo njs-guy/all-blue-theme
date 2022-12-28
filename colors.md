@@ -21,12 +21,12 @@ Standard
 | ----------------------------- | ------- |
 | Comments                      | #757C88 |
 | Operator, modifier            | #63C5DA |
-| Variables                     | #FF8C00 |
+| Variables                     | #0E81B9 |
 | Functions                     | #0095ff |
 | Classes                       | #AFDBF5 |
 | Numbers, Booleans, Null, this | #6F00FF |
 | Types, attributes             | #00BFFF |
-| Strings                       | #BFF2D9 |
+| Strings                       | #48D1CC |
 
 Calm
 
