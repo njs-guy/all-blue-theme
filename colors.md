@@ -15,6 +15,23 @@ These are the baseline colors for the theme.
 
 ## Syntax highlighting
 
-| Property | Color   |
-| -------- | ------- |
-| Comments | #757C88 |
+Standard
+
+| Property           | Color   |
+| ------------------ | ------- |
+| Comments           | #757C88 |
+| Operator, modifier | #63C5DA |
+| Variables          | #FF8C00 |
+| Arguments          | #9932CC |
+| Classes            | #AFDBF5 |
+| Types, strings     | Yellow  |
+
+Calm
+
+## Version control
+
+| Property  | Color |
+| --------- | ----- |
+| Modified  | Blue  |
+| Untracked | Green |
+| Deleted   | Red   |

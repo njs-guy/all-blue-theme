@@ -39,7 +39,7 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#76ABDF"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
@@ -60,7 +60,7 @@
 			"name": "Keyword, Storage",
 			"scope": ["keyword", "storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#63C5DA"
 			}
 		},
 		{
@@ -111,30 +111,36 @@
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
 			"name": "Other Variable, String Link",
 			"scope": ["support.other.variable", "string.other.link"],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Function Argument",
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#9932CC"
+			}
+		},
+		{
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#f76c6c"
 			}
 		},
 		{
@@ -165,7 +171,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#8DA399"
+				"foreground": "#AFDBF5"
 			}
 		},
 		{
