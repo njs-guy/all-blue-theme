@@ -46,22 +46,33 @@
 		"list.focusOutline": "#002540",
 
 		// Settings
-		"settings.textInputBackground": "#002138",
+		"settings.textInputBackground": "#001E33",
 		"settings.textInputForeground": "#63C5DA",
 		"settings.textInputBorder": "#003154",
-		"settings.numberInputBackground": "#002138",
+		"settings.numberInputBackground": "#001E33",
 		"settings.numberInputForeground": "#63C5DA",
 		"settings.numberInputBorder": "#003154",
-		"settings.checkboxBackground": "#002138",
+		"settings.checkboxBackground": "#001E33",
 		"settings.checkboxForeground": "#63C5DA",
 		"settings.checkboxBorder": "#003154",
-		"settings.dropdownBackground": "#002138",
+		"settings.dropdownBackground": "#001E33",
 		"settings.dropdownForeground": "#63C5DA",
 		"settings.dropdownBorder": "#003154",
 		"settings.dropdownListBorder": "#003154",
 		"settings.sashBorder": "#757C88",
 		"settings.headerBorder": "#757C88",
 		"settings.headerForeground": "#eceff4",
+		"settings.modifiedItemIndicator": "#0094FF",
+		"settings.rowHoverBackground": "#002138",
+
+		// Input
+		"input.background": "#001E33",
+		"input.border": "#003154",
+		"input.foreground": "#63C5DA",
+		"input.placeholderForeground": "#757C88",
+		"button.background": "#0094FF",
+		"button.foreground": "#eceff4",
+		"button.separator": "#63C5DA",
 
 		// Bracket colorization
 		"editorBracketHighlight.foreground1": "#63C5DA",
