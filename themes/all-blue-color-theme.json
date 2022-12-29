@@ -4,6 +4,7 @@
 		// Editor
 		"editor.background": "#002540",
 		"editor.foreground": "#63C5DA",
+		"editor.lineHighlightBackground": "#002E4F",
 		"editorCursor.foreground": "#0094FF",
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorLineNumber.activeForeground": "#eceff4",

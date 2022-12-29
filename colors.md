@@ -4,14 +4,15 @@ These are the baseline colors for the theme.
 
 ## Editor colors
 
-| Property             | Color   |
-| -------------------- | ------- |
-| editor.background    | #002540 |
-| sideBar.background   | #002138 |
-| statusBar.background | #001E33 |
-| editor.foreground    | #63C5DA |
-| Foreground secondary | #eceff4 |
-| Disabled foreground  | #757C88 |
+| Property                       | Color   |
+| ------------------------------ | ------- |
+| editor.background              | #002540 |
+| sideBar.background             | #002138 |
+| statusBar.background           | #001E33 |
+| editor.lineHighlightBackground | #003154 |
+| editor.foreground              | #63C5DA |
+| Foreground secondary           | #eceff4 |
+| Disabled foreground            | #757C88 |
 
 ## Syntax highlighting
 
