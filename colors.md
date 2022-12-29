@@ -24,7 +24,7 @@ Standard
 | Variables                     | #0E81B9 |
 | Functions                     | #0095ff |
 | Classes                       | #AFDBF5 |
-| Numbers, Booleans, Null, this | #6F00FF |
+| Numbers, Booleans, Null, this | #5A4FCF |
 | Types, attributes             | #00BFFF |
 | Strings                       | #48D1CC |
 
