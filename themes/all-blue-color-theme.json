@@ -9,6 +9,7 @@
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
+		"breadcrumb.foreground": "#63C5DA",
 
 		// Side bar
 		"sideBarTitle.foreground": "#63C5DA",
@@ -43,6 +44,24 @@
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
+
+		// Settings
+		"settings.textInputBackground": "#002138",
+		"settings.textInputForeground": "#63C5DA",
+		"settings.textInputBorder": "#003154",
+		"settings.numberInputBackground": "#002138",
+		"settings.numberInputForeground": "#63C5DA",
+		"settings.numberInputBorder": "#003154",
+		"settings.checkboxBackground": "#002138",
+		"settings.checkboxForeground": "#63C5DA",
+		"settings.checkboxBorder": "#003154",
+		"settings.dropdownBackground": "#002138",
+		"settings.dropdownForeground": "#63C5DA",
+		"settings.dropdownBorder": "#003154",
+		"settings.dropdownListBorder": "#003154",
+		"settings.sashBorder": "#757C88",
+		"settings.headerBorder": "#757C88",
+		"settings.headerForeground": "#eceff4",
 
 		// Bracket colorization
 		"editorBracketHighlight.foreground1": "#63C5DA",
