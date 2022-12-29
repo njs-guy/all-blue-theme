@@ -9,8 +9,8 @@ These are the baseline colors for the theme.
 | editor.background    | #002540 |
 | sideBar.background   | #002138 |
 | statusBar.background | #001E33 |
-| editor.foreground    | #eceff4 |
-| Foreground secondary | #d8dee9 |
+| editor.foreground    | #63C5DA |
+| Foreground secondary | #eceff4 |
 | Disabled foreground  | #757C88 |
 
 ## Syntax highlighting
