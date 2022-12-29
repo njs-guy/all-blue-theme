@@ -26,7 +26,9 @@ Standard
 | Classes                       | #AFDBF5 |
 | Numbers, Booleans, Null, this | #5A4FCF |
 | Types, attributes             | #00BFFF |
-| Strings                       | #48D1CC |
+| Strings                       | #00CCCC |
+
+Waves
 
 Calm
 
