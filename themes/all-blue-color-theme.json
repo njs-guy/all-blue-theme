@@ -10,11 +10,19 @@
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
-		"editorWhitespace.foreground": "#63C5DA",
+		"editorIndentGuide.background": "#003459",
+		"editorIndentGuide.activeBackground": "#63C5DA",
+		"editorWhitespace.foreground": "#757C88",
 		"editorHoverWidget.background": "#001E33",
 		"editorHoverWidget.border": "#002540",
 		"editorHoverWidget.foreground": "#63C5DA",
 		"breadcrumb.foreground": "#63C5DA",
+		"breadcrumb.activeSelectionForeground": "#ffffff",
+		"breadcrumb.focusForeground": "#eceff4",
+		"breadcrumbPicker.background": "#001E33",
+		"editorWidget.background": "#001E33",
+		"editorWidget.foreground": "#63C5DA",
+		"editorWidget.resizeBorder": "#0094FF",
 		"sash.hoverBorder": "#0094FF",
 
 		// Side bar
@@ -84,6 +92,8 @@
 		"textLink.activeForeground": "#00CCCC",
 		"textPreformat.foreground": "#0095ff",
 		"textSeparator.foreground": "#757C88",
+		"descriptionForeground": "#63C5DA",
+		"extensionIcon.verifiedForeground": "#0094FF",
 
 		// Command Center
 		"commandCenter.foreground": "#63C5DA",
