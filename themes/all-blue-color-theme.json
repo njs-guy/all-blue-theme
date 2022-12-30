@@ -31,7 +31,7 @@
 		// Menu
 		"menu.background": "#002540",
 		"menu.foreground": "#63C5DA",
-		"menu.selectionBackground": "#002E4F",
+		"menu.selectionBackground": "#003459",
 		"menu.selectionForeground": "#eceff4",
 		"menu.separatorBackground": "#757C88",
 
@@ -50,6 +50,7 @@
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
+		"tree.indentGuidesStroke": "#757C88",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",
@@ -76,17 +77,29 @@
 		"input.border": "#003154",
 		"input.foreground": "#63C5DA",
 		"input.placeholderForeground": "#757C88",
-		"button.background": "#0094FF",
+		"button.background": "#003A63",
 		"button.foreground": "#eceff4",
 		"button.separator": "#63C5DA",
+		"dropdown.background": "#001E33",
+		"dropdown.foreground": "#63C5DA",
+		"selection.background": "#003A63",
 
 		// Quick input
-		"quickInput.background": "#001E33",
+		"quickInput.background": "#002138",
 		"quickInput.foreground": "#63C5DA",
-		"quickInputList.focusBackground": "#002E4F",
+		"quickInputList.focusBackground": "#003459",
 		"quickInputList.focusForeground": "#eceff4",
-		"quickInputList.focusIconForeground": "#63C5DA",
-		"quickInputTitle.background": "#001E33",
+		"quickInputList.focusIconForeground": "#eceff4",
+		"quickInputTitle.background": "#003459",
+
+		// Panel
+		"panel.border": "#003154",
+		"panelTitle.activeForeground": "#eceff4",
+		"panelTitle.inactiveForeground": "#63C5DA",
+
+		// Terminal
+		"terminal.foreground": "#63C5DA",
+		"terminalCursor.foreground": "#0094FF",
 
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#63C5DA",

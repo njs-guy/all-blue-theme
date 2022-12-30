@@ -13,6 +13,9 @@ These are the baseline colors for the theme.
 | editor.foreground              | #63C5DA |
 | Foreground secondary           | #eceff4 |
 | Disabled foreground            | #757C88 |
+| Selection Hover Normal         | #003459 |
+| Selection Hover Dim            | #002E4F |
+| Selection Hover Bright         | #003A63 |
 
 ## Syntax highlighting
 
