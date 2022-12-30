@@ -10,6 +10,10 @@
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
+		"editorWhitespace.foreground": "#63C5DA",
+		"editorHoverWidget.background": "#001E33",
+		"editorHoverWidget.border": "#002540",
+		"editorHoverWidget.foreground": "#63C5DA",
 		"breadcrumb.foreground": "#63C5DA",
 		"sash.hoverBorder": "#0094FF",
 
@@ -71,6 +75,27 @@
 		"settings.headerForeground": "#eceff4",
 		"settings.modifiedItemIndicator": "#0094FF",
 		"settings.rowHoverBackground": "#002138",
+
+		// Text
+		"textBlockQuote.background": "#001E33",
+		"textBlockQuote.border": "#0094FF",
+		"textCodeBlock.background": "#001E33",
+		"textLink.foreground": "#0094FF",
+		"textLink.activeForeground": "#00CCCC",
+		"textPreformat.foreground": "#0095ff",
+		"textSeparator.foreground": "#757C88",
+
+		// Command Center
+		"commandCenter.foreground": "#63C5DA",
+		"commandCenter.background": "#001E33",
+		"commandCenter.inactiveBorder": "#003154",
+		"commandCenter.activeBackground": "#003459",
+		"commandCenter.activeBorder": "#003459",
+		"commandCenter.activeForeground": "#00CCCC",
+
+		// Badges
+		"badge.background": "#757C88",
+		"badge.foreground": "#ffffff",
 
 		// Input
 		"input.background": "#001E33",
