@@ -62,7 +62,7 @@
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
-		"tree.indentGuidesStroke": "#757C88",
+		"tree.indentGuidesStroke": "#63C5DA",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",
