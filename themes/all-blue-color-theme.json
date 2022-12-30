@@ -85,15 +85,29 @@
 		"settings.rowHoverBackground": "#002138",
 
 		// Text
+		"foreground": "#63C5DA",
+		"descriptionForeground": "#63C5DA",
+		"icon.foreground": "#63C5DA",
 		"textBlockQuote.background": "#001E33",
 		"textBlockQuote.border": "#0094FF",
 		"textCodeBlock.background": "#001E33",
 		"textLink.foreground": "#0094FF",
 		"textLink.activeForeground": "#00CCCC",
 		"textPreformat.foreground": "#0095ff",
-		"textSeparator.foreground": "#757C88",
-		"descriptionForeground": "#63C5DA",
+		"textSeparator.foreground": "#887575",
+
+		// Extensions
 		"extensionIcon.verifiedForeground": "#0094FF",
+		"extensionButton.background": "#003A63",
+		"extensionButton.foreground": "#eceff4",
+		"extensionButton.separator": "#63C5DA",
+
+		// Welcome page and walkthrough
+		"welcomePage.tileBackground": "#001E33",
+		"welcomePage.tileHoverBackground": "#003459",
+		"welcomePage.progress.foreground": "#0094FF",
+		"walkthrough.stepTitle.foreground": "#63C5DA",
+		"walkThrough.embeddedEditorBackground": "#001E33",
 
 		// Command Center
 		"commandCenter.foreground": "#63C5DA",
