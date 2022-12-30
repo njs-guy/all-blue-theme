@@ -58,6 +58,11 @@
 		"tab.inactiveForeground": "#757C88",
 		"tab.activeForeground": "#eceff4",
 
+		// Scrollbar slider
+		"scrollbarSlider.background": "#003A63",
+		"scrollbarSlider.hoverBackground": "#004B80",
+		"scrollbarSlider.activeBackground": "#005999",
+
 		// Lists
 		"list.hoverBackground": "#001E33",
 		"list.inactiveSelectionBackground": "#002540",
