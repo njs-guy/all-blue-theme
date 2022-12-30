@@ -16,13 +16,13 @@
 		"editorHoverWidget.background": "#001E33",
 		"editorHoverWidget.border": "#002540",
 		"editorHoverWidget.foreground": "#63C5DA",
+		"editorWidget.background": "#001E33",
+		"editorWidget.foreground": "#63C5DA",
+		"editorWidget.resizeBorder": "#0094FF",
 		"breadcrumb.foreground": "#63C5DA",
 		"breadcrumb.activeSelectionForeground": "#ffffff",
 		"breadcrumb.focusForeground": "#eceff4",
 		"breadcrumbPicker.background": "#001E33",
-		"editorWidget.background": "#001E33",
-		"editorWidget.foreground": "#63C5DA",
-		"editorWidget.resizeBorder": "#0094FF",
 		"sash.hoverBorder": "#0094FF",
 
 		// Side bar
@@ -50,6 +50,8 @@
 		// Title bar
 		"titleBar.activeBackground": "#002540",
 		"titleBar.inactiveBackground": "#002138",
+		"titleBar.activeForeground": "#63C5DA",
+		"titleBar.inactiveForeground": "#757C88",
 
 		// Tabs
 		"tab.inactiveBackground": "#001E33",
@@ -62,7 +64,7 @@
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
-		"tree.indentGuidesStroke": "#63C5DA",
+		"tree.indentGuidesStroke": "#004B80",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",
@@ -178,7 +180,7 @@
 			"name": "Colors",
 			"scope": ["constant.other.color"],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#5A4FCF"
 			}
 		},
 		{
