@@ -4,19 +4,24 @@
 		// Editor
 		"editor.background": "#002540",
 		"editor.foreground": "#63C5DA",
-
 		"editor.lineHighlightBackground": "#002E4F",
 		"editor.foldBackground": "#002540",
 		"editorCursor.foreground": "#0094FF",
 		"editorGroupHeader.tabsBackground": "#002138",
 
+		// Gutter
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
+		"editorLightBulb.foreground": "#eceff4",
+		"editorGutter.modifiedBackground": "#005999",
+		"editorGutter.addedBackground": "#2E8B57",
+		"editorGutter.deletedBackground": "#FF5619",
+		"editorGutter.commentRangeForeground": "#757C88",
 
+		// Indents and whitespace
 		"editorIndentGuide.background": "#003459",
 		"editorIndentGuide.activeBackground": "#63C5DA",
 		"editorWhitespace.foreground": "#757C88",
-		"editorLightBulb.foreground": "#eceff4",
 
 		"editorHoverWidget.background": "#001E33",
 		"editorHoverWidget.border": "#002540",
@@ -26,12 +31,13 @@
 		"editorWidget.foreground": "#63C5DA",
 		"editorWidget.resizeBorder": "#0094FF",
 
+		// Inlay hints
 		"editorInlayHint.background": "#001E33",
 		"editorInlayHint.foreground": "#eceff4",
 		"editorInlayHint.typeForeground": "#00BFFF",
 		"editorInlayHint.parameterForeground": "#0E81B9",
-		"editor.inlineValuesForeground": "#ff0000",
 
+		// Breadcrumbs
 		"breadcrumb.foreground": "#63C5DA",
 		"breadcrumb.activeSelectionForeground": "#ffffff",
 		"breadcrumb.focusForeground": "#eceff4",
@@ -83,6 +89,16 @@
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
 		"tree.indentGuidesStroke": "#004B80",
+
+		"gitDecoration.untrackedResourceForeground": "#43CC7E",
+		"gitDecoration.modifiedResourceForeground": "#0086E6",
+		"gitDecoration.renamedResourceForeground": "#0086E6",
+		"gitDecoration.deletedResourceForeground": "#FF7F50",
+		"gitDecoration.ignoredResourceForeground": "#757C88",
+		"gitDecoration.addedResourceForeground": "#43CC7E",
+		"gitDecoration.conflictingResourceForeground": "#FF7F50",
+		"gitDecoration.stageModifiedResourceForeground": "#0086E6",
+		"gitDecoration.stageDeletedResourceForeground": "#FF7F50",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",
@@ -177,7 +193,7 @@
 		"editorBracketHighlight.foreground4": "#0E81B9",
 		"editorBracketHighlight.foreground5": "#5A4FCF",
 		"editorBracketHighlight.foreground6": "#00CCCC",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#FF5619",
 		"editorBracketMatch.border": "#005999"
 	},
 	"tokenColors": [
@@ -207,7 +223,7 @@
 			"name": "Invalid",
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF5619"
 			}
 		},
 		{
@@ -354,7 +370,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF7F50"
 			}
 		},
 		{
@@ -427,7 +443,7 @@
 			"name": "Deleted",
 			"scope": ["markup.deleted"],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF7F50"
 			}
 		},
 		{
