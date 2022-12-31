@@ -10,7 +10,7 @@
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorInfo.foreground": "#0086E6",
 		"editorWarning.foreground": "#43CC7E",
-		"editorError.foreground": "#da2526",
+		"editorError.foreground": "#F04E45",
 
 		// Gutter
 		"editorLineNumber.activeForeground": "#eceff4",
@@ -18,7 +18,7 @@
 		"editorLightBulb.foreground": "#eceff4",
 		"editorGutter.modifiedBackground": "#005999",
 		"editorGutter.addedBackground": "#2E8B57",
-		"editorGutter.deletedBackground": "#da2526",
+		"editorGutter.deletedBackground": "#F04E45",
 		"editorGutter.commentRangeForeground": "#757C88",
 
 		// Indents and whitespace
@@ -93,17 +93,17 @@
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
 		"tree.indentGuidesStroke": "#004B80",
-		"list.errorForeground": "#da2526",
+		"list.errorForeground": "#F04E45",
 
 		"gitDecoration.untrackedResourceForeground": "#43CC7E",
 		"gitDecoration.modifiedResourceForeground": "#0086E6",
 		"gitDecoration.renamedResourceForeground": "#0086E6",
-		"gitDecoration.deletedResourceForeground": "#da2526",
+		"gitDecoration.deletedResourceForeground": "#F04E45",
 		"gitDecoration.ignoredResourceForeground": "#757C88",
 		"gitDecoration.addedResourceForeground": "#43CC7E",
 		"gitDecoration.conflictingResourceForeground": "#FF7F50",
 		"gitDecoration.stageModifiedResourceForeground": "#0086E6",
-		"gitDecoration.stageDeletedResourceForeground": "#da2526",
+		"gitDecoration.stageDeletedResourceForeground": "#F04E45",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",
@@ -188,7 +188,7 @@
 		"panelTitle.inactiveForeground": "#63C5DA",
 		"problemsInfoIcon.foreground": "#0086E6",
 		"problemsWarningIcon.foreground": "#43CC7E",
-		"problemsErrorIcon.foreground": "#da2526",
+		"problemsErrorIcon.foreground": "#F04E45",
 
 		// Terminal
 		"terminal.foreground": "#63C5DA",
@@ -201,7 +201,7 @@
 		"editorBracketHighlight.foreground4": "#0E81B9",
 		"editorBracketHighlight.foreground5": "#5A4FCF",
 		"editorBracketHighlight.foreground6": "#00CCCC",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#da2526",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#F04E45",
 		"editorBracketMatch.border": "#005999"
 	},
 	"tokenColors": [
@@ -231,7 +231,7 @@
 			"name": "Invalid",
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
-				"foreground": "#da2526"
+				"foreground": "#F04E45"
 			}
 		},
 		{
@@ -451,7 +451,7 @@
 			"name": "Deleted",
 			"scope": ["markup.deleted"],
 			"settings": {
-				"foreground": "#da2526"
+				"foreground": "#F04E45"
 			}
 		},
 		{

@@ -20,51 +20,51 @@ These are the baseline colors for the theme.
 | Selection Hover Bright           | #003A63 |
 | Info squiggle                    | #0086E6 |
 | Warning squiggle                 | #43CC7E |
-| Error squiggle                   | #da2526 |
+| Error squiggle                   | #F04E45 |
 
 ## Syntax highlighting
 
 ### Standard
 
-| Property                      | Color   |
-| ----------------------------- | ------- |
-| Comments                      | #757C88 |
-| Operator, modifier            | #63C5DA |
-| Variables                     | #0E81B9 |
-| Numbers, Booleans, Null, this | #5A4FCF |
-| Classes                       | #AFDBF5 |
-| Types, attributes             | #00BFFF |
-| Functions                     | #0095ff |
-| HTML Tags                     | #009DC4 |
-| Strings                       | #00CCCC |
+| Property                       | Color   |
+| ------------------------------ | ------- |
+| Comments                       | #757C88 |
+| Operator, modifier, foreground | #63C5DA |
+| Variables                      | #0E81B9 |
+| Numbers, Booleans, Null, this  | #5A4FCF |
+| Classes                        | #AFDBF5 |
+| Types, attributes              | #00BFFF |
+| Functions                      | #0095ff |
+| HTML Tags                      | #009DC4 |
+| Strings                        | #00CCCC |
 
 ### Waves
 
-| Property                      | Color   |
-| ----------------------------- | ------- |
-| Comments                      | #757C88 |
-| Operator, modifier            | #00CCFF |
-| Variables                     | #FF8830 |
-| Numbers, Booleans, Null, this | #E33626 |
-| Classes                       | #76BA1B |
-| Types, attributes             | #FFFD37 |
-| Functions                     | #007FFF |
-| HTML Tags                     | #BF00FF |
-| Strings                       | #FFD700 |
+| Property                       | Color   |
+| ------------------------------ | ------- |
+| Comments                       | #757C88 |
+| Operator, modifier, foreground | #00CCFF |
+| Variables                      | #FF8830 |
+| Numbers, Booleans, Null, this  | #E33626 |
+| Classes                        | #76BA1B |
+| Types, attributes              | #FFFD37 |
+| Functions                      | #007FFF |
+| HTML Tags                      | #BF00FF |
+| Strings                        | #FFD700 |
 
 ### Calm
 
-| Property                      | Color   |
-| ----------------------------- | ------- |
-| Comments                      | #757C88 |
-| Operator, modifier            | #48D1CC |
-| Variables                     | #F4C240 |
-| Numbers, Booleans, Null, this | #F04E45 |
-| Classes                       | #528D3C |
-| Types, attributes             | #FFFF44 |
-| Functions                     | #6BCAE2 |
-| HTML Tags                     | #B65FCF |
-| Strings                       | #DBD59D |
+| Property                       | Color   |
+| ------------------------------ | ------- |
+| Comments                       | #757C88 |
+| Operator, modifier, foreground | #48D1CC |
+| Variables                      | #F4C240 |
+| Numbers, Booleans, Null, this  | #F04E45 |
+| Classes                        | #528D3C |
+| Types, attributes              | #FFFF44 |
+| Functions                      | #6BCAE2 |
+| HTML Tags                      | #B65FCF |
+| Strings                        | #DBD59D |
 
 ## Version control
 
@@ -74,7 +74,7 @@ These are the baseline colors for the theme.
 | --------------- | ------- |
 | Modified        | #43CC7E |
 | Untracked/Added | #0086E6 |
-| Deleted         | #FF7F50 |
+| Deleted         | #F04E45 |
 | Ignored         | #757C88 |
 
 ### Gutter
@@ -83,4 +83,4 @@ These are the baseline colors for the theme.
 | --------------- | ------- |
 | Modified        | #005999 |
 | Untracked/Added | #2E8B57 |
-| Deleted         | #FF5619 |
+| Deleted         | #F04E45 |
