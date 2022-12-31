@@ -104,8 +104,8 @@
 		"gitDecoration.deletedResourceForeground": "#F04E45",
 		"gitDecoration.ignoredResourceForeground": "#757C88",
 		"gitDecoration.addedResourceForeground": "#43CC7E",
-		"gitDecoration.conflictingResourceForeground": "#FF7F50",
-		"gitDecoration.stageModifiedResourceForeground": "#0086E6",
+		"gitDecoration.conflictingResourceForeground": "#F04E45",
+		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
 		"gitDecoration.stageDeletedResourceForeground": "#F04E45",
 
 		// Settings
