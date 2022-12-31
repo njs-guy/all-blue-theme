@@ -26,10 +26,12 @@
 		"editorIndentGuide.activeBackground": "#63C5DA",
 		"editorWhitespace.foreground": "#757C88",
 
+		// Hover widget
 		"editorHoverWidget.background": "#001E33",
 		"editorHoverWidget.border": "#002540",
-		"editorHoverWidget.foreground": "#63C5DA",
+		"editorHoverWidget.foreground": "#00CCFF",
 
+		// Editor widget
 		"editorWidget.background": "#001E33",
 		"editorWidget.foreground": "#63C5DA",
 		"editorWidget.resizeBorder": "#0094FF",
@@ -95,6 +97,7 @@
 		"tree.indentGuidesStroke": "#004B80",
 		"list.errorForeground": "#F04E45",
 
+		// Git decorations
 		"gitDecoration.untrackedResourceForeground": "#43CC7E",
 		"gitDecoration.modifiedResourceForeground": "#0086E6",
 		"gitDecoration.renamedResourceForeground": "#0086E6",
