@@ -4,32 +4,45 @@
 		// Editor
 		"editor.background": "#002540",
 		"editor.foreground": "#63C5DA",
+
 		"editor.lineHighlightBackground": "#002E4F",
 		"editor.foldBackground": "#002540",
 		"editorCursor.foreground": "#0094FF",
 		"editorGroupHeader.tabsBackground": "#002138",
+
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
+
 		"editorIndentGuide.background": "#003459",
 		"editorIndentGuide.activeBackground": "#63C5DA",
 		"editorWhitespace.foreground": "#757C88",
+		"editorLightBulb.foreground": "#eceff4",
+
 		"editorHoverWidget.background": "#001E33",
 		"editorHoverWidget.border": "#002540",
 		"editorHoverWidget.foreground": "#63C5DA",
+
 		"editorWidget.background": "#001E33",
 		"editorWidget.foreground": "#63C5DA",
 		"editorWidget.resizeBorder": "#0094FF",
+
+		"editorInlayHint.background": "#001E33",
+		"editorInlayHint.foreground": "#eceff4",
+		"editorInlayHint.typeForeground": "#00BFFF",
+		"editorInlayHint.parameterForeground": "#0E81B9",
+		"editor.inlineValuesForeground": "#ff0000",
+
 		"breadcrumb.foreground": "#63C5DA",
 		"breadcrumb.activeSelectionForeground": "#ffffff",
 		"breadcrumb.focusForeground": "#eceff4",
 		"breadcrumbPicker.background": "#001E33",
-		"sash.hoverBorder": "#0094FF",
 
 		// Side bar
 		"sideBarTitle.foreground": "#63C5DA",
 		"sideBar.background": "#002138",
 		"sideBar.foreground": "#63C5DA",
 		"sideBarSectionHeader.background": "#001E33",
+		"sash.hoverBorder": "#0094FF",
 
 		// Activity bar
 		"activityBarBadge.background": "#0068B2",
@@ -164,7 +177,8 @@
 		"editorBracketHighlight.foreground4": "#0E81B9",
 		"editorBracketHighlight.foreground5": "#5A4FCF",
 		"editorBracketHighlight.foreground6": "#00CCCC",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+		"editorBracketMatch.border": "#005999"
 	},
 	"tokenColors": [
 		{
