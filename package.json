@@ -15,6 +15,16 @@
 				"label": "All Blue",
 				"uiTheme": "vs-dark",
 				"path": "./themes/all-blue-color-theme.json"
+			},
+			{
+				"label": "All Blue Waves",
+				"uiTheme": "vs-dark",
+				"path": "./themes/all-blue-waves-color-theme.json"
+			},
+			{
+				"label": "All Blue Calm",
+				"uiTheme": "vs-dark",
+				"path": "./themes/all-blue-calm-color-theme.json"
 			}
 		]
 	},

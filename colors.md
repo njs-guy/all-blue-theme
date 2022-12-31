@@ -43,16 +43,28 @@ These are the baseline colors for the theme.
 | Property                      | Color   |
 | ----------------------------- | ------- |
 | Comments                      | #757C88 |
-| Operator, modifier            | #63C5DA |
-| Variables                     | #FF9F00 |
-| Numbers, Booleans, Null, this | #FF7F50 |
-| Classes                       | #3DAC75 |
-| Types, attributes             | #FFE135 |
-| Functions                     | #00BFFF |
-| HTML Tags                     | #009DC4 |
-| Strings                       | #DBD59D |
+| Operator, modifier            | #00CCFF |
+| Variables                     | #FF8830 |
+| Numbers, Booleans, Null, this | #E33626 |
+| Classes                       | #228B21 |
+| Types, attributes             | #FFFD37 |
+| Functions                     | #007FFF |
+| HTML Tags                     | #BF00FF |
+| Strings                       | #FFD700 |
 
 ### Calm
+
+| Property                      | Color   |
+| ----------------------------- | ------- |
+| Comments                      | #757C88 |
+| Operator, modifier            | #48D1CC |
+| Variables                     | #F4C240 |
+| Numbers, Booleans, Null, this | #F04E45 |
+| Classes                       | #528D3C |
+| Types, attributes             | #FFFF44 |
+| Functions                     | #6BCAE2 |
+| HTML Tags                     | #B65FCF |
+| Strings                       | #DBD59D |
 
 ## Version control
 
