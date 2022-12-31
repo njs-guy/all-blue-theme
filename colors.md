@@ -12,6 +12,7 @@ These are the baseline colors for the theme.
 | StatusBar background             | #001E33 |
 | Line height highlight background | #003154 |
 | Cursor                           | #0094FF |
+| Badges                           | #007FFF |
 | Foreground secondary             | #eceff4 |
 | Disabled foreground              | #757C88 |
 | Selection Hover Normal           | #003459 |

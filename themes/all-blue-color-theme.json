@@ -51,7 +51,8 @@
 		"sash.hoverBorder": "#0094FF",
 
 		// Activity bar
-		"activityBarBadge.background": "#0068B2",
+		"activityBarBadge.background": "#007FFF",
+		"activityBarBadge.foreground": "#ffffff",
 		"activityBar.background": "#002138",
 		"activityBar.foreground": "#63C5DA",
 
@@ -154,7 +155,7 @@
 		"commandCenter.activeForeground": "#00CCCC",
 
 		// Badges
-		"badge.background": "#001E33",
+		"badge.background": "#007FFF",
 		"badge.foreground": "#ffffff",
 
 		// Input
