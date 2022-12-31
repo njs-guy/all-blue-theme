@@ -186,6 +186,9 @@
 		"panel.border": "#003154",
 		"panelTitle.activeForeground": "#eceff4",
 		"panelTitle.inactiveForeground": "#63C5DA",
+		"problemsInfoIcon.foreground": "#0086E6",
+		"problemsWarningIcon.foreground": "#43CC7E",
+		"problemsErrorIcon.foreground": "#FF5619",
 
 		// Terminal
 		"terminal.foreground": "#63C5DA",
