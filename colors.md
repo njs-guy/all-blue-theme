@@ -31,13 +31,26 @@ These are the baseline colors for the theme.
 | Comments                      | #757C88 |
 | Operator, modifier            | #63C5DA |
 | Variables                     | #0E81B9 |
-| Functions                     | #0095ff |
-| Classes                       | #AFDBF5 |
 | Numbers, Booleans, Null, this | #5A4FCF |
+| Classes                       | #AFDBF5 |
 | Types, attributes             | #00BFFF |
+| Functions                     | #0095ff |
+| HTML Tags                     | #009DC4 |
 | Strings                       | #00CCCC |
 
 ### Waves
+
+| Property                      | Color   |
+| ----------------------------- | ------- |
+| Comments                      | #757C88 |
+| Operator, modifier            | #63C5DA |
+| Variables                     | #FF9F00 |
+| Numbers, Booleans, Null, this | #FF7F50 |
+| Classes                       | #3DAC75 |
+| Types, attributes             | #FFE135 |
+| Functions                     | #00BFFF |
+| HTML Tags                     | #009DC4 |
+| Strings                       | #DBD59D |
 
 ### Calm
 
