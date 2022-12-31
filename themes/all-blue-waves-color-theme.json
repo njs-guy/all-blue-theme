@@ -198,12 +198,12 @@
 		"terminalCursor.foreground": "#0094FF",
 
 		// Bracket highlight
-		"editorBracketHighlight.foreground1": "#63C5DA",
-		"editorBracketHighlight.foreground2": "#007FFF",
-		"editorBracketHighlight.foreground3": "#00BFFF",
-		"editorBracketHighlight.foreground4": "#0E81B9",
-		"editorBracketHighlight.foreground5": "#5A4FCF",
-		"editorBracketHighlight.foreground6": "#00CCCC",
+		"editorBracketHighlight.foreground1": "#00CCFF",
+		"editorBracketHighlight.foreground2": "#FFFD37",
+		"editorBracketHighlight.foreground3": "#0080FF",
+		"editorBracketHighlight.foreground4": "#76BA1B",
+		"editorBracketHighlight.foreground5": "#009DC4",
+		"editorBracketHighlight.foreground6": "#FF9609",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#F04E45",
 		"editorBracketMatch.border": "#005999"
 	},
@@ -512,7 +512,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#63C5DA"
+				"foreground": "#00CCFF"
 			}
 		},
 		{
@@ -521,7 +521,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#007FFF"
+				"foreground": "#FFFD37"
 			}
 		},
 		{
@@ -530,7 +530,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#00BFFF"
+				"foreground": "#0080FF"
 			}
 		},
 		{
@@ -539,7 +539,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#0E81B9"
+				"foreground": "#76BA1B"
 			}
 		},
 		{
@@ -548,7 +548,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#5A4FCF"
+				"foreground": "#009DC4"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#00CCCC"
+				"foreground": "#FF9609"
 			}
 		},
 		{
@@ -566,7 +566,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#63C5DA"
+				"foreground": "#00CCCC"
 			}
 		},
 		{
@@ -575,7 +575,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#007FFF"
+				"foreground": "#DBD59D"
 			}
 		},
 		{
@@ -584,7 +584,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#00BFFF"
+				"foreground": "#0E81B9"
 			}
 		},
 		{
