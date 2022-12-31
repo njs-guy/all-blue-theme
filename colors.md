@@ -20,7 +20,7 @@ These are the baseline colors for the theme.
 | Selection Hover Bright           | #003A63 |
 | Info squiggle                    | #0086E6 |
 | Warning squiggle                 | #43CC7E |
-| Error squiggle                   | #FF5619 |
+| Error squiggle                   | #da2526 |
 
 ## Syntax highlighting
 
