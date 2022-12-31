@@ -44,7 +44,7 @@ These are the baseline colors for the theme.
 | ------------------------------ | ------- |
 | Comments                       | #757C88 |
 | Operator, modifier, foreground | #00CCFF |
-| Variables                      | #FF8830 |
+| Variables                      | #FF9609 |
 | Numbers, Booleans, Null, this  | #F04E45 |
 | Classes                        | #76BA1B |
 | Types, attributes              | #FFFD37 |
@@ -63,7 +63,7 @@ These are the baseline colors for the theme.
 | Classes                        | #528D3C |
 | Types, attributes              | #FFFF44 |
 | Functions                      | #6BCAE2 |
-| HTML Tags                      | #B65FCF |
+| HTML Tags                      | #009DC4 |
 | Strings                        | #DBD59D |
 
 ## Version control
