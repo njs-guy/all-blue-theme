@@ -8,6 +8,9 @@
 		"editor.foldBackground": "#002540",
 		"editorCursor.foreground": "#0094FF",
 		"editorGroupHeader.tabsBackground": "#002138",
+		"editorInfo.foreground": "#0086E6",
+		"editorWarning.foreground": "#43CC7E",
+		"editorError.foreground": "#FF5619",
 
 		// Gutter
 		"editorLineNumber.activeForeground": "#eceff4",
@@ -90,6 +93,7 @@
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
 		"tree.indentGuidesStroke": "#004B80",
+		"list.errorForeground": "#FF5619",
 
 		"gitDecoration.untrackedResourceForeground": "#43CC7E",
 		"gitDecoration.modifiedResourceForeground": "#0086E6",

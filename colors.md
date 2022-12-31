@@ -18,6 +18,9 @@ These are the baseline colors for the theme.
 | Selection Hover Normal           | #003459 |
 | Selection Hover Dim              | #002E4F |
 | Selection Hover Bright           | #003A63 |
+| Info squiggle                    | #0086E6 |
+| Warning squiggle                 | #43CC7E |
+| Error squiggle                   | #FF5619 |
 
 ## Syntax highlighting
 
