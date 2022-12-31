@@ -346,7 +346,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#228B21"
+				"foreground": "#76BA1B"
 			}
 		},
 		{
@@ -430,7 +430,7 @@
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#228B21"
+				"foreground": "#76BA1B"
 			}
 		},
 		{
