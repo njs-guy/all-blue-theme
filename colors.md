@@ -49,7 +49,7 @@ These are the baseline colors for the theme.
 | Classes                        | #0BDA51 |
 | Types, attributes              | #FFFD37 |
 | Functions                      | #007FFF |
-| HTML Tags                      | #FEBA4F |
+| HTML Tags                      | #FF9580 |
 | Strings                        | #DBD59D |
 
 ### Calm
@@ -63,7 +63,7 @@ These are the baseline colors for the theme.
 | Classes                        | #50C878 |
 | Types, attributes              | #FFFC79 |
 | Functions                      | #00CCFF |
-| HTML Tags                      | #009DC4 |
+| HTML Tags                      | #FF9580 |
 | Strings                        | #DBD59D |
 
 ## Version control
