@@ -59,11 +59,11 @@
 		"activityBarBadge.background": "#007FFF",
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBar.background": "#002138",
-		"activityBar.foreground": "#63C5DA",
+		"activityBar.foreground": "#00CCFF",
 
 		// Status bar
 		"statusBar.background": "#001E33",
-		"statusBar.foreground": "#63C5DA",
+		"statusBar.foreground": "#00CCFF",
 
 		// Menu
 		"menu.background": "#002540",
@@ -292,7 +292,7 @@
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#ff9609"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
@@ -303,7 +303,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#ff9609"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
@@ -349,7 +349,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#76BA1B"
+				"foreground": "#0BDA51"
 			}
 		},
 		{
@@ -370,7 +370,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#FF9609"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
@@ -433,7 +433,7 @@
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#76BA1B"
+				"foreground": "#0BDA51"
 			}
 		},
 		{
@@ -539,7 +539,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#76BA1B"
+				"foreground": "#0BDA51"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF9609"
+				"foreground": "#FF8C00"
 			}
 		},
 		{
