@@ -45,12 +45,12 @@ These are the baseline colors for the theme.
 | Comments                       | #757C88 |
 | Operator, modifier, foreground | #00CCFF |
 | Variables                      | #FF8C00 |
-| Numbers, Booleans, Null, this  | #F04E45 |
+| Numbers, Booleans, Null, this  | #FBA0E3 |
 | Classes                        | #0BDA51 |
 | Types, attributes              | #FFFD37 |
 | Functions                      | #007FFF |
-| HTML Tags                      | #DBD59D |
-| Strings                        | #FFFC79 |
+| HTML Tags                      | #FEBA4F |
+| Strings                        | #DBD59D |
 
 ### Calm
 
