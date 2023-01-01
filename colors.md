@@ -57,12 +57,12 @@ These are the baseline colors for the theme.
 | Property                       | Color   |
 | ------------------------------ | ------- |
 | Comments                       | #757C88 |
-| Operator, modifier, foreground | #48D1CC |
+| Operator, modifier, foreground | #63C5DA |
 | Variables                      | #F4C240 |
 | Numbers, Booleans, Null, this  | #F06760 |
-| Classes                        | #528D3C |
-| Types, attributes              | #FFFF44 |
-| Functions                      | #6BCAE2 |
+| Classes                        | #50C878 |
+| Types, attributes              | #FFFC79 |
+| Functions                      | #00CCFF |
 | HTML Tags                      | #009DC4 |
 | Strings                        | #DBD59D |
 
@@ -75,6 +75,7 @@ These are the baseline colors for the theme.
 | Modified        | #43CC7E |
 | Untracked/Added | #0086E6 |
 | Deleted         | #F04E45 |
+| Staged          | #FFFC79 |
 | Ignored         | #757C88 |
 
 ### Gutter

@@ -15,7 +15,7 @@
 		// Gutter
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
-		"editorLightBulb.foreground": "#eceff4",
+		"editorLightBulb.foreground": "#FFFC79",
 		"editorGutter.modifiedBackground": "#005999",
 		"editorGutter.addedBackground": "#2E8B57",
 		"editorGutter.deletedBackground": "#F04E45",
@@ -237,33 +237,33 @@
 				"foreground": "#F04E45"
 			}
 		},
-		{
-			"name": "Keyword, Storage",
-			"scope": ["keyword", "storage.type", "storage.modifier"],
-			"settings": {
-				"foreground": "#63C5DA"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-			],
-			"settings": {
-				"foreground": "#63C5DA"
-			}
-		},
+		// {
+		// 	"name": "Keyword, Storage",
+		// 	"scope": ["keyword", "storage.type", "storage.modifier"],
+		// 	"settings": {
+		// 		"foreground": "#63C5DA"
+		// 	}
+		// },
+		// {
+		// 	"name": "Operator, Misc",
+		// 	"scope": [
+		// 		"keyword.control",
+		// 		"constant.other.color",
+		// 		"punctuation",
+		// 		"meta.tag",
+		// 		"punctuation.definition.tag",
+		// 		"punctuation.separator.inheritance.php",
+		// 		"punctuation.definition.tag.html",
+		// 		"punctuation.definition.tag.begin.html",
+		// 		"punctuation.definition.tag.end.html",
+		// 		"punctuation.section.embedded",
+		// 		"keyword.other.template",
+		// 		"keyword.other.substitution"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#63C5DA"
+		// 	}
+		// },
 		{
 			"name": "Tag",
 			"scope": [

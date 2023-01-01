@@ -15,7 +15,7 @@
 		// Gutter
 		"editorLineNumber.activeForeground": "#eceff4",
 		"editorLineNumber.foreground": "#757C88",
-		"editorLightBulb.foreground": "#eceff4",
+		"editorLightBulb.foreground": "#FFFC79",
 		"editorGutter.modifiedBackground": "#005999",
 		"editorGutter.addedBackground": "#2E8B57",
 		"editorGutter.deletedBackground": "#F04E45",
@@ -194,7 +194,7 @@
 		"problemsErrorIcon.foreground": "#F04E45",
 
 		// Terminal
-		"terminal.foreground": "#63C5DA",
+		"terminal.foreground": "#00CCFF",
 		"terminalCursor.foreground": "#0094FF",
 
 		// Bracket highlight
@@ -237,33 +237,33 @@
 				"foreground": "#F04E45"
 			}
 		},
-		{
-			"name": "Keyword, Storage",
-			"scope": ["keyword", "storage.type", "storage.modifier"],
-			"settings": {
-				"foreground": "#00CCFF"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-			],
-			"settings": {
-				"foreground": "#00CCFF"
-			}
-		},
+		// {
+		// 	"name": "Keyword, Storage",
+		// 	"scope": ["keyword", "storage.type", "storage.modifier"],
+		// 	"settings": {
+		// 		"foreground": "#00CCFF"
+		// 	}
+		// },
+		// {
+		// 	"name": "Operator, Misc",
+		// 	"scope": [
+		// 		"keyword.control",
+		// 		"constant.other.color",
+		// 		"punctuation",
+		// 		"meta.tag",
+		// 		"punctuation.definition.tag",
+		// 		"punctuation.separator.inheritance.php",
+		// 		"punctuation.definition.tag.html",
+		// 		"punctuation.definition.tag.begin.html",
+		// 		"punctuation.definition.tag.end.html",
+		// 		"punctuation.section.embedded",
+		// 		"keyword.other.template",
+		// 		"keyword.other.substitution"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#00CCFF"
+		// 	}
+		// },
 		{
 			"name": "Tag",
 			"scope": [
