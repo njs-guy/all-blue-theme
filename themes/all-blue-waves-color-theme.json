@@ -59,11 +59,11 @@
 		"activityBarBadge.background": "#007FFF",
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBar.background": "#002138",
-		"activityBar.foreground": "#00CCFF",
+		"activityBar.foreground": "#63C5DA",
 
 		// Status bar
 		"statusBar.background": "#001E33",
-		"statusBar.foreground": "#00CCFF",
+		"statusBar.foreground": "#63C5DA",
 
 		// Menu
 		"menu.background": "#002540",
@@ -82,6 +82,8 @@
 		"tab.inactiveBackground": "#001E33",
 		"tab.inactiveForeground": "#757C88",
 		"tab.activeForeground": "#eceff4",
+		"tab.activeModifiedBorder": "#0086E6",
+		"tab.inactiveModifiedBorder": "#0086E6",
 
 		// Scrollbar slider
 		"scrollbarSlider.background": "#003A63",
