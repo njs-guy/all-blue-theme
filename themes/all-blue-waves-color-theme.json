@@ -220,7 +220,7 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#FF8830"
+				"foreground": "#FF9F00"
 			}
 		},
 		{
@@ -292,7 +292,7 @@
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#FF9F00"
 			}
 		},
 		{
@@ -303,7 +303,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#FF9F00"
 			}
 		},
 		{
@@ -370,7 +370,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#FF9F00"
 			}
 		},
 		{
@@ -440,7 +440,7 @@
 			"name": "CSS ID's",
 			"scope": ["source.sass keyword.control"],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#FF9F00"
 			}
 		},
 		{

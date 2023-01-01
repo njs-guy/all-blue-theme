@@ -30,7 +30,7 @@ These are the baseline colors for the theme.
 | ------------------------------ | ------- |
 | Comments                       | #757C88 |
 | Operator, modifier, foreground | #63C5DA |
-| Variables                      | #0E81B9 |
+| Variables                      | #FF9F00 |
 | Numbers, Booleans, Null, this  | #5A4FCF |
 | Classes                        | #AFDBF5 |
 | Types, attributes              | #00BFFF |
