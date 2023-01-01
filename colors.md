@@ -61,9 +61,9 @@ These are the baseline colors for the theme.
 | Variables                      | #F4C240 |
 | Numbers, Booleans, Null, this  | #F06760 |
 | Classes                        | #50C878 |
-| Types, attributes              | #FFFC79 |
+| Types, attributes              | #FFB7C5 |
 | Functions                      | #00CCFF |
-| HTML Tags                      | #FF9580 |
+| HTML Tags                      | #E5B39B |
 | Strings                        | #DBD59D |
 
 ## Version control
