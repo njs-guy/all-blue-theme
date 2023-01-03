@@ -14,7 +14,7 @@ These are the baseline colors for the theme.
 | Cursor                           | #0094FF |
 | Badges                           | #007FFF |
 | Foreground secondary             | #eceff4 |
-| Disabled foreground              | #757C88 |
+| Disabled foreground              | #006680 |
 | Selection Hover Normal           | #003459 |
 | Selection Hover Dim              | #002E4F |
 | Selection Hover Bright           | #003A63 |
@@ -28,7 +28,7 @@ These are the baseline colors for the theme.
 
 | Property                       | Color   |
 | ------------------------------ | ------- |
-| Comments                       | #757C88 |
+| Comments                       | #006680 |
 | Operator, modifier, foreground | #63C5DA |
 | Variables                      | #FF9F00 |
 | Numbers, Booleans, Null, this  | #5A4FCF |
@@ -42,7 +42,7 @@ These are the baseline colors for the theme.
 
 | Property                       | Color   |
 | ------------------------------ | ------- |
-| Comments                       | #757C88 |
+| Comments                       | #006680 |
 | Operator, modifier, foreground | #00CCFF |
 | Variables                      | #FF8C00 |
 | Numbers, Booleans, Null, this  | #FBA0E3 |
@@ -56,7 +56,7 @@ These are the baseline colors for the theme.
 
 | Property                       | Color   |
 | ------------------------------ | ------- |
-| Comments                       | #757C88 |
+| Comments                       | #006680 |
 | Operator, modifier, foreground | #63C5DA |
 | Variables                      | #F4C240 |
 | Numbers, Booleans, Null, this  | #F06760 |
@@ -76,7 +76,7 @@ These are the baseline colors for the theme.
 | Untracked/Added | #0086E6 |
 | Deleted         | #F04E45 |
 | Staged          | #FFFC79 |
-| Ignored         | #757C88 |
+| Ignored         | #006680 |
 
 ### Gutter
 

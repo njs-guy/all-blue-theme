@@ -14,17 +14,17 @@
 
 		// Gutter
 		"editorLineNumber.activeForeground": "#eceff4",
-		"editorLineNumber.foreground": "#757C88",
+		"editorLineNumber.foreground": "#006680",
 		"editorLightBulb.foreground": "#FFFC79",
 		"editorGutter.modifiedBackground": "#005999",
 		"editorGutter.addedBackground": "#2E8B57",
 		"editorGutter.deletedBackground": "#F04E45",
-		"editorGutter.commentRangeForeground": "#757C88",
+		"editorGutter.commentRangeForeground": "#006680",
 
 		// Indents and whitespace
 		"editorIndentGuide.background": "#003459",
 		"editorIndentGuide.activeBackground": "#63C5DA",
-		"editorWhitespace.foreground": "#757C88",
+		"editorWhitespace.foreground": "#006680",
 
 		// Hover widget
 		"editorHoverWidget.background": "#001E33",
@@ -70,17 +70,17 @@
 		"menu.foreground": "#63C5DA",
 		"menu.selectionBackground": "#003459",
 		"menu.selectionForeground": "#eceff4",
-		"menu.separatorBackground": "#757C88",
+		"menu.separatorBackground": "#006680",
 
 		// Title bar
 		"titleBar.activeBackground": "#002540",
 		"titleBar.inactiveBackground": "#002138",
 		"titleBar.activeForeground": "#63C5DA",
-		"titleBar.inactiveForeground": "#757C88",
+		"titleBar.inactiveForeground": "#006680",
 
 		// Tabs
 		"tab.inactiveBackground": "#001E33",
-		"tab.inactiveForeground": "#757C88",
+		"tab.inactiveForeground": "#006680",
 		"tab.activeForeground": "#eceff4",
 		"tab.activeModifiedBorder": "#0086E6",
 		"tab.inactiveModifiedBorder": "#0086E6",
@@ -104,7 +104,7 @@
 		"gitDecoration.modifiedResourceForeground": "#0086E6",
 		"gitDecoration.renamedResourceForeground": "#0086E6",
 		"gitDecoration.deletedResourceForeground": "#F04E45",
-		"gitDecoration.ignoredResourceForeground": "#757C88",
+		"gitDecoration.ignoredResourceForeground": "#006680",
 		"gitDecoration.addedResourceForeground": "#43CC7E",
 		"gitDecoration.conflictingResourceForeground": "#F04E45",
 		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
@@ -124,8 +124,8 @@
 		"settings.dropdownForeground": "#63C5DA",
 		"settings.dropdownBorder": "#003154",
 		"settings.dropdownListBorder": "#003154",
-		"settings.sashBorder": "#757C88",
-		"settings.headerBorder": "#757C88",
+		"settings.sashBorder": "#006680",
+		"settings.headerBorder": "#006680",
 		"settings.headerForeground": "#eceff4",
 		"settings.modifiedItemIndicator": "#0094FF",
 		"settings.rowHoverBackground": "#002138",
@@ -171,7 +171,7 @@
 		"input.background": "#001E33",
 		"input.border": "#003154",
 		"input.foreground": "#63C5DA",
-		"input.placeholderForeground": "#757C88",
+		"input.placeholderForeground": "#006680",
 		"button.background": "#003A63",
 		"button.foreground": "#eceff4",
 		"button.separator": "#63C5DA",
@@ -215,7 +215,7 @@
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#757C88"
+				"foreground": "#006680"
 			}
 		},
 		{
