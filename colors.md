@@ -35,7 +35,7 @@ These are the baseline colors for the theme.
 | Classes                        | #AFDBF5 |
 | Types, attributes              | #00BFFF |
 | Functions                      | #0095ff |
-| HTML Tags                      | #009DC4 |
+| HTML Tags                      | #1CA9C9 |
 | Strings                        | #00CCCC |
 
 ### Waves
@@ -49,7 +49,7 @@ These are the baseline colors for the theme.
 | Classes                        | #0BDA51 |
 | Types, attributes              | #FFFD37 |
 | Functions                      | #0AFFFF |
-| HTML Tags                      | #FF9580 |
+| HTML Tags                      | #1CA9C9 |
 | Strings                        | #DBD59D |
 
 ### Calm
@@ -59,11 +59,11 @@ These are the baseline colors for the theme.
 | Comments                       | #006680 |
 | Operator, modifier, foreground | #63C5DA |
 | Variables                      | #F4C240 |
-| Numbers, Booleans, Null, this  | #F06760 |
+| Numbers, Booleans, Null, this  | #F79AC0 |
 | Classes                        | #50C878 |
 | Types, attributes              | #FFB7C5 |
 | Functions                      | #00CCFF |
-| HTML Tags                      | #E5B39B |
+| HTML Tags                      | #1CA9C9 |
 | Strings                        | #DBD59D |
 
 ## Version control

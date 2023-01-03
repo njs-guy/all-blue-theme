@@ -229,7 +229,7 @@
 			"name": "Colors",
 			"scope": ["constant.other.color"],
 			"settings": {
-				"foreground": "#FFB7C5"
+				"foreground": "#F79AC0"
 			}
 		},
 		{
@@ -274,7 +274,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#E5B39B"
+				"foreground": "#1CA9C9"
 			}
 		},
 		{
@@ -320,7 +320,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#FFB7C5"
+				"foreground": "#F79AC0"
 			}
 		},
 		{
@@ -391,7 +391,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFB7C5"
+				"foreground": "#F79AC0"
 			}
 		},
 		// {
@@ -505,7 +505,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFB7C5"
+				"foreground": "#F79AC0"
 			}
 		},
 		{
