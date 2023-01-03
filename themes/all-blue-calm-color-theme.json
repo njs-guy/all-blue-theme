@@ -356,7 +356,7 @@
 		},
 		{
 			"name": "Entity Types",
-			"scope": ["support.type"],
+			"scope": ["support.type", "entity.name.type.numeric.rust"],
 			"settings": {
 				"foreground": "#FFFC79"
 			}
