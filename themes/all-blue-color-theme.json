@@ -29,7 +29,7 @@
 		// Hover widget
 		"editorHoverWidget.background": "#001E33",
 		"editorHoverWidget.border": "#002540",
-		"editorHoverWidget.foreground": "#63C5DA",
+		"editorHoverWidget.foreground": "#00CCFF",
 
 		// Editor widget
 		"editorWidget.background": "#001E33",
@@ -200,7 +200,7 @@
 		"terminalCursor.foreground": "#0094FF",
 
 		// Bracket highlight
-		"editorBracketHighlight.foreground1": "#63C5DA",
+		"editorBracketHighlight.foreground1": "#00CCFF",
 		"editorBracketHighlight.foreground2": "#007FFF",
 		"editorBracketHighlight.foreground3": "#00BFFF",
 		"editorBracketHighlight.foreground4": "#0E81B9",
@@ -239,33 +239,32 @@
 				"foreground": "#F04E45"
 			}
 		},
-		// {
-		// 	"name": "Keyword, Storage",
-		// 	"scope": ["keyword", "storage.type", "storage.modifier"],
-		// 	"settings": {
-		// 		"foreground": "#63C5DA"
-		// 	}
-		// },
-		// {
-		// 	"name": "Operator, Misc",
-		// 	"scope": [
-		// 		"keyword.control",
-		// 		"constant.other.color",
-		// 		"punctuation",
-		// 		"meta.tag",
-		// 		"punctuation.definition.tag",
-		// 		"punctuation.separator.inheritance.php",
-		// 		"punctuation.definition.tag.html",
-		// 		"punctuation.definition.tag.begin.html",
-		// 		"punctuation.definition.tag.end.html",
-		// 		"punctuation.section.embedded",
-		// 		"keyword.other.template",
-		// 		"keyword.other.substitution"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#63C5DA"
-		// 	}
-		// },
+		{
+			"name": "Keyword, Storage",
+			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#00CCFF"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#00CCFF"
+			}
+		},
 		{
 			"name": "Tag",
 			"scope": [
