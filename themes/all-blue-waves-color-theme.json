@@ -207,7 +207,7 @@
 		"editorBracketHighlight.foreground5": "#FBA0E3",
 		"editorBracketHighlight.foreground6": "#0BDA51",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#F04E45",
-		"editorBracketMatch.border": "#005999"
+		"editorBracketMatch.border": "#006680"
 	},
 	"tokenColors": [
 		{
@@ -355,7 +355,11 @@
 		},
 		{
 			"name": "Entity Types",
-			"scope": ["support.type", "entity.name.type.numeric.rust"],
+			"scope": [
+				"support.type",
+				"entity.name.type.numeric.rust",
+				"entity.name.type.primitive"
+			],
 			"settings": {
 				"foreground": "#FFFD37"
 			}

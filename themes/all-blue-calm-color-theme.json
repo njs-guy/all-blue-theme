@@ -201,13 +201,13 @@
 
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#00CCFF",
-		"editorBracketHighlight.foreground2": "#007FFF",
+		"editorBracketHighlight.foreground2": "#F4C240",
 		"editorBracketHighlight.foreground3": "#00BFFF",
-		"editorBracketHighlight.foreground4": "#0E81B9",
-		"editorBracketHighlight.foreground5": "#5A4FCF",
-		"editorBracketHighlight.foreground6": "#00CCCC",
+		"editorBracketHighlight.foreground4": "#FFFC79",
+		"editorBracketHighlight.foreground5": "#F79AC0",
+		"editorBracketHighlight.foreground6": "#50C878",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#F04E45",
-		"editorBracketMatch.border": "#005999"
+		"editorBracketMatch.border": "#006680"
 	},
 	"tokenColors": [
 		{
@@ -355,7 +355,11 @@
 		},
 		{
 			"name": "Entity Types",
-			"scope": ["support.type", "entity.name.type.numeric.rust"],
+			"scope": [
+				"support.type",
+				"entity.name.type.numeric.rust",
+				"entity.name.type.primitive"
+			],
 			"settings": {
 				"foreground": "#FFFC79"
 			}
