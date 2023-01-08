@@ -48,7 +48,7 @@ These are the baseline colors for the theme.
 | Numbers, Booleans, Null, this  | #FBA0E3 |
 | Classes                        | #0BDA51 |
 | Types, attributes              | #FFFD37 |
-| Functions                      | #0AFFFF |
+| Functions                      | #C6E6FB |
 | HTML Tags                      | #1CA9C9 |
 | Strings                        | #DBD59D |
 
