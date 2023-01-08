@@ -20,7 +20,7 @@ These are the baseline colors for the theme.
 | Selection Hover Bright           | #003A63 |
 | Info squiggle                    | #0086E6 |
 | Warning squiggle                 | #43CC7E |
-| Error squiggle                   | #F04E45 |
+| Error squiggle                   | #FF4040 |
 
 ## Syntax highlighting
 
@@ -74,7 +74,7 @@ These are the baseline colors for the theme.
 | --------------- | ------- |
 | Modified        | #43CC7E |
 | Untracked/Added | #0086E6 |
-| Deleted         | #F04E45 |
+| Deleted         | #FF4040 |
 | Staged          | #FFFC79 |
 | Ignored         | #006680 |
 
@@ -84,4 +84,4 @@ These are the baseline colors for the theme.
 | --------------- | ------- |
 | Modified        | #005999 |
 | Untracked/Added | #2E8B57 |
-| Deleted         | #F04E45 |
+| Deleted         | #FF4040 |
