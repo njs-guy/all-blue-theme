@@ -36,12 +36,11 @@ pastel colors for more of a smooth sailing vibe.
 | Comments                       | #006680  | #006680 | #006680 |
 | Operator, modifier, foreground | #63C5DA  | #00CCFF | #63C5DA |
 | Variables                      | #FF9F00  | #FF8C00 | #F4C240 |
-| Numbers, Booleans, Null, this  | #5A4FCF  | #FBA0E3 | #F79AC0 |
-| Classes                        | #AFDBF5  | #0BDA51 | #50C878 |
-| Types, attributes              | #00BFFF  | #FFFD37 | #FFB7C5 |
-| Functions                      | #0095ff  | #C6E6FB | #00CCFF |
-| HTML Tags                      | #1CA9C9  | #1CA9C9 | #1CA9C9 |
-| Strings                        | #00CCCC  | #DBD59D | #DBD59D |
+| Numbers, booleans, null, this  | #5A4FCF  | #FBA0E3 | #F5BFD2 |
+| Types, attributes, classes     | #00BFFF  | #FFFD37 | #FFB7C5 |
+| Functions, CSS ID's            | #0095ff  | #C6E6FB | #00CCFF |
+| HTML tags                      | #1CA9C9  | #0BDA51 | #50C878 |
+| Strings                        | #00CCCC  | #DBD59D | #E9D6D0 |
 
 ## Version control
 
