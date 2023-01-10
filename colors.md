@@ -1,6 +1,6 @@
 # Colors
 
-These are the baseline colors for the theme.
+These are the base colors for All Blue.
 
 ## Editor colors
 
@@ -24,47 +24,24 @@ These are the baseline colors for the theme.
 
 ## Syntax highlighting
 
-### Standard
+All Blue has three syntax highlighting variants.
+All Blue uses all blue-ish colors but that's
+a gimmick not everyone's down with, so Waves and Calm use
+other colors for better visibility. Waves uses brighter tropical colors
+to give off an energetic, ocean feel. Calm uses lower saturation
+pastel colors for more of a smooth sailing vibe.
 
-| Property                       | Color   |
-| ------------------------------ | ------- |
-| Comments                       | #006680 |
-| Operator, modifier, foreground | #63C5DA |
-| Variables                      | #FF9F00 |
-| Numbers, Booleans, Null, this  | #5A4FCF |
-| Classes                        | #AFDBF5 |
-| Types, attributes              | #00BFFF |
-| Functions                      | #0095ff |
-| HTML Tags                      | #1CA9C9 |
-| Strings                        | #00CCCC |
-
-### Waves
-
-| Property                       | Color   |
-| ------------------------------ | ------- |
-| Comments                       | #006680 |
-| Operator, modifier, foreground | #00CCFF |
-| Variables                      | #FF8C00 |
-| Numbers, Booleans, Null, this  | #FBA0E3 |
-| Classes                        | #0BDA51 |
-| Types, attributes              | #FFFD37 |
-| Functions                      | #C6E6FB |
-| HTML Tags                      | #1CA9C9 |
-| Strings                        | #DBD59D |
-
-### Calm
-
-| Property                       | Color   |
-| ------------------------------ | ------- |
-| Comments                       | #006680 |
-| Operator, modifier, foreground | #63C5DA |
-| Variables                      | #F4C240 |
-| Numbers, Booleans, Null, this  | #F79AC0 |
-| Classes                        | #50C878 |
-| Types, attributes              | #FFB7C5 |
-| Functions                      | #00CCFF |
-| HTML Tags                      | #1CA9C9 |
-| Strings                        | #DBD59D |
+| Property                       | All Blue | Waves   | Calm    |
+| ------------------------------ | -------- | ------- | ------- |
+| Comments                       | #006680  | #006680 | #006680 |
+| Operator, modifier, foreground | #63C5DA  | #00CCFF | #63C5DA |
+| Variables                      | #FF9F00  | #FF8C00 | #F4C240 |
+| Numbers, Booleans, Null, this  | #5A4FCF  | #FBA0E3 | #F79AC0 |
+| Classes                        | #AFDBF5  | #0BDA51 | #50C878 |
+| Types, attributes              | #00BFFF  | #FFFD37 | #FFB7C5 |
+| Functions                      | #0095ff  | #C6E6FB | #00CCFF |
+| HTML Tags                      | #1CA9C9  | #1CA9C9 | #1CA9C9 |
+| Strings                        | #00CCCC  | #DBD59D | #DBD59D |
 
 ## Version control
 
