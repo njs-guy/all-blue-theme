@@ -200,11 +200,11 @@
 		"terminalCursor.foreground": "#0094FF",
 
 		// Bracket highlight
-		"editorBracketHighlight.foreground1": "#00CCFF",
-		"editorBracketHighlight.foreground2": "#F4C240",
-		"editorBracketHighlight.foreground3": "#00BFFF",
+		"editorBracketHighlight.foreground1": "#8BC6FC",
+		"editorBracketHighlight.foreground2": "#EFBE7D",
+		"editorBracketHighlight.foreground3": "#85A1F2",
 		"editorBracketHighlight.foreground4": "#FFFC79",
-		"editorBracketHighlight.foreground5": "#F5BFD2",
+		"editorBracketHighlight.foreground5": "#FC8EAC",
 		"editorBracketHighlight.foreground6": "#50C878",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
 		"editorBracketMatch.border": "#006680"
@@ -238,14 +238,14 @@
 				"keyword.other.fn.rust"
 			],
 			"settings": {
-				"foreground": "#00CCFF"
+				"foreground": "#8BC6FC"
 			}
 		},
 		{
 			"name": "Keyword, Storage",
 			"scope": ["keyword", "storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#00CCFF"
+				"foreground": "#8BC6FC"
 			}
 		},
 
