@@ -304,14 +304,14 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#FFBCD9"
+				"foreground": "#FC8EAC"
 			}
 		},
 		{
 			"name": "Colors",
 			"scope": ["constant.other.color"],
 			"settings": {
-				"foreground": "#FFBCD9"
+				"foreground": "#FC8EAC"
 			}
 		},
 		{
@@ -319,7 +319,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFBCD9"
+				"foreground": "#FC8EAC"
 			}
 		},
 		{
@@ -329,7 +329,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFBCD9"
+				"foreground": "#FC8EAC"
 			}
 		},
 
