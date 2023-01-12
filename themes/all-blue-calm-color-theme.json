@@ -202,7 +202,7 @@
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#8BC6FC",
 		"editorBracketHighlight.foreground2": "#EFBE7D",
-		"editorBracketHighlight.foreground3": "#85A1F2",
+		"editorBracketHighlight.foreground3": "#d8dee9",
 		"editorBracketHighlight.foreground4": "#FFFC79",
 		"editorBracketHighlight.foreground5": "#FC8EAC",
 		"editorBracketHighlight.foreground6": "#50C878",
