@@ -210,6 +210,7 @@
 		"editorBracketMatch.border": "#006680"
 	},
 	"tokenColors": [
+		// Comments
 		{
 			"name": "Comment",
 			"scope": ["comment", "punctuation.definition.comment"],
@@ -218,34 +219,8 @@
 				"foreground": "#006680"
 			}
 		},
-		{
-			"name": "Variables",
-			"scope": ["variable", "string constant.other.placeholder"],
-			"settings": {
-				"foreground": "#FF9F00"
-			}
-		},
-		{
-			"name": "Colors",
-			"scope": ["constant.other.color"],
-			"settings": {
-				"foreground": "#FBA0E3"
-			}
-		},
-		{
-			"name": "Invalid",
-			"scope": ["invalid", "invalid.illegal"],
-			"settings": {
-				"foreground": "#FF4040"
-			}
-		},
-		{
-			"name": "Keyword, Storage",
-			"scope": ["keyword", "storage.type", "storage.modifier"],
-			"settings": {
-				"foreground": "#00CCFF"
-			}
-		},
+
+		// Operator
 		{
 			"name": "Operator, Misc",
 			"scope": [
@@ -266,27 +241,19 @@
 			}
 		},
 		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
+			"name": "Keyword, Storage",
+			"scope": ["keyword", "storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#1CA9C9"
+				"foreground": "#00CCFF"
 			}
 		},
+
+		// Variables
 		{
-			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
-			],
+			"name": "Variables",
+			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#C6E6FB"
+				"foreground": "#FF9F00"
 			}
 		},
 		{
@@ -307,6 +274,8 @@
 				"foreground": "#FF9F00"
 			}
 		},
+
+		// Numbers, booleans, null, this
 		{
 			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
@@ -323,70 +292,10 @@
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": [
-				"string",
-				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
+			"name": "Colors",
+			"scope": ["constant.other.color"],
 			"settings": {
-				"foreground": "#DBD59D"
-			}
-		},
-		{
-			"name": "Class, Support",
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.other.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#0BDA51"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"support.type",
-				"entity.name.type.numeric.rust",
-				"entity.name.type.primitive"
-			],
-			"settings": {
-				"foreground": "#FFFD37"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#FF9F00"
-			}
-		},
-		{
-			"name": "Sub-methods",
-			"scope": [
-				"entity.name.module.js",
-				"variable.import.parameter.js",
-				"variable.other.class.js"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FBA0E3"
 			}
 		},
 		{
@@ -398,21 +307,26 @@
 			}
 		},
 		{
-			"name": "entity.name.method.js",
-			"scope": ["entity.name.method.js"],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "meta.method.js",
+			"name": "ES7 Bind Operator",
 			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor"
+				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"fontStyle": "italic",
+				"foreground": "#00CCFF"
+			}
+		},
+
+		// Types, attributes, classes
+		{
+			"name": "Entity Types",
+			"scope": [
+				"support.type",
+				"entity.name.type.numeric.rust",
+				"entity.name.type.primitive"
+			],
+			"settings": {
+				"foreground": "#FFFD37"
 			}
 		},
 		{
@@ -435,10 +349,84 @@
 			}
 		},
 		{
+			"name": "Class, Support",
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#0BDA51"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#FF9F00"
+			}
+		},
+		{
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
 				"foreground": "#0BDA51"
+			}
+		},
+
+		// Functions, CSS ID's
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#C6E6FB"
+			}
+		},
+		{
+			"name": "Sub-methods",
+			"scope": [
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "entity.name.method.js",
+			"scope": ["entity.name.method.js"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "meta.method.js",
+			"scope": [
+				"meta.class-method.js entity.name.function.js",
+				"variable.function.constructor"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
 			}
 		},
 		{
@@ -446,6 +434,45 @@
 			"scope": ["source.sass keyword.control"],
 			"settings": {
 				"foreground": "#FF9F00"
+			}
+		},
+
+		// HTML Tags
+		{
+			"name": "Tag",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#1CA9C9"
+			}
+		},
+
+		// Strings
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#DBD59D"
+			}
+		},
+
+		// Misc
+		{
+			"name": "Invalid",
+			"scope": ["invalid", "invalid.illegal"],
+			"settings": {
+				"foreground": "#FF4040"
 			}
 		},
 		{
@@ -501,16 +528,8 @@
 				"foreground": "#82AAFF"
 			}
 		},
-		{
-			"name": "ES7 Bind Operator",
-			"scope": [
-				"source.js constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#00CCFF"
-			}
-		},
+
+		// JSON
 		{
 			"name": "JSON Key - Level 0",
 			"scope": [
@@ -520,6 +539,8 @@
 				"foreground": "#00BFFF"
 			}
 		},
+
+		// Markdown
 		{
 			"name": "Markdown - Plain",
 			"scope": [
