@@ -13,7 +13,7 @@
 		"editorError.foreground": "#FF4040",
 
 		// Gutter
-		"editorLineNumber.activeForeground": "#eceff4",
+		"editorLineNumber.activeForeground": "#D8DEE9",
 		"editorLineNumber.foreground": "#006680",
 		"editorLightBulb.foreground": "#FFFC79",
 		"editorGutter.modifiedBackground": "#005999",
@@ -234,7 +234,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.other.fn.rust"
 			],
 			"settings": {
 				"foreground": "#00CCFF"
@@ -268,7 +269,22 @@
 			"scope": [
 				"variable.parameter",
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
+				"meta.attribute.python"
+			],
+			"settings": {
+				"foreground": "#FF9F00"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#FF9F00"
@@ -361,28 +377,14 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#0BDA51"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#FF9F00"
+				"foreground": "#FFFD37"
 			}
 		},
 		{
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#0BDA51"
+				"foreground": "#FFFD37"
 			}
 		},
 
@@ -408,7 +410,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#C6E6FB"
 			}
 		},
 		{
@@ -416,7 +418,7 @@
 			"scope": ["entity.name.method.js"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#C6E6FB"
 			}
 		},
 		{
@@ -426,14 +428,17 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#C6E6FB"
 			}
 		},
 		{
 			"name": "CSS ID's",
-			"scope": ["source.sass keyword.control"],
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"source.sass keyword.control"
+			],
 			"settings": {
-				"foreground": "#FF9F00"
+				"foreground": "#C6E6FB"
 			}
 		},
 
