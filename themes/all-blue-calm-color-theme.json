@@ -234,7 +234,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.other.fn.rust"
 			],
 			"settings": {
 				"foreground": "#00CCFF"
@@ -253,14 +254,14 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#F4C240"
+				"foreground": "#EFBE7D"
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#F4C240"
+				"foreground": "#EFBE7D"
 			}
 		},
 		{
@@ -268,10 +269,25 @@
 			"scope": [
 				"variable.parameter",
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
+				"meta.attribute.python"
 			],
 			"settings": {
-				"foreground": "#F4C240"
+				"foreground": "#EFBE7D"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#EFBE7D"
 			}
 		},
 
@@ -361,28 +377,14 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#50C878"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#F4C240"
+				"foreground": "#FFFC79"
 			}
 		},
 		{
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#50C878"
+				"foreground": "#FFFC79"
 			}
 		},
 
