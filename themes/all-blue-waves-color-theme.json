@@ -101,14 +101,14 @@
 
 		// Git decorations
 		"gitDecoration.untrackedResourceForeground": "#43CC7E",
-		"gitDecoration.modifiedResourceForeground": "#0086E6",
-		"gitDecoration.renamedResourceForeground": "#0086E6",
-		"gitDecoration.deletedResourceForeground": "#FF4040",
-		"gitDecoration.ignoredResourceForeground": "#006680",
 		"gitDecoration.addedResourceForeground": "#43CC7E",
+		"gitDecoration.modifiedResourceForeground": "#85A1F2",
+		"gitDecoration.renamedResourceForeground": "#85A1F2",
+		"gitDecoration.deletedResourceForeground": "#FF4040",
 		"gitDecoration.conflictingResourceForeground": "#FF4040",
-		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
 		"gitDecoration.stageDeletedResourceForeground": "#FF4040",
+		"gitDecoration.ignoredResourceForeground": "#006680",
+		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",
@@ -196,7 +196,7 @@
 		"problemsErrorIcon.foreground": "#FF4040",
 
 		// Terminal
-		"terminal.foreground": "#00CCFF",
+		"terminal.foreground": "#63C5DA",
 		"terminalCursor.foreground": "#0094FF",
 
 		// Bracket highlight
