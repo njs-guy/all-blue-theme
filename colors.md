@@ -31,16 +31,16 @@ other colors for better visibility. Waves uses brighter tropical colors
 to give off an energetic, ocean feel. Calm uses lower saturation
 pastel colors for more of a smooth sailing vibe.
 
-| Property                       | All Blue | Waves   | Calm    |
-| ------------------------------ | -------- | ------- | ------- |
-| Comments                       | #006680  | #006680 | #006680 |
-| Operator, modifier, foreground | #63C5DA  | #00CCFF | #63C5DA |
-| Variables                      | #FF9F00  | #FF8C00 | #F4C240 |
-| Numbers, booleans, null, this  | #5A4FCF  | #FBA0E3 | #F5BFD2 |
-| Types, attributes, classes     | #00BFFF  | #FFFD37 | #FFB7C5 |
-| Functions, CSS ID's            | #0095ff  | #C6E6FB | #00CCFF |
-| HTML tags                      | #1CA9C9  | #0BDA51 | #50C878 |
-| Strings                        | #00CCCC  | #DBD59D | #E9D6D0 |
+| Property                      | All Blue | Waves   | Calm    |
+| ----------------------------- | -------- | ------- | ------- |
+| Comments                      | #006680  | #006680 | #006680 |
+| Operator, modifier            | #63C5DA  | #00CCFF | #00CCFF |
+| Variables                     | #FF9F00  | #FF8C00 | #F4C240 |
+| Numbers, booleans, null, this | #5A4FCF  | #FBA0E3 | #F5BFD2 |
+| Types, attributes, classes    | #00BFFF  | #FFFD37 | #FFB7C5 |
+| Functions, CSS ID's           | #0095ff  | #C6E6FB | #00CCFF |
+| HTML tags                     | #1CA9C9  | #0BDA51 | #50C878 |
+| Strings                       | #00CCCC  | #DBD59D | #E9D6D0 |
 
 ## Version control
 
