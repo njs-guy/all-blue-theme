@@ -288,14 +288,14 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F5BFD2"
+				"foreground": "#FFBCD9"
 			}
 		},
 		{
 			"name": "Colors",
 			"scope": ["constant.other.color"],
 			"settings": {
-				"foreground": "#F5BFD2"
+				"foreground": "#FFBCD9"
 			}
 		},
 		{
@@ -303,7 +303,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#F5BFD2"
+				"foreground": "#FFBCD9"
 			}
 		},
 		{
@@ -313,7 +313,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#F5BFD2"
+				"foreground": "#FFBCD9"
 			}
 		},
 
@@ -397,7 +397,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#00CCFF"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
@@ -408,7 +408,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#00CCFF"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
@@ -416,7 +416,7 @@
 			"scope": ["entity.name.method.js"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#00CCFF"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
@@ -426,14 +426,17 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#00CCFF"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
 			"name": "CSS ID's",
-			"scope": ["source.sass keyword.control"],
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"source.sass keyword.control"
+			],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#85A1F2"
 			}
 		},
 

@@ -36,9 +36,9 @@ pastel colors for more of a smooth sailing vibe.
 | Comments                      | #006680  | #006680 | #006680 |
 | Operator, modifier            | #63C5DA  | #00CCFF | #00CCFF |
 | Variables                     | #FF9F00  | #FF8C00 | #F4C240 |
-| Numbers, booleans, null, this | #5A4FCF  | #FBA0E3 | #F5BFD2 |
+| Numbers, booleans, null, this | #5A4FCF  | #FBA0E3 | #FFBCD9 |
 | Types, attributes, classes    | #00BFFF  | #FFFD37 | #FFB7C5 |
-| Functions, CSS ID's           | #0095ff  | #C6E6FB | #00CCFF |
+| Functions, CSS ID's           | #0095ff  | #C6E6FB | #85A1F2 |
 | HTML tags                     | #1CA9C9  | #0BDA51 | #50C878 |
 | Strings                       | #00CCCC  | #DBD59D | #E9D6D0 |
 
