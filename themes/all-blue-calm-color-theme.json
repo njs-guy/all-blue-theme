@@ -211,7 +211,7 @@
 		"editorBracketHighlight.foreground1": "#8BC6FC",
 		"editorBracketHighlight.foreground2": "#FFFC79",
 		"editorBracketHighlight.foreground3": "#63C5DA",
-		"editorBracketHighlight.foreground4": "#FF9913",
+		"editorBracketHighlight.foreground4": "#FFAC40",
 		"editorBracketHighlight.foreground5": "#85A1F2",
 		"editorBracketHighlight.foreground6": "#50C878",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
@@ -269,14 +269,14 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#FF9913"
+				"foreground": "#FFAC40"
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#FF9913"
+				"foreground": "#FFAC40"
 			}
 		},
 		{
@@ -288,7 +288,7 @@
 				"meta.attribute.python"
 			],
 			"settings": {
-				"foreground": "#FF9913"
+				"foreground": "#FFAC40"
 			}
 		},
 		{
@@ -298,7 +298,7 @@
 				"source.sass keyword.control"
 			],
 			"settings": {
-				"foreground": "#FF9913"
+				"foreground": "#FFAC40"
 			}
 		},
 
