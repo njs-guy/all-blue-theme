@@ -39,8 +39,9 @@ pastel colors for more of a smooth sailing vibe.
 | Numbers, booleans, null, this | #5A4FCF  | #FF80DD | #FC8EAC |
 | Types, attributes, classes    | #00BFFF  | #FFFD37 | #FFB7C5 |
 | Functions, CSS ID's           | #0095ff  | #55B9F7 | #85A1F2 |
-| HTML tags                     | #1CA9C9  | #FF7566 | #50C878 |
+| HTML tags, escape chars       | #1CA9C9  | #FF7566 | #50C878 |
 | Strings                       | #00CCCC  | #DBD59D | #D5C2A5 |
+| Regex                         | #??????  | #0BDA51 | #50C878 |
 
 ## Version control
 

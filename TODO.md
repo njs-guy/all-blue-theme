@@ -7,6 +7,7 @@
 -   [x] Minimap highlighting.
 -   [ ] Finish markdown highlighting.
 -   [ ] Make scrollbar transparent on hover.
+-   [ ] JS Decorators
 
 ## Default theme
 
