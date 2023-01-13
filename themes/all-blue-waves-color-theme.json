@@ -86,9 +86,9 @@
 		"tab.inactiveModifiedBorder": "#0086E6",
 
 		// Scrollbar slider
-		"scrollbarSlider.background": "#003A63",
-		"scrollbarSlider.hoverBackground": "#004B80",
-		"scrollbarSlider.activeBackground": "#005999",
+		"scrollbarSlider.background": "#003a6379",
+		"scrollbarSlider.hoverBackground": "#004b8079",
+		"scrollbarSlider.activeBackground": "#00599979",
 
 		// Minimap
 		"minimap.warningHighlight": "#EFBE7D",

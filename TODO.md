@@ -6,7 +6,7 @@
 -   [x] Make CSS id's the function color.
 -   [x] Minimap highlighting.
 -   [ ] Finish markdown highlighting.
--   [ ] Make scrollbar transparent on hover.
+-   [x] Make scrollbar transparent.
 -   [ ] JS Decorators
 -   [ ] JS Components
 
