@@ -19,7 +19,7 @@ These are the base colors for All Blue.
 | Selection Hover Dim              | #002E4F |
 | Selection Hover Bright           | #003A63 |
 | Info squiggle                    | #0086E6 |
-| Warning squiggle                 | #43CC7E |
+| Warning squiggle                 | #EFBE7D |
 | Error squiggle                   | #FF4040 |
 
 ## Syntax highlighting

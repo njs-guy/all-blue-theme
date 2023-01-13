@@ -2,8 +2,11 @@
 
 ## General
 
--   [ ] Make classes and types the same color. (Yellow)
--   [ ] Make CSS id's the function color.
+-   [x] Make classes and types the same color. (Yellow)
+-   [x] Make CSS id's the function color.
+-   [x] Minimap highlighting.
+-   [ ] Finish markdown highlighting.
+-   [ ] Make scrollbar transparent on hover.
 
 ## Default theme
 
@@ -11,4 +14,4 @@
 
 ## Calm
 
--   [ ] Go for more pastel colors.
+-   [x] Go for more pastel colors.

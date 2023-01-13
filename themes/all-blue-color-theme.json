@@ -90,14 +90,22 @@
 		"scrollbarSlider.hoverBackground": "#004B80",
 		"scrollbarSlider.activeBackground": "#005999",
 
+		// Minimap
+		"minimap.warningHighlight": "#EFBE7D",
+		"minimap.errorHighlight": "#FF4040",
+		"minimapGutter.addedBackground": "#2E8B57",
+		"minimapGutter.deletedBackground": "#FF4040",
+		"minimapGutter.modifiedBackground": "#005999",
+
 		// Lists
 		"list.hoverBackground": "#001E33",
 		"list.inactiveSelectionBackground": "#002540",
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
-		"tree.indentGuidesStroke": "#004B80",
+		"list.warningForeground": "#EFBE7D",
 		"list.errorForeground": "#FF4040",
+		"tree.indentGuidesStroke": "#004B80",
 
 		// Git decorations
 		"gitDecoration.untrackedResourceForeground": "#43CC7E",
