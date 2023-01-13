@@ -209,10 +209,10 @@
 
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#8BC6FC",
-		"editorBracketHighlight.foreground2": "#EFBE7D",
-		"editorBracketHighlight.foreground3": "#d8dee9",
-		"editorBracketHighlight.foreground4": "#FFFC79",
-		"editorBracketHighlight.foreground5": "#FC8EAC",
+		"editorBracketHighlight.foreground2": "#FFFC79",
+		"editorBracketHighlight.foreground3": "#63C5DA",
+		"editorBracketHighlight.foreground4": "#FF9913",
+		"editorBracketHighlight.foreground5": "#85A1F2",
 		"editorBracketHighlight.foreground6": "#50C878",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
 		"editorBracketMatch.border": "#006680"
@@ -269,14 +269,14 @@
 			"name": "Variables",
 			"scope": ["variable", "string constant.other.placeholder"],
 			"settings": {
-				"foreground": "#EFBE7D"
+				"foreground": "#FF9913"
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#EFBE7D"
+				"foreground": "#FF9913"
 			}
 		},
 		{
@@ -288,21 +288,17 @@
 				"meta.attribute.python"
 			],
 			"settings": {
-				"foreground": "#EFBE7D"
+				"foreground": "#FF9913"
 			}
 		},
 		{
-			"name": "CSS Class and Support",
+			"name": "CSS ID's",
 			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
+				"entity.other.attribute-name.id.css",
+				"source.sass keyword.control"
 			],
 			"settings": {
-				"foreground": "#63C5DA"
+				"foreground": "#FF9913"
 			}
 		},
 
@@ -469,13 +465,17 @@
 			}
 		},
 		{
-			"name": "CSS ID's",
+			"name": "CSS Class and Support",
 			"scope": [
-				"entity.other.attribute-name.id.css",
-				"source.sass keyword.control"
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#EFBE7D"
+				"foreground": "#63C5DA"
 			}
 		},
 
