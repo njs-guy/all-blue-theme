@@ -228,7 +228,7 @@
 			}
 		},
 
-		// Operator
+		// Operator, Units
 		{
 			"name": "Operator, Misc",
 			"scope": [
@@ -252,6 +252,13 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#8BC6FC"
+			}
+		},
+		{
+			"name": "Unit",
+			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#8BC6FC"
 			}
@@ -295,7 +302,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#EFBE7D"
+				"foreground": "#63C5DA"
 			}
 		},
 
@@ -308,7 +315,6 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
@@ -396,7 +402,7 @@
 			}
 		},
 
-		// Functions, CSS ID's
+		// Functions, CSS Pseudo-classes
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -440,10 +446,13 @@
 			}
 		},
 		{
-			"name": "CSS ID's",
-			"scope": ["source.sass keyword.control"],
+			"name": "CSS Pseudo-class",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"meta.selector.css"
+			],
 			"settings": {
-				"foreground": "#85A1F2"
+				"foreground": "#55B9F7"
 			}
 		},
 
@@ -457,6 +466,16 @@
 			],
 			"settings": {
 				"foreground": "#F9968B"
+			}
+		},
+		{
+			"name": "CSS ID's",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"source.sass keyword.control"
+			],
+			"settings": {
+				"foreground": "#EFBE7D"
 			}
 		},
 
@@ -485,7 +504,6 @@
 				"foreground": "#FF4040"
 			}
 		},
-
 		{
 			"name": "Inserted",
 			"scope": ["markup.inserted"],

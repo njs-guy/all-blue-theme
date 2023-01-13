@@ -8,6 +8,7 @@
 -   [ ] Finish markdown highlighting.
 -   [ ] Make scrollbar transparent on hover.
 -   [ ] JS Decorators
+-   [ ] JS Components
 
 ## Default theme
 
