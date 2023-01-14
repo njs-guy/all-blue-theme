@@ -442,13 +442,26 @@
 			}
 		},
 		{
+			"name": "Decorators",
+			"scope": [
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+				"meta.decorator.js",
+				"meta.decorator.ts"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#079BF5"
+			}
+		},
+		{
 			"name": "CSS Pseudo-class",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class.css",
 				"meta.selector.css"
 			],
 			"settings": {
-				"foreground": "#55B9F7"
+				"foreground": "#079BF5"
 			}
 		},
 
@@ -544,17 +557,6 @@
 			"scope": ["*url*", "*link*", "*uri*"],
 			"settings": {
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Decorators",
-			"scope": [
-				"tag.decorator.js entity.name.tag.js",
-				"tag.decorator.js punctuation.definition.tag.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
 			}
 		},
 

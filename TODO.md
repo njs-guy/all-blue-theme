@@ -7,7 +7,7 @@
 -   [x] Minimap highlighting.
 -   [ ] Finish markdown highlighting.
 -   [x] Make scrollbar transparent.
--   [ ] JS Decorators
+-   [x] JS Decorators
 -   [ ] JS Components
 
 ## Default theme
