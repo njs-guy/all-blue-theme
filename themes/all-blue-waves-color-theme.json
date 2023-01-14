@@ -491,6 +491,13 @@
 				"foreground": "#63C5DA"
 			}
 		},
+		{
+			"name": "Component",
+			"scope": ["support.class.component"],
+			"settings": {
+				"foreground": "#0BDA51"
+			}
+		},
 
 		// Strings
 		{
