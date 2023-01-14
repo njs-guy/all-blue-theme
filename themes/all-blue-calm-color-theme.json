@@ -9,7 +9,7 @@
 		"editorCursor.foreground": "#0094FF",
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorInfo.foreground": "#0086E6",
-		"editorWarning.foreground": "#43CC7E",
+		"editorWarning.foreground": "#FFAC40",
 		"editorError.foreground": "#FF4040",
 
 		// Gutter
@@ -108,8 +108,8 @@
 		"tree.indentGuidesStroke": "#004B80",
 
 		// Git decorations
-		"gitDecoration.untrackedResourceForeground": "#43CC7E",
-		"gitDecoration.addedResourceForeground": "#43CC7E",
+		"gitDecoration.untrackedResourceForeground": "#50C878",
+		"gitDecoration.addedResourceForeground": "#50C878",
 		"gitDecoration.modifiedResourceForeground": "#85A1F2",
 		"gitDecoration.renamedResourceForeground": "#85A1F2",
 		"gitDecoration.deletedResourceForeground": "#FF4040",
@@ -200,7 +200,7 @@
 		"panelTitle.activeForeground": "#eceff4",
 		"panelTitle.inactiveForeground": "#63C5DA",
 		"problemsInfoIcon.foreground": "#0086E6",
-		"problemsWarningIcon.foreground": "#43CC7E",
+		"problemsWarningIcon.foreground": "#FFAC40",
 		"problemsErrorIcon.foreground": "#FF4040",
 
 		// Terminal
