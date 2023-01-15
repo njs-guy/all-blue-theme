@@ -242,7 +242,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"keyword.other.fn.rust"
 			],
 			"settings": {
 				"foreground": "#00CCFF"
@@ -251,6 +252,13 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#00CCFF"
+			}
+		},
+		{
+			"name": "Unit",
+			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#00CCFF"
 			}
@@ -282,6 +290,13 @@
 				"foreground": "#0E81B9"
 			}
 		},
+		{
+			"name": "CSS ID's",
+			"scope": ["source.sass keyword.control"],
+			"settings": {
+				"foreground": "#0E81B9"
+			}
+		},
 
 		// Numbers, booleans, null, this
 		{
@@ -292,7 +307,6 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
@@ -311,7 +325,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#8A2BE2"
+				"foreground": "#5A4FCF"
 			}
 		},
 		{
@@ -321,7 +335,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#5A4FCF"
 			}
 		},
 
@@ -369,20 +383,6 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#AFDBF5"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
 				"foreground": "#00BFFF"
 			}
 		},
@@ -390,11 +390,11 @@
 			"name": "CSS Classes",
 			"scope": ["entity.other.attribute-name.class"],
 			"settings": {
-				"foreground": "#AFDBF5"
+				"foreground": "#00BFFF"
 			}
 		},
 
-		// Functions, CSS ID's
+		// Functions, CSS Pseudo-classes
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -438,10 +438,26 @@
 			}
 		},
 		{
-			"name": "CSS ID's",
-			"scope": ["source.sass keyword.control"],
+			"name": "Decorators",
+			"scope": [
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+				"meta.decorator.js",
+				"meta.decorator.ts"
+			],
 			"settings": {
-				"foreground": "#FF8C00"
+				"fontStyle": "italic",
+				"foreground": "#0095ff"
+			}
+		},
+		{
+			"name": "CSS Pseudo-class",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"meta.selector.css"
+			],
+			"settings": {
+				"foreground": "#0095ff"
 			}
 		},
 
@@ -455,6 +471,27 @@
 			],
 			"settings": {
 				"foreground": "#1CA9C9"
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#63C5DA"
+			}
+		},
+		{
+			"name": "Component",
+			"scope": ["support.class.component"],
+			"settings": {
+				"foreground": "#50C878"
 			}
 		},
 
@@ -523,17 +560,6 @@
 			"scope": ["*url*", "*link*", "*uri*"],
 			"settings": {
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Decorators",
-			"scope": [
-				"tag.decorator.js entity.name.tag.js",
-				"tag.decorator.js punctuation.definition.tag.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
 			}
 		},
 
