@@ -209,11 +209,11 @@
 
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#00CCFF",
-		"editorBracketHighlight.foreground2": "#007FFF",
-		"editorBracketHighlight.foreground3": "#00BFFF",
-		"editorBracketHighlight.foreground4": "#0E81B9",
-		"editorBracketHighlight.foreground5": "#5A4FCF",
-		"editorBracketHighlight.foreground6": "#00CCCC",
+		"editorBracketHighlight.foreground2": "#4F86F7",
+		"editorBracketHighlight.foreground3": "#1DACD6",
+		"editorBracketHighlight.foreground4": "#B0E0E6",
+		"editorBracketHighlight.foreground5": "#1974D2",
+		"editorBracketHighlight.foreground6": "#AEC6CF",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
 		"editorBracketMatch.border": "#006680"
 	},
