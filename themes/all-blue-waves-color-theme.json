@@ -398,7 +398,7 @@
 			}
 		},
 
-		// Functions, CSS ID's
+		// Functions, pseudo-classes
 		{
 			"name": "Function, Special Method",
 			"scope": [

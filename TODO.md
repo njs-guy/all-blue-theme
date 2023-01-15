@@ -12,7 +12,7 @@
 
 ## Default theme
 
--   [ ] Completely redo syntax colors. Still completely blue-ish but focus a little more on contrast. (At least within the possibility of maintaining the gimmick.)
+-   [x] Completely redo syntax colors. Still completely blue-ish but focus a little more on contrast. (At least within the possibility of maintaining the gimmick.)
 
 ## Calm
 
