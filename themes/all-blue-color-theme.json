@@ -10,7 +10,7 @@
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorInfo.foreground": "#0086E6",
 		"editorWarning.foreground": "#FFAC40",
-		"editorError.foreground": "#FF4040",
+		"editorError.foreground": "#FF7566",
 
 		// Gutter
 		"editorLineNumber.activeForeground": "#D8DEE9",
@@ -18,7 +18,7 @@
 		"editorLightBulb.foreground": "#FFFC79",
 		"editorGutter.modifiedBackground": "#005999",
 		"editorGutter.addedBackground": "#2E8B57",
-		"editorGutter.deletedBackground": "#FF4040",
+		"editorGutter.deletedBackground": "#FF7566",
 		"editorGutter.commentRangeForeground": "#006680",
 
 		// Indents and whitespace
@@ -92,9 +92,9 @@
 
 		// Minimap
 		"minimap.warningHighlight": "#FFAC40",
-		"minimap.errorHighlight": "#FF4040",
+		"minimap.errorHighlight": "#FF7566",
 		"minimapGutter.addedBackground": "#2E8B57",
-		"minimapGutter.deletedBackground": "#FF4040",
+		"minimapGutter.deletedBackground": "#FF7566",
 		"minimapGutter.modifiedBackground": "#005999",
 
 		// Lists
@@ -104,7 +104,7 @@
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
 		"list.warningForeground": "#FFAC40",
-		"list.errorForeground": "#FF4040",
+		"list.errorForeground": "#FF7566",
 		"tree.indentGuidesStroke": "#004B80",
 
 		// Git decorations
@@ -112,9 +112,9 @@
 		"gitDecoration.addedResourceForeground": "#50C878",
 		"gitDecoration.modifiedResourceForeground": "#85A1F2",
 		"gitDecoration.renamedResourceForeground": "#85A1F2",
-		"gitDecoration.deletedResourceForeground": "#FF4040",
-		"gitDecoration.conflictingResourceForeground": "#FF4040",
-		"gitDecoration.stageDeletedResourceForeground": "#FF4040",
+		"gitDecoration.deletedResourceForeground": "#FF7566",
+		"gitDecoration.conflictingResourceForeground": "#FF7566",
+		"gitDecoration.stageDeletedResourceForeground": "#FF7566",
 		"gitDecoration.ignoredResourceForeground": "#006680",
 		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
 
@@ -201,7 +201,7 @@
 		"panelTitle.inactiveForeground": "#63C5DA",
 		"problemsInfoIcon.foreground": "#0086E6",
 		"problemsWarningIcon.foreground": "#FFAC40",
-		"problemsErrorIcon.foreground": "#FF4040",
+		"problemsErrorIcon.foreground": "#FF7566",
 
 		// Terminal
 		"terminal.foreground": "#63C5DA",
@@ -214,7 +214,7 @@
 		"editorBracketHighlight.foreground4": "#B0E0E6",
 		"editorBracketHighlight.foreground5": "#a5b4fc",
 		"editorBracketHighlight.foreground6": "#AEC6CF",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#FF7566",
 		"editorBracketMatch.border": "#006680"
 	},
 	"tokenColors": [
@@ -520,7 +520,7 @@
 			"name": "Invalid",
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
-				"foreground": "#FF4040"
+				"foreground": "#FF7566"
 			}
 		},
 		{
@@ -534,7 +534,7 @@
 			"name": "Deleted",
 			"scope": ["markup.deleted"],
 			"settings": {
-				"foreground": "#FF4040"
+				"foreground": "#FF7566"
 			}
 		},
 		{

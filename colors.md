@@ -20,7 +20,7 @@ These are the base colors for All Blue.
 | Selection Hover Bright           | #003A63 |
 | Info squiggle                    | #0086E6 |
 | Warning squiggle                 | #FFAC40 |
-| Error squiggle                   | #FF4040 |
+| Error squiggle                   | #FF7566 |
 
 ## Syntax highlighting
 
@@ -51,7 +51,7 @@ pastel colors for more of a smooth sailing vibe.
 | --------------- | ------- |
 | Untracked/Added | #50C878 |
 | Modified        | #85A1F2 |
-| Deleted         | #FF4040 |
+| Deleted         | #FF7566 |
 | Staged          | #FFFC79 |
 | Ignored         | #006680 |
 
@@ -61,4 +61,4 @@ pastel colors for more of a smooth sailing vibe.
 | --------------- | ------- |
 | Modified        | #005999 |
 | Untracked/Added | #2E8B57 |
-| Deleted         | #FF4040 |
+| Deleted         | #FF7566 |
