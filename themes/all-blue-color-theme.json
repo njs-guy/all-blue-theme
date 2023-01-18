@@ -210,9 +210,9 @@
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#00CCFF",
 		"editorBracketHighlight.foreground2": "#4F86F7",
-		"editorBracketHighlight.foreground3": "#1DACD6",
+		"editorBracketHighlight.foreground3": "#06B6D4",
 		"editorBracketHighlight.foreground4": "#B0E0E6",
-		"editorBracketHighlight.foreground5": "#1974D2",
+		"editorBracketHighlight.foreground5": "#a5b4fc",
 		"editorBracketHighlight.foreground6": "#AEC6CF",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4040",
 		"editorBracketMatch.border": "#006680"
@@ -408,7 +408,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#0892D0"
+				"foreground": "#a5b4fc"
 			}
 		},
 		{
@@ -419,7 +419,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#0892D0"
+				"foreground": "#a5b4fc"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 			"scope": ["entity.name.method.js"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#0892D0"
+				"foreground": "#a5b4fc"
 			}
 		},
 		{
@@ -437,7 +437,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#0892D0"
+				"foreground": "#a5b4fc"
 			}
 		},
 		{
@@ -450,7 +450,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#0892D0"
+				"foreground": "#a5b4fc"
 			}
 		},
 		{
@@ -460,7 +460,7 @@
 				"meta.selector.css"
 			],
 			"settings": {
-				"foreground": "#0892D0"
+				"foreground": "#a5b4fc"
 			}
 		},
 
@@ -473,7 +473,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#1DACD6"
+				"foreground": "#0892D0"
 			}
 		},
 		{
@@ -494,7 +494,7 @@
 			"name": "Component",
 			"scope": ["support.class.component"],
 			"settings": {
-				"foreground": "#B0E0E6"
+				"foreground": "#06B6D4"
 			}
 		},
 
@@ -548,14 +548,14 @@
 			"name": "Regular Expressions",
 			"scope": ["string.regexp"],
 			"settings": {
-				"foreground": "#B0E0E6"
+				"foreground": "#06B6D4"
 			}
 		},
 		{
 			"name": "Escape Characters",
 			"scope": ["constant.character.escape"],
 			"settings": {
-				"foreground": "#1DACD6"
+				"foreground": "#0892D0"
 			}
 		},
 		{
