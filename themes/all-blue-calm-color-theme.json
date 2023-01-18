@@ -73,8 +73,8 @@
 		"menu.separatorBackground": "#006680",
 
 		// Title bar
-		"titleBar.activeBackground": "#002540",
-		"titleBar.inactiveBackground": "#002138",
+		"titleBar.activeBackground": "#002138",
+		"titleBar.inactiveBackground": "#001E33",
 		"titleBar.activeForeground": "#63C5DA",
 		"titleBar.inactiveForeground": "#006680",
 
@@ -91,7 +91,7 @@
 		"scrollbarSlider.activeBackground": "#00599979",
 
 		// Minimap
-		"minimap.warningHighlight": "#EFBE7D",
+		"minimap.warningHighlight": "#FFAC40",
 		"minimap.errorHighlight": "#FF7566",
 		"minimapGutter.addedBackground": "#2E8B57",
 		"minimapGutter.deletedBackground": "#FF7566",
@@ -103,20 +103,20 @@
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
 		"list.focusOutline": "#002540",
-		"list.warningForeground": "#EFBE7D",
+		"list.warningForeground": "#FFAC40",
 		"list.errorForeground": "#FF7566",
 		"tree.indentGuidesStroke": "#004B80",
 
 		// Git decorations
 		"gitDecoration.untrackedResourceForeground": "#50C878",
-		"gitDecoration.addedResourceForeground": "#50C878",
 		"gitDecoration.modifiedResourceForeground": "#85A1F2",
 		"gitDecoration.renamedResourceForeground": "#85A1F2",
 		"gitDecoration.deletedResourceForeground": "#FF7566",
 		"gitDecoration.conflictingResourceForeground": "#FF7566",
 		"gitDecoration.stageDeletedResourceForeground": "#FF7566",
-		"gitDecoration.ignoredResourceForeground": "#006680",
+		"gitDecoration.addedResourceForeground": "#FFFC79",
 		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
+		"gitDecoration.ignoredResourceForeground": "#006680",
 
 		// Settings
 		"settings.textInputBackground": "#001E33",

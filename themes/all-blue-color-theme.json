@@ -73,8 +73,8 @@
 		"menu.separatorBackground": "#006680",
 
 		// Title bar
-		"titleBar.activeBackground": "#002540",
-		"titleBar.inactiveBackground": "#002138",
+		"titleBar.activeBackground": "#002138",
+		"titleBar.inactiveBackground": "#001E33",
 		"titleBar.activeForeground": "#63C5DA",
 		"titleBar.inactiveForeground": "#006680",
 
@@ -109,13 +109,13 @@
 
 		// Git decorations
 		"gitDecoration.untrackedResourceForeground": "#50C878",
-		"gitDecoration.addedResourceForeground": "#50C878",
 		"gitDecoration.modifiedResourceForeground": "#85A1F2",
 		"gitDecoration.renamedResourceForeground": "#85A1F2",
 		"gitDecoration.deletedResourceForeground": "#FF7566",
 		"gitDecoration.conflictingResourceForeground": "#FF7566",
 		"gitDecoration.stageDeletedResourceForeground": "#FF7566",
 		"gitDecoration.ignoredResourceForeground": "#006680",
+		"gitDecoration.addedResourceForeground": "#FFFC79",
 		"gitDecoration.stageModifiedResourceForeground": "#FFFC79",
 
 		// Settings
