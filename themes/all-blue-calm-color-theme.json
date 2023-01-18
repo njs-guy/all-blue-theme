@@ -593,7 +593,7 @@
 			"name": "Markdown - Markup Raw Inline",
 			"scope": ["text.html.markdown markup.inline.raw.markdown"],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00CCFF"
 			}
 		},
 		{
@@ -644,7 +644,7 @@
 			"name": "Markdown - Link Anchor",
 			"scope": ["constant.other.reference.link.markdown"],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FFAD00"
 			}
 		},
 		{
@@ -669,7 +669,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#0E81B9"
+				"foreground": "#FFAC40"
 			}
 		},
 		{

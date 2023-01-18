@@ -592,7 +592,7 @@
 			"name": "Markdown - Markup Raw Inline",
 			"scope": ["text.html.markdown markup.inline.raw.markdown"],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00CCFF"
 			}
 		},
 		{
@@ -608,11 +608,12 @@
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
+				"entity.name.section.markdown",
 				"markup.heading | markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#0095ff"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
@@ -628,21 +629,21 @@
 			"name": "Markdown - Link",
 			"scope": ["string.other.link.title.markdown"],
 			"settings": {
-				"foreground": "#0E81B9"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
 			"name": "Markdown - Link Description",
 			"scope": ["string.other.link.description.title.markdown"],
 			"settings": {
-				"foreground": "#0E81B9"
+				"foreground": "#06B6D4"
 			}
 		},
 		{
 			"name": "Markdown - Link Anchor",
 			"scope": ["constant.other.reference.link.markdown"],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
@@ -667,7 +668,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#0E81B9"
+				"foreground": "#85A1F2"
 			}
 		},
 		{
@@ -692,7 +693,7 @@
 			"scope": ["markup.italic"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#0E81B9"
+				"foreground": "#A5B4FC"
 			}
 		},
 		{
@@ -700,7 +701,7 @@
 			"scope": ["markup.bold", "markup.bold string"],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#0E81B9"
+				"foreground": "#A5B4FC"
 			}
 		},
 		{
@@ -715,7 +716,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#0E81B9"
+				"foreground": "#A5B4FC"
 			}
 		},
 		{
@@ -723,7 +724,7 @@
 			"scope": ["markup.underline"],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#A5B4FC"
 			}
 		},
 		{

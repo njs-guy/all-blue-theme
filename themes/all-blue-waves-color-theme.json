@@ -212,7 +212,7 @@
 		"editorBracketHighlight.foreground2": "#FFFD37",
 		"editorBracketHighlight.foreground3": "#63C5DA",
 		"editorBracketHighlight.foreground4": "#FFAD00",
-		"editorBracketHighlight.foreground5": "#55B9F7",
+		"editorBracketHighlight.foreground5": "#079BF5",
 		"editorBracketHighlight.foreground6": "#0BDA51",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF7566",
 		"editorBracketMatch.border": "#006680"
@@ -614,7 +614,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#55B9F7"
+				"foreground": "#079BF5"
 			}
 		},
 		{
@@ -644,7 +644,7 @@
 			"name": "Markdown - Link Anchor",
 			"scope": ["constant.other.reference.link.markdown"],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FFAD00"
 			}
 		},
 		{
@@ -669,7 +669,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#0E81B9"
+				"foreground": "#FFAD00"
 			}
 		},
 		{
@@ -694,7 +694,7 @@
 			"scope": ["markup.italic"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#0080FF"
+				"foreground": "#079BF5"
 			}
 		},
 		{
@@ -702,7 +702,7 @@
 			"scope": ["markup.bold", "markup.bold string"],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#0080FF"
+				"foreground": "#079BF5"
 			}
 		},
 		{
@@ -717,7 +717,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic bold",
-				"foreground": "#0080FF"
+				"foreground": "#079BF5"
 			}
 		},
 		{
@@ -725,14 +725,14 @@
 			"scope": ["markup.underline"],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#55B9F7"
+				"foreground": "#079BF5"
 			}
 		},
 		{
 			"name": "Markup - Raw Block",
 			"scope": ["markup.raw.block"],
 			"settings": {
-				"foreground": "#0080FF"
+				"foreground": "#079BF5"
 			}
 		},
 		{
