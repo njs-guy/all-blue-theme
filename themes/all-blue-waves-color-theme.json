@@ -7,6 +7,9 @@
 		"editor.lineHighlightBackground": "#002E4F",
 		"editor.foldBackground": "#002540",
 		"editorCursor.foreground": "#0094FF",
+		"editor.selectionBackground": "#003A63",
+		"editor.hoverHighlightBackground": "#002E4F",
+		"editorGroup.dropBackground": "#003a638e",
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorInfo.foreground": "#0086E6",
 		"editorWarning.foreground": "#FFAC40",
@@ -48,10 +51,21 @@
 		"breadcrumb.focusForeground": "#eceff4",
 		"breadcrumbPicker.background": "#001E33",
 
+		// Peek view
+		"peekView.border": "#001E33",
+		"peekViewEditor.background": "#001E33",
+		"peekViewEditor.matchHighlightBackground": "#003A63",
+		"peekViewResult.background": "#002138",
+		"peekViewResult.fileForeground": "#63C5DA",
+		"peekViewTitle.background": "#002540",
+		"peekViewTitleLabel.foreground": "#63C5DA",
+		"peekViewTitleDescription.foreground": "#006680",
+
 		// Side bar
 		"sideBarTitle.foreground": "#63C5DA",
 		"sideBar.background": "#002138",
 		"sideBar.foreground": "#63C5DA",
+		"sideBar.dropBackground": "#003a638e",
 		"sideBarSectionHeader.background": "#001E33",
 		"sash.hoverBorder": "#0094FF",
 		"focusBorder": "#003459",
@@ -66,6 +80,8 @@
 		"statusBar.background": "#001E33",
 		"statusBar.foreground": "#63C5DA",
 		"statusBar.focusBorder": "#00000000",
+		"statusBar.noFolderBackground": "#001E33",
+		"statusBar.noFolderForeground": "#63C5DA",
 		"statusBar.debuggingBackground": "#004B80",
 		"statusBar.debuggingForeground": "#eceff4",
 		"statusBarItem.remoteBackground": "#006680",
@@ -108,6 +124,7 @@
 
 		// Lists
 		"list.hoverBackground": "#001E33",
+		"list.dropBackground": "#003a638e",
 		"list.inactiveSelectionBackground": "#002540",
 		"list.activeSelectionForeground": "#eceff4",
 		"list.inactiveFocusOutline": "#002540",
@@ -208,6 +225,7 @@
 		"panel.border": "#003154",
 		"panelTitle.activeForeground": "#eceff4",
 		"panelTitle.inactiveForeground": "#63C5DA",
+		"panelSection.dropBackground": "#003a638e",
 		"problemsInfoIcon.foreground": "#0086E6",
 		"problemsWarningIcon.foreground": "#FFAC40",
 		"problemsErrorIcon.foreground": "#FF7566",
@@ -215,6 +233,7 @@
 		// Terminal
 		"terminal.foreground": "#63C5DA",
 		"terminalCursor.foreground": "#0094FF",
+		"terminal.dropBackground": "#003a638e",
 
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#00CCFF",

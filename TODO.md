@@ -11,3 +11,8 @@
 - [x] Make an icon
 - [ ] Set publisher
 - [ ] Screenshots for the readme
+
+## v1.1
+
+- [ ] Generate json files from scripts
+- [ ] Terminal colors
