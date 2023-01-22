@@ -54,6 +54,7 @@
 		"sideBar.foreground": "#63C5DA",
 		"sideBarSectionHeader.background": "#001E33",
 		"sash.hoverBorder": "#0094FF",
+		"focusBorder": "#003459",
 
 		// Activity bar
 		"activityBarBadge.background": "#007FFF",
@@ -64,6 +65,14 @@
 		// Status bar
 		"statusBar.background": "#001E33",
 		"statusBar.foreground": "#63C5DA",
+		"statusBar.focusBorder": "#00000000",
+		"statusBar.debuggingBackground": "#004B80",
+		"statusBar.debuggingForeground": "#eceff4",
+		"statusBarItem.remoteBackground": "#006680",
+		"statusBarItem.remoteForeground": "#eceff4",
+		"statusBarItem.hoverBackground": "#003459",
+		"statusBarItem.activeBackground": "#003A63",
+		"statusBarItem.focusBorder": "#00000000",
 
 		// Menu
 		"menu.background": "#002540",

@@ -3,10 +3,11 @@
 ## General
 
 - [ ] Finish markdown highlighting.
-- [ ] Set status bar variants
+- [x] Set status bar variants
+- [ ] Set debugging floating widget thing
 
 ## Metadata
 
-- [ ] Make an icon
+- [x] Make an icon
 - [ ] Set publisher
 - [ ] Screenshots for the readme
