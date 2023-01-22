@@ -3,6 +3,7 @@
 	"displayName": "All Blue",
 	"description": "A theme that's a little too obsessed with a certain primary color",
 	"version": "1.0.0",
+	"publisher": "njshockey",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/njshockey/all-blue-theme/issues"
