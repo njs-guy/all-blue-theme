@@ -1,14 +1,27 @@
 {
 	"name": "all-blue",
 	"displayName": "All Blue",
-	"description": "VS Code theme",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.74.0"
+	"description": "A theme that's a little too obsessed with a certain primary color",
+	"version": "1.0.0",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/njshockey/all-blue-theme/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/njshockey/all-blue-theme.git"
+	},
+	"homepage": "https://github.com/njshockey/all-blue-theme",
 	"categories": [
 		"Themes"
 	],
+	"keywords": [
+		"theme",
+		"dark"
+	],
+	"engines": {
+		"vscode": "^1.74.0"
+	},
 	"contributes": {
 		"themes": [
 			{

@@ -10,6 +10,11 @@ head to [colors.md](colors.md).
 ## Demo
 
 For a downloadable demo, check out the [All Blue demo](https://github.com/njshockey/all-blue-demo).
+Or just clone it with:
+
+```bash
+git clone https://github.com/njshockey/all-blue-demo.git
+```
 
 ## Building
 
