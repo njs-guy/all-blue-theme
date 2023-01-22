@@ -4,7 +4,7 @@
 
 - [ ] Finish markdown highlighting.
 - [x] Set status bar variants
-- [ ] Set debugging floating widget thing
+- [x] Set debug tool bar
 
 ## Metadata
 

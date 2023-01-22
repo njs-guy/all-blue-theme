@@ -235,6 +235,24 @@
 		"terminalCursor.foreground": "#0094FF",
 		"terminal.dropBackground": "#003a638e",
 
+		// Debug tool bar
+		"debugToolBar.background": "#002E4F",
+		"debugIcon.stopForeground": "#FF7566",
+		"debugIcon.disconnectForeground": "#FF7566",
+		"debugIcon.restartForeground": "#50C878",
+		"debugIcon.pauseForeground": "#00CCFF",
+		"debugIcon.continueForeground": "#00CCFF",
+		"debugIcon.stepBackForeground": "#00CCFF",
+		"debugIcon.stepIntoForeground": "#00CCFF",
+		"debugIcon.stepOutForeground": "#00CCFF",
+		"debugIcon.stepOverForeground": "#00CCFF",
+		"debugIcon.startForeground": "#00CCFF",
+		"debugIcon.breakpointForeground": "#00CCFF",
+		"debugIcon.breakpointCurrentStackframeForeground": "#00CCFF",
+		"debugIcon.breakpointStackframeForeground": "#00CCFF",
+		"debugIcon.breakpointUnverifiedForeground": "#00CCFF",
+		"debugIcon.breakpointDisabledForeground": "#006680",
+
 		// Bracket highlight
 		"editorBracketHighlight.foreground1": "#00CCFF",
 		"editorBracketHighlight.foreground2": "#4F86F7",
