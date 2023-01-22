@@ -2,6 +2,28 @@
 
 A VS Code theme that's a little too obsessed with a certain primary color.
 
+## Screenshots
+
+Default theme
+![All Blue screenshot](img/default-preview.png "All Blue screenshot")
+
+Calm
+![All Blue screenshot](img/calm-preview.png "Calm screenshot")
+
+Waves
+![All Blue screenshot](img/waves-preview.png "Waves screenshot")
+
+The editor font used is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+with ligatures turned off.
+The editor icons are [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+
+I'm also shilling my other projects from the screenshots:
+
+- NJS React Template
+- [Keysmith](https://github.com/njshockey/keysmith-rs), a rust keygen library
+- [BST Graph](https://github.com/njshockey/bst-graph),
+    create Pokemon Base Stat Total charts.
+
 ## Colors
 
 To find out what colors are used in All Blue,
