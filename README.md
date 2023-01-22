@@ -5,13 +5,13 @@ A VS Code theme that's a little too obsessed with a certain primary color.
 ## Screenshots
 
 Default theme
-![All Blue screenshot](img/default-preview.png "All Blue screenshot")
+![All Blue screenshot](https://raw.githubusercontent.com/njshockey/all-blue-theme/main/img/default-preview.png "All Blue screenshot")
 
 Calm
-![All Blue screenshot](img/calm-preview.png "Calm screenshot")
+![All Blue screenshot](https://raw.githubusercontent.com/njshockey/all-blue-theme/main/img/calm-preview.png "Calm screenshot")
 
 Waves
-![All Blue screenshot](img/waves-preview.png "Waves screenshot")
+![All Blue screenshot](https://raw.githubusercontent.com/njshockey/all-blue-theme/main/img/waves-preview.png "Waves screenshot")
 
 The editor font used is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 with ligatures turned off.
@@ -19,7 +19,7 @@ The editor icons are [Material Icons](https://marketplace.visualstudio.com/items
 
 I'm also shilling my other projects from the screenshots:
 
-- NJS React Template
+- [NJS React Template](https://github.com/njs-templates/njs-react)
 - [Keysmith](https://github.com/njshockey/keysmith-rs), a rust keygen library
 - [BST Graph](https://github.com/njshockey/bst-graph),
     create Pokemon Base Stat Total charts.
