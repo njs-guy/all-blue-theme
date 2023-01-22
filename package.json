@@ -17,8 +17,15 @@
 	],
 	"keywords": [
 		"theme",
-		"dark"
+		"color-theme",
+		"dark",
+		"ui"
 	],
+	"icon": "img/all-blue-icon.png",
+	"galleryBanner": {
+		"color": "#002540",
+		"theme": "dark"
+	},
 	"engines": {
 		"vscode": "^1.74.0"
 	},

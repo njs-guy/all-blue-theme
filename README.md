@@ -23,3 +23,8 @@ git clone https://github.com/njshockey/all-blue-demo.git
    Make changes in `themes/all-blue-color-theme.json`.
     - Optional: run `yarn` to install prettier locally or you can install the
     recommended extension instead.
+
+## Image credit
+
+[Temporary icon](https://www.pexels.com/photo/white-sailboat-on-water-273886/)
+by Pixabay.
