@@ -2,7 +2,7 @@
 	"name": "all-blue",
 	"displayName": "All Blue",
 	"description": "A theme that's a little too obsessed with a certain primary color",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "njshockey",
 	"license": "MIT",
 	"bugs": {
@@ -48,6 +48,9 @@
 				"path": "./themes/all-blue-calm-color-theme.json"
 			}
 		]
+	},
+	"scripts": {
+		"build": "vsce package"
 	},
 	"devDependencies": {
 		"prettier": "2.8.1"
