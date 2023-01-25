@@ -2,6 +2,10 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
+## v1.0.2
+
+- Improved editor word highlighting.
+
 ## v1.0.1
 
 - Debug toolbar is now themed in Waves and Calm.

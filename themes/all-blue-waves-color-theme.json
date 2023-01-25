@@ -17,6 +17,8 @@
 		"editor.findMatchBorder": "#00CCFF",
 		"editor.findMatchHighlightBackground": "#004170",
 		"editor.hoverHighlightBackground": "#002E4F",
+		"editorLink.activeForeground": "#0892D0",
+		"editor.rangeHighlightBackground": "#004170",
 		"editorGroup.dropBackground": "#003a638e",
 		"editorGroupHeader.tabsBackground": "#002138",
 		"editorInfo.foreground": "#0086E6",
@@ -269,7 +271,8 @@
 		"editorBracketHighlight.foreground5": "#079BF5",
 		"editorBracketHighlight.foreground6": "#0BDA51",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF7566",
-		"editorBracketMatch.border": "#006680"
+		"editorBracketMatch.background": "#004170",
+		"editorBracketMatch.border": "#00CCFF"
 	},
 	"tokenColors": [
 		// Comments
