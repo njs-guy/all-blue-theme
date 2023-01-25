@@ -15,7 +15,7 @@ Waves
 
 The editor font used is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 with ligatures turned off.
-The editor icons are [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+The file icons are [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
 
 I'm also shilling my other projects from the screenshots:
 
