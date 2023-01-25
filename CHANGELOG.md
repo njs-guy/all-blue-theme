@@ -5,6 +5,7 @@ For the source of each release, see [releases](https://github.com/njshockey/all-
 ## v1.0.2
 
 - Improved editor word highlighting.
+- Reduced extension size by removing screenshots from VSIX.
 
 ## v1.0.1
 

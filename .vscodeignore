@@ -2,3 +2,6 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+TODO.md
+img/**
+!img/all-blue-icon.png
