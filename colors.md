@@ -22,6 +22,26 @@ These are the base colors for All Blue.
 | Warning squiggle                 | #FFAC40 |
 | Error squiggle                   | #FF7566 |
 
+### Version control
+
+#### File names
+
+| Property        | Color   |
+| --------------- | ------- |
+| Untracked/Added | #50C878 |
+| Modified        | #85A1F2 |
+| Deleted         | #FF7566 |
+| Staged          | #FFFC79 |
+| Ignored         | #006680 |
+
+#### Gutter
+
+| Property        | Color   |
+| --------------- | ------- |
+| Untracked/Added | #2E8B57 |
+| Modified        | #005999 |
+| Deleted         | #FF7566 |
+
 ## Syntax highlighting
 
 All Blue has three syntax highlighting variants.
@@ -42,23 +62,3 @@ pastel colors for more of a smooth sailing vibe.
 | HTML tags, escape chars       | #0892D0  | #FF7566 | #F9968B |
 | Strings                       | #AEC6CF  | #DBD59D | #D5C2A5 |
 | JS Components, Regex          | #06B6D4  | #0BDA51 | #50C878 |
-
-## Version control
-
-### File names
-
-| Property        | Color   |
-| --------------- | ------- |
-| Untracked/Added | #50C878 |
-| Modified        | #85A1F2 |
-| Deleted         | #FF7566 |
-| Staged          | #FFFC79 |
-| Ignored         | #006680 |
-
-### Gutter
-
-| Property        | Color   |
-| --------------- | ------- |
-| Untracked/Added | #2E8B57 |
-| Modified        | #005999 |
-| Deleted         | #FF7566 |

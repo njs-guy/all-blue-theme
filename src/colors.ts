@@ -52,6 +52,7 @@ interface EditorColors {
 	bgStatusBar: string;
 	bgLineHighlight: string;
 	cursor: string;
+	lightbulb: string;
 	badges: string;
 	selectionNormal: string;
 	selectionDim: string;
@@ -64,6 +65,9 @@ interface EditorColors {
 	deleted: string;
 	staged: string;
 	ignored: string;
+	addedGutter: string;
+	modifiedGutter: string;
+	deletedGutter: string;
 }
 
 export const allBlueColors: SyntaxColors = {
@@ -124,4 +128,31 @@ export const calmColors: SyntaxColors = {
 	tag: calmGeneric.red,
 	string: calmGeneric.beige,
 	component: calmGeneric.green,
+};
+
+export const editor: EditorColors = {
+	fg: "#63C5DA",
+	fgSecondary: "#eceff4",
+	fgDisabled: "#006680",
+	bgEditor: "#002540",
+	bgSideBar: "#002138",
+	bgStatusBar: "#001E33",
+	bgLineHighlight: "#003154",
+	cursor: "#0094FF",
+	lightbulb: calmGeneric.yellow,
+	badges: "#007FFF",
+	selectionNormal: "#003459",
+	selectionDim: "#002E4F",
+	selectionBright: "#003A63",
+	info: calmGeneric.blue,
+	warning: calmGeneric.orange,
+	error: calmGeneric.red,
+	added: "#2E8B57",
+	modified: calmGeneric.green,
+	deleted: calmGeneric.red,
+	staged: calmGeneric.yellow,
+	ignored: calmGeneric.grey,
+	addedGutter: "#2E8B57",
+	modifiedGutter: "#005999",
+	deletedGutter: calmGeneric.red,
 };
