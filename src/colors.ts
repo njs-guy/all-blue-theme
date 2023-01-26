@@ -57,6 +57,11 @@ interface EditorColors {
 	selectionNormal: string;
 	selectionDim: string;
 	selectionBright: string;
+	selectionTransparency: string; // Hex transparency. Ex: "8e"
+	selectionHighlight: string; // Selection for word highlighting and find match
+	selectionHighlightBorder: string;
+	selectionHighlightStrongBorder: string;
+	linkEditor: string;
 	info: string;
 	warning: string;
 	error: string;
@@ -144,6 +149,11 @@ export const editorTheme: EditorColors = {
 	selectionNormal: "#003459",
 	selectionDim: "#002E4F",
 	selectionBright: "#003A63",
+	selectionTransparency: "8e",
+	selectionHighlight: "#004170",
+	selectionHighlightBorder: allBlueColors.operator,
+	selectionHighlightStrongBorder: allBlueColors.type,
+	linkEditor: allBlueColors.tag,
 	info: calmGeneric.blue,
 	warning: calmGeneric.orange,
 	error: calmGeneric.red,
