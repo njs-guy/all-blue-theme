@@ -9,7 +9,7 @@ export function createEditorTemplate() {
 			// Editor
 			"editor.background": editorTheme.bgEditor,
 			"editor.foreground": editorTheme.fg,
-			"editor.lineHighlightBackground": "#002E4F",
+			"editor.lineHighlightBackground": editorTheme.bgLineHighlight,
 			"editor.foldBackground": "#002540",
 			"editorCursor.foreground": "#0094FF",
 			"editor.selectionBackground": "#003A63",
