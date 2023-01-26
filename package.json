@@ -56,6 +56,7 @@
 	},
 	"scripts": {
 		"build-themes": "ts-node src/main.ts && prettier --write themes/**/*.json",
+		"build-themes-ugly": "ts-node src/main.ts",
 		"build-ext": "vsce package"
 	},
 	"devDependencies": {
