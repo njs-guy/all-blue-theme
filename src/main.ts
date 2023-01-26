@@ -1,12 +1,8 @@
 import { writeFile, existsSync, mkdirSync } from "fs";
-
-const colors: JSON = <JSON>(<unknown>{
-	blue: "#0094FF",
-	red: "#FF0000",
-});
+import { allBlueColors } from "./colors";
 
 function createJson() {
-	const output = JSON.stringify(colors);
+	const output = JSON.stringify(allBlueColors);
 	const outputDir = "./src/output";
 
 	if (!existsSync(outputDir)) {
