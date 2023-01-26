@@ -2,7 +2,7 @@ import { writeFile, existsSync, mkdirSync } from "fs";
 import { createFullTemplate } from "./templates/fullTemplate";
 
 function createJson() {
-	const output = JSON.stringify(createFullTemplate());
+	const output = createFullTemplate();
 	const outputDir = "./themes";
 
 	if (!existsSync(outputDir)) {

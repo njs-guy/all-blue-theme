@@ -2,9 +2,15 @@
 // and combines them into one template.
 
 import { createEditorTemplate } from "./editorTemplate";
+import { createSyntaxTemplate, Themes } from "./syntaxTemplate";
 
 export function createFullTemplate() {
-	const output = createEditorTemplate();
+	const editor = createEditorTemplate();
+	const syntax = createSyntaxTemplate(Themes.Waves);
 
-	return output;
+	// Combines two JSON files into one.
+	// This is mainly to keep the code a little nicer.
+	const full = { ...editor, ...syntax };
+
+	return JSON.stringify(full);
 }

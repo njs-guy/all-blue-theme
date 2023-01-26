@@ -1,5 +1,5 @@
 // Declare colors for syntax highlighting
-interface SyntaxColors {
+export interface SyntaxColors {
 	// Comments
 	comment: string;
 
