@@ -10,7 +10,7 @@ These are the base colors for All Blue.
 | Editor foreground                | #63C5DA |
 | SideBar background               | #002138 |
 | StatusBar background             | #001E33 |
-| Line height highlight background | #003154 |
+| Line highlight background        | #003154 |
 | Cursor                           | #0094FF |
 | Badges                           | #007FFF |
 | Foreground secondary             | #eceff4 |
@@ -59,6 +59,6 @@ pastel colors for more of a smooth sailing vibe.
 
 | Property        | Color   |
 | --------------- | ------- |
-| Modified        | #005999 |
 | Untracked/Added | #2E8B57 |
+| Modified        | #005999 |
 | Deleted         | #FF7566 |

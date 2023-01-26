@@ -1,3 +1,4 @@
+// Declare colors for syntax highlighting
 interface SyntaxColors {
 	// Comments
 	comment: string;
@@ -27,6 +28,44 @@ interface SyntaxColors {
 	component: string;
 }
 
+// Generic base colors
+interface SyntaxColorsGeneric {
+	red: string;
+	blue: string;
+	cyan: string;
+	green: string;
+	yellow: string;
+	orange: string;
+	pink: string;
+	grey: string;
+	beige: string;
+}
+
+// interface TerminalColors
+
+interface EditorColors {
+	fg: string;
+	fgSecondary: string;
+	fgDisabled: string;
+	bgEditor: string;
+	bgSideBar: string;
+	bgStatusBar: string;
+	bgLineHighlight: string;
+	cursor: string;
+	badges: string;
+	selectionNormal: string;
+	selectionDim: string;
+	selectionBright: string;
+	info: string;
+	warning: string;
+	error: string;
+	added: string;
+	modified: string;
+	deleted: string;
+	staged: string;
+	ignored: string;
+}
+
 export const allBlueColors: SyntaxColors = {
 	comment: "#006680",
 	operator: "#00CCFF",
@@ -39,26 +78,50 @@ export const allBlueColors: SyntaxColors = {
 	component: "#06B6D4",
 };
 
+export const wavesGeneric: SyntaxColorsGeneric = {
+	red: "#FF7566",
+	blue: "#079BF5",
+	green: "#0BDA51",
+	yellow: "#FFFD37",
+	orange: "#FFAD00",
+	pink: "#FF80DD",
+	cyan: "#00CCFF",
+	grey: "#006680",
+	beige: "#DBD59D",
+};
+
 export const wavesColors: SyntaxColors = {
-	comment: "#006680",
-	operator: "#00CCFF",
-	variable: "#FFAD00",
-	bool: "#FF80DD",
-	type: "#FFFD37",
-	function: "#079BF5",
-	tag: "#FF7566",
-	string: "#DBD59D",
-	component: "#0BDA51",
+	comment: wavesGeneric.grey,
+	operator: wavesGeneric.cyan,
+	variable: wavesGeneric.orange,
+	bool: wavesGeneric.pink,
+	type: wavesGeneric.yellow,
+	function: wavesGeneric.blue,
+	tag: wavesGeneric.red,
+	string: wavesGeneric.beige,
+	component: wavesGeneric.green,
+};
+
+export const calmGeneric: SyntaxColorsGeneric = {
+	red: "#F9968B",
+	blue: "#85A1F2",
+	green: "#50C878",
+	yellow: "#FFFC79",
+	orange: "#FFAC40",
+	pink: "#FC8EAC",
+	cyan: "#8BC6FC",
+	grey: "#006680",
+	beige: "#D5C2A5",
 };
 
 export const calmColors: SyntaxColors = {
-	comment: "#006680",
-	operator: "#8BC6FC",
-	variable: "#FFAC40",
-	bool: "#FC8EAC",
-	type: "#FFB7C5",
-	function: "#85A1F2",
-	tag: "#F9968B",
-	string: "#D5C2A5",
-	component: "#50C878",
+	comment: calmGeneric.grey,
+	operator: calmGeneric.cyan,
+	variable: calmGeneric.orange,
+	bool: calmGeneric.pink,
+	type: calmGeneric.yellow,
+	function: calmGeneric.blue,
+	tag: calmGeneric.red,
+	string: calmGeneric.beige,
+	component: calmGeneric.green,
 };
