@@ -1,15 +1,15 @@
 import { writeFile, existsSync, mkdirSync } from "fs";
-import { wavesColors } from "./colors";
+import { createFullTemplate } from "./templates/fullTemplate";
 
 function createJson() {
-	const output = JSON.stringify(wavesColors);
-	const outputDir = "./src/output";
+	const output = JSON.stringify(createFullTemplate());
+	const outputDir = "./themes";
 
 	if (!existsSync(outputDir)) {
 		mkdirSync(outputDir, { recursive: true });
 	}
 
-	writeFile(outputDir + "/colors.json", output, (err) => {
+	writeFile(outputDir + "/test-color-theme.json", output, (err) => {
 		if (!err) {
 			console.log("Successfully wrote JSON to file.");
 		} else {

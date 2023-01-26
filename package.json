@@ -46,6 +46,11 @@
 				"label": "All Blue Calm",
 				"uiTheme": "vs-dark",
 				"path": "./themes/all-blue-calm-color-theme.json"
+			},
+			{
+				"label": "All Blue Test",
+				"uiTheme": "vs-dark",
+				"path": "./themes/test-color-theme.json"
 			}
 		]
 	},

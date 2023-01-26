@@ -1,3 +1,4 @@
 node_modules
 *.vsix
 output
+test-color-theme.json

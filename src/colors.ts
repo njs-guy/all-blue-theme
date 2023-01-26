@@ -130,7 +130,7 @@ export const calmColors: SyntaxColors = {
 	component: calmGeneric.green,
 };
 
-export const editor: EditorColors = {
+export const editorTheme: EditorColors = {
 	fg: "#63C5DA",
 	fgSecondary: "#eceff4",
 	fgDisabled: "#006680",
