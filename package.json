@@ -2,7 +2,7 @@
 	"name": "all-blue",
 	"displayName": "All Blue",
 	"description": "A theme that's a little too obsessed with a certain primary color",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"publisher": "njshockey",
 	"license": "MIT",
 	"bugs": {
@@ -50,7 +50,8 @@
 		]
 	},
 	"scripts": {
-		"build": "vsce package"
+		"build-themes": "ts-node src/main.ts",
+		"build-ext": "vsce package"
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.18",
@@ -58,6 +59,8 @@
 		"@typescript-eslint/parser": "^5.49.0",
 		"eslint": "^8.32.0",
 		"prettier": "2.8.1",
-		"ts-node": "^10.9.1"
+		"ts-node": "^10.9.1",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.4"
 	}
 }
