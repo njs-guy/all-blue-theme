@@ -170,7 +170,8 @@ export const calmColors: SyntaxColors = {
 const editorColorsGeneric = {
 	fg: "#63C5DA",
 	fgSecondary: "#eceff4",
-	fgTertiary: allBlueColors.operator,
+	fgTertiary: "#D8DEE9",
+	fgFourth: allBlueColors.operator,
 	fgDisabled: calmColors.comment,
 	bgEditor: "#002540",
 	bgSideBar: "#002138",
@@ -204,6 +205,7 @@ export const editorColors = {
 	fg: editorColorsGeneric.fg,
 	fgSecondary: editorColorsGeneric.fgSecondary,
 	fgTertiary: editorColorsGeneric.fgTertiary,
+	fgFourth: editorColorsGeneric.fgFourth,
 	fgDisabled: editorColorsGeneric.fgDisabled,
 	bgEditor: editorColorsGeneric.bgEditor,
 	bgSideBar: editorColorsGeneric.bgSideBar,
@@ -232,4 +234,7 @@ export const editorColors = {
 	addedGutter: editorColorsGeneric.addedGutter,
 	modifiedGutter: editorColorsGeneric.modifiedGutter,
 	deletedGutter: editorColorsGeneric.deletedGutter,
+	lineNumberActiveFg: editorColorsGeneric.fgTertiary,
+	inlayHintParameterFg: allBlueColors.tag,
+	peekPreviewTitle: allBlueColors.comment,
 };

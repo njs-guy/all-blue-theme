@@ -1,6 +1,6 @@
 // Template for creating the editor portion of the theme
 
-import { Themes, calmColors, allBlueColors, editorColors } from "../colors";
+import { Themes, editorColors } from "../colors";
 import { checkTheme } from "./checkTheme";
 
 export function createEditorTemplate(theme: Themes) {
@@ -40,7 +40,8 @@ export function createEditorTemplate(theme: Themes) {
 			"editorError.foreground": editorColors.error,
 
 			// Gutter
-			"editorLineNumber.activeForeground": "#D8DEE9",
+			"editorLineNumber.activeForeground":
+				editorColors.lineNumberActiveFg,
 			"editorLineNumber.foreground": editorColors.fgDisabled,
 			"editorLightBulb.foreground": editorColors.lightbulb,
 			"editorGutter.modifiedBackground": editorColors.modifiedGutter,
@@ -56,7 +57,7 @@ export function createEditorTemplate(theme: Themes) {
 			// Hover widget
 			"editorHoverWidget.background": editorColors.bgStatusBar,
 			"editorHoverWidget.border": editorColors.bgEditor,
-			"editorHoverWidget.foreground": editorColors.fgTertiary,
+			"editorHoverWidget.foreground": editorColors.fgFourth,
 
 			// Editor widget
 			"editorWidget.background": editorColors.bgStatusBar,
@@ -66,8 +67,44 @@ export function createEditorTemplate(theme: Themes) {
 			// Inlay hints
 			"editorInlayHint.background": editorColors.bgStatusBar,
 			"editorInlayHint.foreground": editorColors.fgSecondary,
-			"editorInlayHint.typeForeground": editorColors.fgTertiary,
-			"editorInlayHint.parameterForeground": allBlueColors.tag,
+			"editorInlayHint.typeForeground": editorColors.fgFourth,
+			"editorInlayHint.parameterForeground":
+				editorColors.inlayHintParameterFg,
+
+			// Breadcrumbs
+			"breadcrumb.foreground": editorColors.fg,
+			"breadcrumb.activeSelectionForeground": editorColors.fgSecondary,
+			"breadcrumb.focusForeground": editorColors.fgTertiary,
+			"breadcrumbPicker.background": editorColors.bgStatusBar,
+
+			// Peek view
+			"peekView.border": editorColors.bgStatusBar,
+			"peekViewEditor.background": editorColors.bgStatusBar,
+			"peekViewEditor.matchHighlightBackground":
+				editorColors.selectionBright,
+			"peekViewResult.background": editorColors.bgSideBar,
+			"peekViewResult.fileForeground": editorColors.fg,
+			"peekViewTitle.background": editorColors.bgEditor,
+			"peekViewTitleLabel.foreground": editorColors.fg,
+			"peekViewTitleDescription.foreground":
+				editorColors.peekPreviewTitle,
+
+			// Side bar
+			"sideBarTitle.foreground": editorColors.fg,
+			"sideBar.background": editorColors.bgSideBar,
+			"sideBar.foreground": editorColors.fg,
+			"sideBar.dropBackground":
+				editorColors.selectionBright +
+				editorColors.selectionTransparency,
+			"sideBarSectionHeader.background": editorColors.bgStatusBar,
+			"sash.hoverBorder": editorColors.cursor,
+			"focusBorder": editorColors.selectionNormal,
+
+			// Activity bar
+			"activityBarBadge.background": editorColors.badges,
+			"activityBarBadge.foreground": "#ffffff",
+			"activityBar.background": editorColors.bgSideBar,
+			"activityBar.foreground": editorColors.fg,
 
 			// Bracket highlight
 			"editorBracketHighlight.foreground1": syntax.bracket1,
