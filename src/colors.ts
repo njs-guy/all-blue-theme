@@ -1,3 +1,9 @@
+export enum Themes {
+	AllBlue,
+	Waves,
+	Calm,
+}
+
 // Declare colors for syntax highlighting
 export interface SyntaxColors {
 	// Comments
@@ -26,6 +32,14 @@ export interface SyntaxColors {
 
 	// JS Components, Regex
 	component: string;
+
+	// Bracket highlighting
+	bracket1: string;
+	bracket2: string;
+	bracket3: string;
+	bracket4: string;
+	bracket5: string;
+	bracket6: string;
 }
 
 // Generic base colors
@@ -85,6 +99,12 @@ export const allBlueColors: SyntaxColors = {
 	tag: "#0892D0",
 	string: "#AEC6CF",
 	component: "#06B6D4",
+	bracket1: "#00CCFF",
+	bracket2: "#4F86F7",
+	bracket3: "#06B6D4",
+	bracket4: "#B0E0E6",
+	bracket5: "#a5b4fc",
+	bracket6: "#AEC6CF",
 };
 
 export const wavesGeneric: SyntaxColorsGeneric = {
@@ -109,6 +129,12 @@ export const wavesColors: SyntaxColors = {
 	tag: wavesGeneric.red,
 	string: wavesGeneric.beige,
 	component: wavesGeneric.green,
+	bracket1: wavesGeneric.cyan,
+	bracket2: wavesGeneric.yellow,
+	bracket3: "#63C5DA",
+	bracket4: wavesGeneric.orange,
+	bracket5: wavesGeneric.blue,
+	bracket6: wavesGeneric.green,
 };
 
 export const calmGeneric: SyntaxColorsGeneric = {
@@ -133,6 +159,12 @@ export const calmColors: SyntaxColors = {
 	tag: calmGeneric.red,
 	string: calmGeneric.beige,
 	component: calmGeneric.green,
+	bracket1: calmGeneric.cyan,
+	bracket2: calmGeneric.yellow,
+	bracket3: "#63C5DA",
+	bracket4: calmGeneric.orange,
+	bracket5: calmGeneric.blue,
+	bracket6: calmGeneric.green,
 };
 
 export const editorTheme: EditorColors = {

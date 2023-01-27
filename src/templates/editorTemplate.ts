@@ -1,8 +1,11 @@
 // Template for creating the editor portion of the theme
 
-import { editorTheme } from "../colors";
+import { Themes, editorTheme } from "../colors";
+import { checkTheme } from "./checkTheme";
 
-export function createEditorTemplate() {
+export function createEditorTemplate(theme: Themes) {
+	const syntax = checkTheme(theme);
+
 	const output = {
 		name: "All Blue",
 		colors: {
@@ -34,6 +37,18 @@ export function createEditorTemplate() {
 			"editorInfo.foreground": editorTheme.info,
 			"editorWarning.foreground": editorTheme.warning,
 			"editorError.foreground": editorTheme.error,
+
+			// Bracket highlight
+			"editorBracketHighlight.foreground1": syntax.bracket1,
+			"editorBracketHighlight.foreground2": syntax.bracket2,
+			"editorBracketHighlight.foreground3": syntax.bracket3,
+			"editorBracketHighlight.foreground4": syntax.bracket4,
+			"editorBracketHighlight.foreground5": syntax.bracket5,
+			"editorBracketHighlight.foreground6": syntax.bracket6,
+			"editorBracketHighlight.unexpectedBracket.foreground":
+				editorTheme.error,
+			"editorBracketMatch.background": editorTheme.selectionHighlight,
+			"editorBracketMatch.border": syntax.operator,
 		},
 	};
 

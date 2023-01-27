@@ -1,39 +1,14 @@
 // Template for creating the syntax highlighting portion of the theme
 
-import {
-	SyntaxColors,
-	allBlueColors,
-	calmColors,
-	editorTheme,
-	wavesColors,
-} from "../colors";
+import { editorTheme, Themes } from "../colors";
 
-export enum Themes {
-	AllBlue,
-	Waves,
-	Calm,
-}
+import { checkTheme } from "./checkTheme";
 
 export function createSyntaxTemplate(theme: Themes) {
-	let colors: SyntaxColors;
-
-	switch (theme) {
-		case Themes.AllBlue:
-			colors = allBlueColors;
-			break;
-		case Themes.Calm:
-			colors = calmColors;
-			break;
-		case Themes.Waves:
-			colors = wavesColors;
-			break;
-		default:
-			console.error("ERROR: Theme does not exist. Using default colors.");
-			colors = allBlueColors;
-			break;
-	}
+	const colors = checkTheme(theme);
 
 	const output = {
+		// Syntax highlighting
 		tokenColors: [
 			// Comments
 			{
