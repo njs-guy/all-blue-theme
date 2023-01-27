@@ -55,39 +55,39 @@ interface SyntaxColorsGeneric {
 	beige: string;
 }
 
-// interface TerminalColors
+// TerminalColors
 
-interface EditorColors {
-	fg: string;
-	fgSecondary: string;
-	fgDisabled: string;
-	bgEditor: string;
-	bgSideBar: string;
-	bgStatusBar: string;
-	bgLineHighlight: string;
-	cursor: string;
-	lightbulb: string;
-	badges: string;
-	selectionNormal: string;
-	selectionDim: string;
-	selectionBright: string;
-	selectionTransparency: string; // Hex transparency. Ex: "8e"
-	selectionHighlight: string; // Selection for word highlighting and find match
-	selectionHighlightBorder: string;
-	selectionHighlightStrongBorder: string;
-	linkEditor: string;
-	info: string;
-	warning: string;
-	error: string;
-	added: string;
-	modified: string;
-	deleted: string;
-	staged: string;
-	ignored: string;
-	addedGutter: string;
-	modifiedGutter: string;
-	deletedGutter: string;
-}
+// interface EditorColors {
+// 	fg: string;
+// 	fgSecondary: string;
+// 	fgDisabled: string;
+// 	bgEditor: string;
+// 	bgSideBar: string;
+// 	bgStatusBar: string;
+// 	bgLineHighlight: string;
+// 	cursor: string;
+// 	lightbulb: string;
+// 	badges: string;
+// 	selectionNormal: string;
+// 	selectionDim: string;
+// 	selectionBright: string;
+// 	selectionTransparency: string; // Hex transparency. Ex: "8e"
+// 	selectionHighlight: string; // Selection for word highlighting and find match
+// 	selectionHighlightBorder: string;
+// 	selectionHighlightStrongBorder: string;
+// 	linkEditor: string;
+// 	info: string;
+// 	warning: string;
+// 	error: string;
+// 	added: string;
+// 	modified: string;
+// 	deleted: string;
+// 	staged: string;
+// 	ignored: string;
+// 	addedGutter: string;
+// 	modifiedGutter: string;
+// 	deletedGutter: string;
+// }
 
 export const allBlueColors: SyntaxColors = {
 	comment: "#006680",
@@ -167,27 +167,18 @@ export const calmColors: SyntaxColors = {
 	bracket6: calmGeneric.green,
 };
 
-// Editor generic colors
-
-export const editorTheme: EditorColors = {
+const editorColorsGeneric = {
 	fg: "#63C5DA",
 	fgSecondary: "#eceff4",
+	fgTertiary: allBlueColors.operator,
 	fgDisabled: calmColors.comment,
 	bgEditor: "#002540",
 	bgSideBar: "#002138",
 	bgStatusBar: "#001E33",
-	bgLineHighlight: "#003154",
+	bgCurrentLine: "#003154",
 	cursor: "#0094FF",
 	lightbulb: calmGeneric.yellow,
 	badges: "#007FFF",
-	selectionNormal: "#003459",
-	selectionDim: "#002E4F",
-	selectionBright: "#003A63",
-	selectionTransparency: "8e",
-	selectionHighlight: "#004170",
-	selectionHighlightBorder: allBlueColors.operator,
-	selectionHighlightStrongBorder: allBlueColors.type,
-	linkEditor: allBlueColors.tag,
 	info: calmGeneric.blue,
 	warning: calmGeneric.orange,
 	error: calmGeneric.red,
@@ -199,4 +190,46 @@ export const editorTheme: EditorColors = {
 	addedGutter: "#2E8B57",
 	modifiedGutter: "#005999",
 	deletedGutter: calmGeneric.red,
+	selectionNormal: "#003459",
+	selectionDim: "#002E4F",
+	selectionBright: "#003A63",
+	selectionTransparency: "8e", // Hex transparency. Ex: "8e"
+	selectionHighlight: "#004170", // Selection for word highlighting and find match
+	selectionHighlightBorder: allBlueColors.operator,
+	selectionHighlightStrongBorder: allBlueColors.type,
+	linkEditor: allBlueColors.tag,
+};
+
+export const editorColors = {
+	fg: editorColorsGeneric.fg,
+	fgSecondary: editorColorsGeneric.fgSecondary,
+	fgTertiary: editorColorsGeneric.fgTertiary,
+	fgDisabled: editorColorsGeneric.fgDisabled,
+	bgEditor: editorColorsGeneric.bgEditor,
+	bgSideBar: editorColorsGeneric.bgSideBar,
+	bgStatusBar: editorColorsGeneric.bgStatusBar,
+	bgCurrentLine: editorColorsGeneric.bgCurrentLine,
+	cursor: editorColorsGeneric.cursor,
+	lightbulb: editorColorsGeneric.lightbulb,
+	badges: editorColorsGeneric.badges,
+	selectionNormal: editorColorsGeneric.selectionNormal,
+	selectionDim: editorColorsGeneric.selectionDim,
+	selectionBright: editorColorsGeneric.selectionBright,
+	selectionTransparency: editorColorsGeneric.selectionTransparency,
+	selectionHighlight: editorColorsGeneric.selectionHighlight,
+	selectionHighlightBorder: editorColorsGeneric.selectionHighlightBorder,
+	selectionHighlightStrongBorder:
+		editorColorsGeneric.selectionHighlightStrongBorder,
+	linkEditor: editorColorsGeneric.linkEditor,
+	info: editorColorsGeneric.info,
+	warning: editorColorsGeneric.warning,
+	error: editorColorsGeneric.error,
+	added: editorColorsGeneric.added,
+	modified: editorColorsGeneric.modified,
+	deleted: editorColorsGeneric.deleted,
+	staged: editorColorsGeneric.staged,
+	ignored: editorColorsGeneric.ignored,
+	addedGutter: editorColorsGeneric.addedGutter,
+	modifiedGutter: editorColorsGeneric.modifiedGutter,
+	deletedGutter: editorColorsGeneric.deletedGutter,
 };

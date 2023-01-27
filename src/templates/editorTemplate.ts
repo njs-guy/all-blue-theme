@@ -1,6 +1,6 @@
 // Template for creating the editor portion of the theme
 
-import { Themes, calmColors, allBlueColors, editorTheme } from "../colors";
+import { Themes, calmColors, allBlueColors, editorColors } from "../colors";
 import { checkTheme } from "./checkTheme";
 
 export function createEditorTemplate(theme: Themes) {
@@ -10,62 +10,63 @@ export function createEditorTemplate(theme: Themes) {
 		name: "All Blue",
 		colors: {
 			// Editor
-			"editor.background": editorTheme.bgEditor,
-			"editor.foreground": editorTheme.fg,
-			"editor.lineHighlightBackground": editorTheme.bgLineHighlight,
-			"editor.foldBackground": editorTheme.bgEditor,
-			"editorCursor.foreground": editorTheme.cursor,
-			"editor.selectionBackground": editorTheme.selectionBright,
+			"editor.background": editorColors.bgEditor,
+			"editor.foreground": editorColors.fg,
+			"editor.lineHighlightBackground": editorColors.bgCurrentLine,
+			"editor.foldBackground": editorColors.bgEditor,
+			"editorCursor.foreground": editorColors.cursor,
+			"editor.selectionBackground": editorColors.selectionBright,
 			"editor.selectionHighlightBorder":
-				editorTheme.selectionHighlightBorder,
-			"editor.wordHighlightBackground": editorTheme.selectionHighlight,
-			"editor.wordHighlightBorder": editorTheme.selectionHighlightBorder,
+				editorColors.selectionHighlightBorder,
+			"editor.wordHighlightBackground": editorColors.selectionHighlight,
+			"editor.wordHighlightBorder": editorColors.selectionHighlightBorder,
 			"editor.wordHighlightStrongBackground":
-				editorTheme.selectionHighlight,
+				editorColors.selectionHighlight,
 			"editor.wordHighlightStrongBorder":
-				editorTheme.selectionHighlightStrongBorder,
-			"editor.findMatchBackground": editorTheme.selectionHighlight,
-			"editor.findMatchBorder": editorTheme.selectionHighlightBorder,
+				editorColors.selectionHighlightStrongBorder,
+			"editor.findMatchBackground": editorColors.selectionHighlight,
+			"editor.findMatchBorder": editorColors.selectionHighlightBorder,
 			"editor.findMatchHighlightBackground":
-				editorTheme.selectionHighlight,
-			"editor.hoverHighlightBackground": editorTheme.selectionDim,
-			"editorLink.activeForeground": editorTheme.linkEditor,
-			"editor.rangeHighlightBackground": editorTheme.selectionHighlight,
+				editorColors.selectionHighlight,
+			"editor.hoverHighlightBackground": editorColors.selectionDim,
+			"editorLink.activeForeground": editorColors.linkEditor,
+			"editor.rangeHighlightBackground": editorColors.selectionHighlight,
 			"editorGroup.dropBackground":
-				editorTheme.selectionBright + editorTheme.selectionTransparency,
-			"editorGroupHeader.tabsBackground": editorTheme.bgSideBar,
-			"editorInfo.foreground": editorTheme.info,
-			"editorWarning.foreground": editorTheme.warning,
-			"editorError.foreground": editorTheme.error,
+				editorColors.selectionBright +
+				editorColors.selectionTransparency,
+			"editorGroupHeader.tabsBackground": editorColors.bgSideBar,
+			"editorInfo.foreground": editorColors.info,
+			"editorWarning.foreground": editorColors.warning,
+			"editorError.foreground": editorColors.error,
 
 			// Gutter
 			"editorLineNumber.activeForeground": "#D8DEE9",
-			"editorLineNumber.foreground": editorTheme.fgDisabled,
-			"editorLightBulb.foreground": editorTheme.lightbulb,
-			"editorGutter.modifiedBackground": editorTheme.modifiedGutter,
-			"editorGutter.addedBackground": editorTheme.modified,
-			"editorGutter.deletedBackground": editorTheme.deleted,
-			"editorGutter.commentRangeForeground": calmColors.comment,
+			"editorLineNumber.foreground": editorColors.fgDisabled,
+			"editorLightBulb.foreground": editorColors.lightbulb,
+			"editorGutter.modifiedBackground": editorColors.modifiedGutter,
+			"editorGutter.addedBackground": editorColors.modified,
+			"editorGutter.deletedBackground": editorColors.deleted,
+			"editorGutter.commentRangeForeground": editorColors.ignored,
 
 			// Indents and whitespace
-			"editorIndentGuide.background": editorTheme.selectionNormal,
-			"editorIndentGuide.activeBackground": editorTheme.fg,
-			"editorWhitespace.foreground": calmColors.comment,
+			"editorIndentGuide.background": editorColors.selectionNormal,
+			"editorIndentGuide.activeBackground": editorColors.fg,
+			"editorWhitespace.foreground": editorColors.ignored,
 
 			// Hover widget
-			"editorHoverWidget.background": editorTheme.bgStatusBar,
-			"editorHoverWidget.border": editorTheme.bgEditor,
-			"editorHoverWidget.foreground": allBlueColors.operator,
+			"editorHoverWidget.background": editorColors.bgStatusBar,
+			"editorHoverWidget.border": editorColors.bgEditor,
+			"editorHoverWidget.foreground": editorColors.fgTertiary,
 
 			// Editor widget
-			"editorWidget.background": editorTheme.bgStatusBar,
-			"editorWidget.foreground": editorTheme.fg,
-			"editorWidget.resizeBorder": editorTheme.cursor,
+			"editorWidget.background": editorColors.bgStatusBar,
+			"editorWidget.foreground": editorColors.fg,
+			"editorWidget.resizeBorder": editorColors.cursor,
 
 			// Inlay hints
-			"editorInlayHint.background": editorTheme.bgStatusBar,
-			"editorInlayHint.foreground": editorTheme.fgSecondary,
-			"editorInlayHint.typeForeground": "#00BFFF",
+			"editorInlayHint.background": editorColors.bgStatusBar,
+			"editorInlayHint.foreground": editorColors.fgSecondary,
+			"editorInlayHint.typeForeground": editorColors.fgTertiary,
 			"editorInlayHint.parameterForeground": allBlueColors.tag,
 
 			// Bracket highlight
@@ -76,8 +77,8 @@ export function createEditorTemplate(theme: Themes) {
 			"editorBracketHighlight.foreground5": syntax.bracket5,
 			"editorBracketHighlight.foreground6": syntax.bracket6,
 			"editorBracketHighlight.unexpectedBracket.foreground":
-				editorTheme.error,
-			"editorBracketMatch.background": editorTheme.selectionHighlight,
+				editorColors.error,
+			"editorBracketMatch.background": editorColors.selectionHighlight,
 			"editorBracketMatch.border": syntax.operator,
 		},
 	};
