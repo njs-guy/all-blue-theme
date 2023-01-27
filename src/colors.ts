@@ -167,10 +167,12 @@ export const calmColors: SyntaxColors = {
 	bracket6: calmGeneric.green,
 };
 
+// Editor generic colors
+
 export const editorTheme: EditorColors = {
 	fg: "#63C5DA",
 	fgSecondary: "#eceff4",
-	fgDisabled: "#006680",
+	fgDisabled: calmColors.comment,
 	bgEditor: "#002540",
 	bgSideBar: "#002138",
 	bgStatusBar: "#001E33",

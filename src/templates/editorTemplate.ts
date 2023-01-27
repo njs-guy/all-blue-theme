@@ -1,6 +1,6 @@
 // Template for creating the editor portion of the theme
 
-import { Themes, editorTheme } from "../colors";
+import { Themes, calmColors, allBlueColors, editorTheme } from "../colors";
 import { checkTheme } from "./checkTheme";
 
 export function createEditorTemplate(theme: Themes) {
@@ -37,6 +37,36 @@ export function createEditorTemplate(theme: Themes) {
 			"editorInfo.foreground": editorTheme.info,
 			"editorWarning.foreground": editorTheme.warning,
 			"editorError.foreground": editorTheme.error,
+
+			// Gutter
+			"editorLineNumber.activeForeground": "#D8DEE9",
+			"editorLineNumber.foreground": editorTheme.fgDisabled,
+			"editorLightBulb.foreground": editorTheme.lightbulb,
+			"editorGutter.modifiedBackground": editorTheme.modifiedGutter,
+			"editorGutter.addedBackground": editorTheme.modified,
+			"editorGutter.deletedBackground": editorTheme.deleted,
+			"editorGutter.commentRangeForeground": calmColors.comment,
+
+			// Indents and whitespace
+			"editorIndentGuide.background": editorTheme.selectionNormal,
+			"editorIndentGuide.activeBackground": editorTheme.fg,
+			"editorWhitespace.foreground": calmColors.comment,
+
+			// Hover widget
+			"editorHoverWidget.background": editorTheme.bgStatusBar,
+			"editorHoverWidget.border": editorTheme.bgEditor,
+			"editorHoverWidget.foreground": allBlueColors.operator,
+
+			// Editor widget
+			"editorWidget.background": editorTheme.bgStatusBar,
+			"editorWidget.foreground": editorTheme.fg,
+			"editorWidget.resizeBorder": editorTheme.cursor,
+
+			// Inlay hints
+			"editorInlayHint.background": editorTheme.bgStatusBar,
+			"editorInlayHint.foreground": editorTheme.fgSecondary,
+			"editorInlayHint.typeForeground": "#00BFFF",
+			"editorInlayHint.parameterForeground": allBlueColors.tag,
 
 			// Bracket highlight
 			"editorBracketHighlight.foreground1": syntax.bracket1,
