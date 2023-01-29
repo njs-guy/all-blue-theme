@@ -200,6 +200,8 @@ const editorColorsGeneric = {
 	selectionHighlightBorder: allBlueColors.operator,
 	selectionHighlightStrongBorder: allBlueColors.type,
 	linkEditor: allBlueColors.tag,
+	linkText: allBlueColors.string,
+	textPreformat: calmGeneric.blue,
 };
 
 export const editorColors = {
@@ -224,7 +226,6 @@ export const editorColors = {
 	selectionHighlightBorder: editorColorsGeneric.selectionHighlightBorder,
 	selectionHighlightStrongBorder:
 		editorColorsGeneric.selectionHighlightStrongBorder,
-	linkEditor: editorColorsGeneric.linkEditor,
 	info: editorColorsGeneric.info,
 	warning: editorColorsGeneric.warning,
 	error: editorColorsGeneric.error,
@@ -239,4 +240,7 @@ export const editorColors = {
 	lineNumberActiveFg: editorColorsGeneric.fgTertiary,
 	inlayHintParameterFg: allBlueColors.tag,
 	peekPreviewTitle: allBlueColors.comment,
+	linkEditor: editorColorsGeneric.linkEditor,
+	linkText: editorColorsGeneric.linkText,
+	textPreformat: editorColorsGeneric.textPreformat,
 };

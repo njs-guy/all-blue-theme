@@ -183,6 +183,120 @@ export function createEditorTemplate(theme: Themes) {
 			"gitDecoration.stageModifiedResourceForeground":
 				editorColors.staged,
 
+			// Settings
+			"settings.textInputBackground": editorColors.bgStatusBar,
+			"settings.textInputForeground": editorColors.fg,
+			"settings.textInputBorder": editorColors.bgCurrentLine,
+			"settings.numberInputBackground": editorColors.bgStatusBar,
+			"settings.numberInputForeground": editorColors.fg,
+			"settings.numberInputBorder": editorColors.bgCurrentLine,
+			"settings.checkboxBackground": editorColors.bgStatusBar,
+			"settings.checkboxForeground": editorColors.fg,
+			"settings.checkboxBorder": editorColors.bgCurrentLine,
+			"settings.dropdownBackground": editorColors.bgStatusBar,
+			"settings.dropdownForeground": editorColors.fg,
+			"settings.dropdownBorder": editorColors.bgCurrentLine,
+			"settings.dropdownListBorder": editorColors.bgCurrentLine,
+			"settings.sashBorder": editorColors.ignored,
+			"settings.headerBorder": editorColors.ignored,
+			"settings.headerForeground": editorColors.fgSecondary,
+			"settings.modifiedItemIndicator": editorColors.cursor,
+			"settings.rowHoverBackground": editorColors.bgSideBar,
+
+			// Text
+			"foreground": editorColors.fg,
+			"descriptionForeground": editorColors.fg,
+			"icon.foreground": editorColors.fg,
+			"textBlockQuote.background": editorColors.bgStatusBar,
+			"textBlockQuote.border": editorColors.cursor,
+			"textCodeBlock.background": editorColors.bgStatusBar,
+			"textLink.foreground": editorColors.cursor,
+			"textLink.activeForeground": editorColors.linkText,
+			"textPreformat.foreground": editorColors.textPreformat,
+			"textSeparator.foreground": editorColors.ignored,
+
+			// Extensions
+			"extensionIcon.verifiedForeground": editorColors.cursor,
+			"extensionButton.background": editorColors.selectionBright,
+			"extensionButton.foreground": editorColors.fgSecondary,
+			"extensionButton.separator": editorColors.fg,
+
+			// Welcome page and walkthrough
+			"welcomePage.tileBackground": editorColors.bgStatusBar,
+			"welcomePage.tileHoverBackground": editorColors.selectionNormal,
+			"welcomePage.progress.foreground": editorColors.cursor,
+			"walkthrough.stepTitle.foreground": editorColors.fg,
+			"walkThrough.embeddedEditorBackground": editorColors.bgStatusBar,
+
+			// Command Center
+			"commandCenter.foreground": editorColors.fg,
+			"commandCenter.background": editorColors.bgStatusBar,
+			"commandCenter.inactiveBorder": editorColors.bgCurrentLine,
+			"commandCenter.activeBackground": editorColors.selectionNormal,
+			"commandCenter.activeBorder": editorColors.selectionNormal,
+			"commandCenter.activeForeground": editorColors.linkText,
+
+			// Badges
+			"badge.background": editorColors.badges,
+			"badge.foreground": "#ffffff",
+
+			// Input
+			"input.background": editorColors.bgStatusBar,
+			"input.border": editorColors.bgCurrentLine,
+			"input.foreground": editorColors.fg,
+			"input.placeholderForeground": editorColors.ignored,
+			"button.background": editorColors.selectionBright,
+			"button.foreground": editorColors.fgSecondary,
+			"button.separator": editorColors.fg,
+			"dropdown.background": editorColors.bgStatusBar,
+			"dropdown.foreground": editorColors.fg,
+			"selection.background": editorColors.selectionBright,
+
+			// Quick input
+			"quickInput.background": editorColors.bgSideBar,
+			"quickInput.foreground": editorColors.fg,
+			"quickInputList.focusBackground": editorColors.selectionNormal,
+			"quickInputList.focusForeground": editorColors.fgSecondary,
+			"quickInputList.focusIconForeground": editorColors.fgSecondary,
+			"quickInputTitle.background": editorColors.selectionNormal,
+
+			// Panel
+			"panel.border": editorColors.bgCurrentLine,
+			"panelTitle.activeForeground": editorColors.fgSecondary,
+			"panelTitle.inactiveForeground": editorColors.fg,
+			"panelSection.dropBackground":
+				editorColors.selectionBright +
+				editorColors.selectionTransparency,
+			"problemsInfoIcon.foreground": editorColors.info,
+			"problemsWarningIcon.foreground": editorColors.warning,
+			"problemsErrorIcon.foreground": editorColors.error,
+
+			// Terminal
+			"terminal.foreground": editorColors.fg,
+			"terminalCursor.foreground": editorColors.cursor,
+			"terminal.dropBackground":
+				editorColors.selectionBright +
+				editorColors.selectionTransparency,
+
+			// Debug tool bar
+			"debugToolBar.background": editorColors.selectionDim,
+			"debugIcon.stopForeground": editorColors.error,
+			"debugIcon.disconnectForeground": editorColors.error,
+			"debugIcon.restartForeground": editorColors.modified,
+			"debugIcon.pauseForeground": editorColors.fgFourth,
+			"debugIcon.continueForeground": editorColors.fgFourth,
+			"debugIcon.stepBackForeground": editorColors.fgFourth,
+			"debugIcon.stepIntoForeground": editorColors.fgFourth,
+			"debugIcon.stepOutForeground": editorColors.fgFourth,
+			"debugIcon.stepOverForeground": editorColors.fgFourth,
+			"debugIcon.startForeground": editorColors.fgFourth,
+			"debugIcon.breakpointForeground": editorColors.fgFourth,
+			"debugIcon.breakpointCurrentStackframeForeground":
+				editorColors.fgFourth,
+			"debugIcon.breakpointStackframeForeground": editorColors.fgFourth,
+			"debugIcon.breakpointUnverifiedForeground": editorColors.fgFourth,
+			"debugIcon.breakpointDisabledForeground": editorColors.ignored,
+
 			// Bracket highlight
 			"editorBracketHighlight.foreground1": syntax.bracket1,
 			"editorBracketHighlight.foreground2": syntax.bracket2,
