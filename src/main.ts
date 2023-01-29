@@ -30,7 +30,7 @@ function createJson() {
 
 		writeFile(outputDir + "/" + fileName, output, (err) => {
 			if (!err) {
-				console.log("Successfully wrote JSON files.");
+				console.log(`Successfully wrote ${fileName}.`);
 			} else {
 				console.log(err);
 			}
