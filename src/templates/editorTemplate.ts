@@ -45,8 +45,8 @@ export function createEditorTemplate(theme: Themes) {
 			"editorLineNumber.foreground": editorColors.fgDisabled,
 			"editorLightBulb.foreground": editorColors.lightbulb,
 			"editorGutter.modifiedBackground": editorColors.modifiedGutter,
-			"editorGutter.addedBackground": editorColors.modified,
-			"editorGutter.deletedBackground": editorColors.deleted,
+			"editorGutter.addedBackground": editorColors.addedGutter,
+			"editorGutter.deletedBackground": editorColors.deletedGutter,
 			"editorGutter.commentRangeForeground": editorColors.ignored,
 
 			// Indents and whitespace
@@ -73,8 +73,8 @@ export function createEditorTemplate(theme: Themes) {
 
 			// Breadcrumbs
 			"breadcrumb.foreground": editorColors.fg,
-			"breadcrumb.activeSelectionForeground": editorColors.fgSecondary,
-			"breadcrumb.focusForeground": editorColors.fgTertiary,
+			"breadcrumb.focusForeground": "#ffffff",
+			"breadcrumb.activeSelectionForeground": "#ffffff",
 			"breadcrumbPicker.background": editorColors.bgStatusBar,
 
 			// Peek view
@@ -153,9 +153,9 @@ export function createEditorTemplate(theme: Themes) {
 			// Minimap
 			"minimap.warningHighlight": editorColors.warning,
 			"minimap.errorHighlight": editorColors.error,
-			"minimapGutter.addedBackground": editorColors.added,
-			"minimapGutter.deletedBackground": editorColors.deleted,
-			"minimapGutter.modifiedBackground": editorColors.modified,
+			"minimapGutter.addedBackground": editorColors.addedGutter,
+			"minimapGutter.deletedBackground": editorColors.deletedGutter,
+			"minimapGutter.modifiedBackground": editorColors.modifiedGutter,
 
 			// Lists
 			"list.hoverBackground": editorColors.bgStatusBar,
@@ -282,7 +282,7 @@ export function createEditorTemplate(theme: Themes) {
 			"debugToolBar.background": editorColors.selectionDim,
 			"debugIcon.stopForeground": editorColors.error,
 			"debugIcon.disconnectForeground": editorColors.error,
-			"debugIcon.restartForeground": editorColors.modified,
+			"debugIcon.restartForeground": editorColors.added,
 			"debugIcon.pauseForeground": editorColors.fgFourth,
 			"debugIcon.continueForeground": editorColors.fgFourth,
 			"debugIcon.stepBackForeground": editorColors.fgFourth,

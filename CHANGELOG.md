@@ -2,6 +2,13 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
+## v1.1.0
+
+- The themes are now generated through TypeScript instead of
+being manually edited by hand.
+    - This brings a lot more consistency and fixes a lot of minor issues.
+    - Also it's way less annoying to make changes. (The important part.)
+
 ## v1.0.2
 
 - Improved editor word highlighting.

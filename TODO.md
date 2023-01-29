@@ -6,6 +6,8 @@
 
 ## v1.1
 
-- [ ] Generate json files from scripts
-- [ ] JS constants = component or tag color (idk yet)
+- [x] Generate json files from scripts
+- [ ] Rework selection highlighting
+- [ ] Change escape chars to function color
+- [ ] Change JS constants to component color
 - [ ] Terminal colors
