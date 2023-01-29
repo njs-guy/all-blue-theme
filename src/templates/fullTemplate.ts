@@ -1,5 +1,6 @@
-// Takes templates from syntaxTemplate and editorTemplate
-// and combines them into one template.
+// Takes templates from syntaxTemplate and editorTemplate,
+// combines them into one template,
+// and then returns it as a JSON string.
 
 import { Themes } from "../colors";
 import { createEditorTemplate } from "./editorTemplate";

@@ -11,3 +11,4 @@
 - [ ] Change escape chars to function color
 - [ ] Change JS constants to component color
 - [ ] Terminal colors
+- [ ] Color palette image for the docs.

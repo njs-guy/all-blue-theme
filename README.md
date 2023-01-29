@@ -41,10 +41,15 @@ git clone https://github.com/njshockey/all-blue-demo.git
 ## Building
 
 1. Clone this repo. Usually with `git clone https://github.com/njshockey/all-blue-theme.git`.
-2. Open this repo in [VS Code](https://code.visualstudio.com/) and press F5.
-   Make changes in `themes/all-blue-color-theme.json`.
-    - Optional: run `yarn` to install prettier locally or you can install the
-    recommended extension instead.
+2. Run `yarn` to download the necessary NPM packages.
+3. Open this repo in [VS Code](https://code.visualstudio.com/).
+   - Make changes to the base colors in `./src/colors`.
+   - Make changes to the templates in `./src/templates/editorTemplate.ts`
+and `./src/templates/syntaxTemplate.ts`.
+4. Run `yarn build-themes` to generate the JSON theme files
+and press F5 to test changes.
+    - Run `yarn build-themes-ugly` to build the themes without Prettier.
+This should save you a few seconds.
 
 ## Image credit
 

@@ -32,7 +32,7 @@ function createJson() {
 			if (!err) {
 				console.log(`Successfully wrote ${fileName}.`);
 			} else {
-				console.log(err);
+				console.error(err);
 			}
 		});
 	}

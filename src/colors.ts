@@ -57,38 +57,6 @@ interface SyntaxColorsGeneric {
 
 // TerminalColors
 
-// interface EditorColors {
-// 	fg: string;
-// 	fgSecondary: string;
-// 	fgDisabled: string;
-// 	bgEditor: string;
-// 	bgSideBar: string;
-// 	bgStatusBar: string;
-// 	bgLineHighlight: string;
-// 	cursor: string;
-// 	lightbulb: string;
-// 	badges: string;
-// 	selectionNormal: string;
-// 	selectionDim: string;
-// 	selectionBright: string;
-// 	selectionTransparency: string; // Hex transparency. Ex: "8e"
-// 	selectionHighlight: string; // Selection for word highlighting and find match
-// 	selectionHighlightBorder: string;
-// 	selectionHighlightStrongBorder: string;
-// 	linkEditor: string;
-// 	info: string;
-// 	warning: string;
-// 	error: string;
-// 	added: string;
-// 	modified: string;
-// 	deleted: string;
-// 	staged: string;
-// 	ignored: string;
-// 	addedGutter: string;
-// 	modifiedGutter: string;
-// 	deletedGutter: string;
-// }
-
 export const allBlueColors: SyntaxColors = {
 	comment: "#006680",
 	operator: "#00CCFF",

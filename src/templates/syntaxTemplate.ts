@@ -1,6 +1,6 @@
 // Template for creating the syntax highlighting portion of the theme
 
-import { editorColors, Themes } from "../colors";
+import { editorColors as eC, Themes } from "../colors";
 
 import { checkTheme } from "./checkTheme";
 
@@ -280,7 +280,7 @@ export function createSyntaxTemplate(theme: Themes) {
 					"source.postcss support.type.property-name",
 				],
 				settings: {
-					foreground: editorColors.fg,
+					foreground: eC.fg,
 				},
 			},
 			{
@@ -313,28 +313,28 @@ export function createSyntaxTemplate(theme: Themes) {
 				name: "Invalid",
 				scope: ["invalid", "invalid.illegal"],
 				settings: {
-					foreground: editorColors.error,
+					foreground: eC.error,
 				},
 			},
 			{
 				name: "Inserted",
 				scope: ["markup.inserted"],
 				settings: {
-					foreground: editorColors.staged,
+					foreground: eC.staged,
 				},
 			},
 			{
 				name: "Deleted",
 				scope: ["markup.deleted"],
 				settings: {
-					foreground: editorColors.deleted,
+					foreground: eC.deleted,
 				},
 			},
 			{
 				name: "Changed",
 				scope: ["markup.changed"],
 				settings: {
-					foreground: editorColors.modified,
+					foreground: eC.modified,
 				},
 			},
 			{
@@ -378,7 +378,7 @@ export function createSyntaxTemplate(theme: Themes) {
 					"punctuation.definition.list_item.markdown",
 				],
 				settings: {
-					foreground: editorColors.fg,
+					foreground: eC.fg,
 				},
 			},
 			{
@@ -476,7 +476,7 @@ export function createSyntaxTemplate(theme: Themes) {
 				scope: ["meta.separator"],
 				settings: {
 					fontStyle: "bold",
-					foreground: editorColors.fgSecondary,
+					foreground: eC.fgSecondary,
 				},
 			},
 
@@ -538,7 +538,7 @@ export function createSyntaxTemplate(theme: Themes) {
 				name: "Markup - Table",
 				scope: ["markup.table"],
 				settings: {
-					foreground: editorColors.fg,
+					foreground: eC.fg,
 				},
 			},
 		],
