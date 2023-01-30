@@ -16,16 +16,14 @@ export function createEditorTemplate(theme: Themes) {
 			"editor.foldBackground": eC.bgEditor,
 			"editorCursor.foreground": eC.cursor,
 			"editor.selectionBackground": eC.selectionBright,
-			"editor.selectionHighlightBorder": eC.selectionHighlightBorder,
 			"editor.wordHighlightBackground": eC.selectionHighlight,
-			"editor.wordHighlightBorder": eC.selectionHighlightBorder,
 			"editor.wordHighlightStrongBackground": eC.selectionHighlight,
 			"editor.wordHighlightStrongBorder":
 				eC.selectionHighlightStrongBorder,
 			"editor.findMatchBackground": eC.selectionHighlight,
 			"editor.findMatchBorder": eC.selectionHighlightBorder,
 			"editor.findMatchHighlightBackground": eC.selectionHighlight,
-			"editor.hoverHighlightBackground": eC.selectionDim,
+			"editor.hoverHighlightBackground": eC.selectionHighlight,
 			"editorLink.activeForeground": eC.linkEditor,
 			"editor.rangeHighlightBackground": eC.selectionHighlight,
 			"editorGroup.dropBackground":
@@ -289,7 +287,7 @@ export function createEditorTemplate(theme: Themes) {
 			"editorBracketHighlight.foreground6": syntax.bracket6,
 			"editorBracketHighlight.unexpectedBracket.foreground": eC.error,
 			"editorBracketMatch.background": eC.selectionHighlight,
-			"editorBracketMatch.border": syntax.operator,
+			"editorBracketMatch.border": eC.transparent,
 		},
 	};
 

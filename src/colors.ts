@@ -163,8 +163,9 @@ const editorColorsGeneric = {
 	selectionNormal: "#003459",
 	selectionDim: "#002E4F",
 	selectionBright: "#003A63",
+	selectionVeryBright: "#00528C",
 	selectionTransparency: "8e", // Hex transparency. Ex: "8e"
-	selectionHighlight: "#004170", // Selection for word highlighting and find match
+	// selectionHighlight:  // Selection for word highlighting and find match
 	selectionHighlightBorder: allBlueColors.operator,
 	selectionHighlightStrongBorder: allBlueColors.type,
 	linkEditor: allBlueColors.tag,
@@ -189,8 +190,11 @@ export const editorColors = {
 	selectionNormal: editorColorsGeneric.selectionNormal,
 	selectionDim: editorColorsGeneric.selectionDim,
 	selectionBright: editorColorsGeneric.selectionBright,
+	selectionVeryBright: editorColorsGeneric.selectionVeryBright,
 	selectionTransparency: editorColorsGeneric.selectionTransparency,
-	selectionHighlight: editorColorsGeneric.selectionHighlight,
+	selectionHighlight:
+		editorColorsGeneric.selectionVeryBright +
+		editorColorsGeneric.selectionTransparency,
 	selectionHighlightBorder: editorColorsGeneric.selectionHighlightBorder,
 	selectionHighlightStrongBorder:
 		editorColorsGeneric.selectionHighlightStrongBorder,

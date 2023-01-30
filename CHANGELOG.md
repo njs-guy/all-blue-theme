@@ -8,6 +8,7 @@ For the source of each release, see [releases](https://github.com/njshockey/all-
 being manually edited by hand.
     - This brings a lot more consistency and fixes a lot of minor issues.
     - Also it's way less annoying to make changes. (The important part.)
+- Reworked selection highlighting.
 - Escape characters now use the function color.
 - JS Constants and Objects now use the regex color.
 
