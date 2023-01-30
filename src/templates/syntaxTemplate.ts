@@ -348,7 +348,7 @@ export function createSyntaxTemplate(theme: Themes) {
 				name: "Escape Characters",
 				scope: ["constant.character.escape"],
 				settings: {
-					foreground: colors.tag,
+					foreground: colors.function,
 				},
 			},
 			{
