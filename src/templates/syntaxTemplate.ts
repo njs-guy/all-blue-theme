@@ -93,6 +93,20 @@ export function createSyntaxTemplate(theme: Themes) {
 					foreground: colors.variable,
 				},
 			},
+			{
+				name: "JS Constants",
+				scope: ["variable.other.constant"],
+				settings: {
+					foreground: colors.component,
+				},
+			},
+			{
+				name: "Objects",
+				scope: ["variable.other.object"],
+				settings: {
+					foreground: colors.component,
+				},
+			},
 
 			// Booleans, numbers, null, this
 			{
