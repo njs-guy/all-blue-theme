@@ -40,25 +40,25 @@ export function createEditorTemplate(theme: Themes) {
 			"editorGutter.modifiedBackground": eC.modifiedGutter,
 			"editorGutter.addedBackground": eC.addedGutter,
 			"editorGutter.deletedBackground": eC.deletedGutter,
-			"editorGutter.commentRangeForeground": eC.ignored,
+			"editorGutter.commentRangeForeground": eC.fgDisabled,
 
 			// Indents and whitespace
 			"editorIndentGuide.background": eC.selectionNormal,
 			"editorIndentGuide.activeBackground": eC.fg,
-			"editorWhitespace.foreground": eC.ignored,
+			"editorWhitespace.foreground": eC.fgDisabled,
 
 			// Hover widget
-			"editorHoverWidget.background": eC.bgStatusBar,
-			"editorHoverWidget.border": eC.bgEditor,
+			"editorHoverWidget.background": eC.bgSideBar,
+			"editorHoverWidget.border": eC.borderDim,
 			"editorHoverWidget.foreground": eC.fgFourth,
 
 			// Editor widget
-			"editorWidget.background": eC.bgStatusBar,
+			"editorWidget.background": eC.bgSideBar,
 			"editorWidget.foreground": eC.fg,
-			"editorWidget.resizeBorder": eC.cursor,
+			"editorWidget.resizeBorder": eC.borderBright,
 
 			// Inlay hints
-			"editorInlayHint.background": eC.bgStatusBar,
+			"editorInlayHint.background": eC.bgSideBar,
 			"editorInlayHint.foreground": eC.fgSecondary,
 			"editorInlayHint.typeForeground": eC.fgFourth,
 			"editorInlayHint.parameterForeground": eC.inlayHintParameterFg,
@@ -67,11 +67,11 @@ export function createEditorTemplate(theme: Themes) {
 			"breadcrumb.foreground": eC.fg,
 			"breadcrumb.focusForeground": "#ffffff",
 			"breadcrumb.activeSelectionForeground": "#ffffff",
-			"breadcrumbPicker.background": eC.bgStatusBar,
+			"breadcrumbPicker.background": eC.bgSideBar,
 
 			// Peek view
-			"peekView.border": eC.bgStatusBar,
-			"peekViewEditor.background": eC.bgStatusBar,
+			"peekView.border": eC.borderDim,
+			"peekViewEditor.background": eC.bgSideBar,
 			"peekViewEditor.matchHighlightBackground": eC.selectionBright,
 			"peekViewResult.background": eC.bgSideBar,
 			"peekViewResult.fileForeground": eC.fg,
@@ -85,9 +85,9 @@ export function createEditorTemplate(theme: Themes) {
 			"sideBar.foreground": eC.fg,
 			"sideBar.dropBackground":
 				eC.selectionBright + eC.selectionTransparency,
-			"sideBarSectionHeader.background": eC.bgStatusBar,
-			"sash.hoverBorder": eC.cursor,
-			"focusBorder": eC.selectionNormal,
+			"sideBarSectionHeader.background": eC.bgEditor,
+			"sash.hoverBorder": eC.borderBright,
+			"focusBorder": eC.borderDim,
 
 			// Activity bar
 			"activityBarBadge.background": eC.badges,
@@ -118,7 +118,7 @@ export function createEditorTemplate(theme: Themes) {
 
 			// Title bar
 			"titleBar.activeBackground": eC.bgSideBar,
-			"titleBar.inactiveBackground": eC.bgStatusBar,
+			"titleBar.inactiveBackground": eC.bgEditor,
 			"titleBar.activeForeground": eC.fg,
 			"titleBar.inactiveForeground": eC.fgDisabled,
 
@@ -128,10 +128,11 @@ export function createEditorTemplate(theme: Themes) {
 			"tab.activeForeground": eC.fgSecondary,
 			"tab.border": eC.transparent,
 			"tab.activeBorder": eC.fgFourth,
-			"tab.activeModifiedBorder": eC.badges,
-			"tab.inactiveModifiedBorder": eC.badges,
+			"tab.activeModifiedBorder": eC.borderBright,
+			"tab.inactiveModifiedBorder": eC.borderBright,
 
 			// Scrollbar slider
+			"editorOverviewRuler.border": eC.borderDim,
 			"scrollbarSlider.background":
 				eC.selectionBright + eC.selectionTransparency,
 			"scrollbarSlider.hoverBackground":
@@ -142,6 +143,8 @@ export function createEditorTemplate(theme: Themes) {
 			// Minimap
 			"minimap.warningHighlight": eC.warning,
 			"minimap.errorHighlight": eC.error,
+			"minimap.findMatchHighlight": eC.selectionHighlight,
+			"minimap.selectionOccurrenceHighlight": eC.selectionHighlight,
 			"minimapGutter.addedBackground": eC.addedGutter,
 			"minimapGutter.deletedBackground": eC.deletedGutter,
 			"minimapGutter.modifiedBackground": eC.modifiedGutter,
@@ -170,21 +173,21 @@ export function createEditorTemplate(theme: Themes) {
 			"gitDecoration.stageModifiedResourceForeground": eC.staged,
 
 			// Settings
-			"settings.textInputBackground": eC.bgStatusBar,
+			"settings.textInputBackground": eC.bgSideBar,
 			"settings.textInputForeground": eC.fg,
-			"settings.textInputBorder": eC.bgCurrentLine,
-			"settings.numberInputBackground": eC.bgStatusBar,
+			"settings.textInputBorder": eC.borderDim,
+			"settings.numberInputBackground": eC.bgSideBar,
 			"settings.numberInputForeground": eC.fg,
-			"settings.numberInputBorder": eC.bgCurrentLine,
-			"settings.checkboxBackground": eC.bgStatusBar,
+			"settings.numberInputBorder": eC.borderDim,
+			"settings.checkboxBackground": eC.bgSideBar,
 			"settings.checkboxForeground": eC.fg,
-			"settings.checkboxBorder": eC.bgCurrentLine,
-			"settings.dropdownBackground": eC.bgStatusBar,
+			"settings.checkboxBorder": eC.borderDim,
+			"settings.dropdownBackground": eC.bgSideBar,
 			"settings.dropdownForeground": eC.fg,
-			"settings.dropdownBorder": eC.bgCurrentLine,
-			"settings.dropdownListBorder": eC.bgCurrentLine,
-			"settings.sashBorder": eC.ignored,
-			"settings.headerBorder": eC.ignored,
+			"settings.dropdownBorder": eC.borderDim,
+			"settings.dropdownListBorder": eC.borderDim,
+			"settings.sashBorder": eC.borderDim,
+			"settings.headerBorder": eC.borderDim,
 			"settings.headerForeground": eC.fgSecondary,
 			"settings.modifiedItemIndicator": eC.cursor,
 			"settings.rowHoverBackground": eC.bgSideBar,
@@ -193,33 +196,33 @@ export function createEditorTemplate(theme: Themes) {
 			"foreground": eC.fg,
 			"descriptionForeground": eC.fg,
 			"icon.foreground": eC.fg,
-			"textBlockQuote.background": eC.bgStatusBar,
-			"textBlockQuote.border": eC.cursor,
-			"textCodeBlock.background": eC.bgStatusBar,
+			"textBlockQuote.background": eC.bgSideBar,
+			"textBlockQuote.border": eC.borderBright,
+			"textCodeBlock.background": eC.bgSideBar,
 			"textLink.foreground": eC.cursor,
 			"textLink.activeForeground": eC.linkText,
 			"textPreformat.foreground": eC.textPreformat,
-			"textSeparator.foreground": eC.ignored,
+			"textSeparator.foreground": eC.fgDisabled,
 
 			// Extensions
 			"extensionIcon.verifiedForeground": eC.cursor,
 			"extensionButton.background": eC.selectionBright,
 			"extensionButton.foreground": eC.fgSecondary,
-			"extensionButton.separator": eC.fg,
+			"extensionButton.separator": eC.fgDisabled,
 
 			// Welcome page and walkthrough
-			"welcomePage.tileBackground": eC.bgStatusBar,
+			"welcomePage.tileBackground": eC.bgSideBar,
 			"welcomePage.tileHoverBackground": eC.selectionNormal,
 			"welcomePage.progress.foreground": eC.cursor,
 			"walkthrough.stepTitle.foreground": eC.fg,
-			"walkThrough.embeddedEditorBackground": eC.bgStatusBar,
+			"walkThrough.embeddedEditorBackground": eC.bgSideBar,
 
 			// Command Center
 			"commandCenter.foreground": eC.fg,
-			"commandCenter.background": eC.bgStatusBar,
-			"commandCenter.inactiveBorder": eC.bgCurrentLine,
+			"commandCenter.background": eC.bgSideBar,
+			"commandCenter.inactiveBorder": eC.borderInactive,
 			"commandCenter.activeBackground": eC.selectionNormal,
-			"commandCenter.activeBorder": eC.selectionNormal,
+			"commandCenter.activeBorder": eC.borderDim,
 			"commandCenter.activeForeground": eC.linkText,
 
 			// Badges
@@ -227,14 +230,14 @@ export function createEditorTemplate(theme: Themes) {
 			"badge.foreground": "#ffffff",
 
 			// Input
-			"input.background": eC.bgStatusBar,
-			"input.border": eC.bgCurrentLine,
+			"input.background": eC.bgSideBar,
+			"input.border": eC.borderInactive,
 			"input.foreground": eC.fg,
-			"input.placeholderForeground": eC.ignored,
+			"input.placeholderForeground": eC.fgDisabled,
 			"button.background": eC.selectionBright,
 			"button.foreground": eC.fgSecondary,
-			"button.separator": eC.fg,
-			"dropdown.background": eC.bgStatusBar,
+			"button.separator": eC.fgDisabled,
+			"dropdown.background": eC.bgSideBar,
 			"dropdown.foreground": eC.fg,
 			"selection.background": eC.selectionBright,
 
@@ -247,7 +250,7 @@ export function createEditorTemplate(theme: Themes) {
 			"quickInputTitle.background": eC.selectionNormal,
 
 			// Panel
-			"panel.border": eC.bgCurrentLine,
+			"panel.border": eC.borderInactive,
 			"panelTitle.activeForeground": eC.fgSecondary,
 			"panelTitle.inactiveForeground": eC.fg,
 			"panelSection.dropBackground":
@@ -278,7 +281,7 @@ export function createEditorTemplate(theme: Themes) {
 			"debugIcon.breakpointCurrentStackframeForeground": eC.fgFourth,
 			"debugIcon.breakpointStackframeForeground": eC.fgFourth,
 			"debugIcon.breakpointUnverifiedForeground": eC.fgFourth,
-			"debugIcon.breakpointDisabledForeground": eC.ignored,
+			"debugIcon.breakpointDisabledForeground": eC.fgDisabled,
 
 			// Bracket highlight
 			"editorBracketHighlight.foreground1": syntax.bracket1,

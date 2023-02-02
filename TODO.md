@@ -18,5 +18,7 @@ is just confusing.
 - [ ] Change scrollbar border colors and split view separators.
 They look pretty out of place.
 - [ ] Maybe tweak Waves pink
+- [ ] Input validation colors
+- [ ] Keybinding labels
 - [ ] Terminal colors
 - [ ] Color palette image for the docs.
