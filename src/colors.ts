@@ -144,7 +144,7 @@ const editorColorsGeneric = {
 	bgEditor: "#002138",
 	bgSideBar: "#001E33",
 	bgStatusBar: "#002540",
-	bgCurrentLine: "#003154",
+	bgCurrentLine: "#002C4C",
 	transparent: "#00000000",
 	cursor: "#0094FF",
 	lightbulb: calmGeneric.yellow,

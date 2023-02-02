@@ -132,8 +132,7 @@ export function createEditorTemplate(theme: Themes) {
 			"tab.activeModifiedBorder": eC.borderBright,
 			"tab.inactiveModifiedBorder": eC.borderBright,
 
-			// Scrollbar slider
-			"editorOverviewRuler.border": eC.transparent,
+			// Scrollbar
 			"scrollbarSlider.background":
 				eC.selectionBright + eC.selectionTransparency,
 			"scrollbarSlider.hoverBackground":
@@ -141,9 +140,29 @@ export function createEditorTemplate(theme: Themes) {
 			"scrollbarSlider.activeBackground":
 				eC.modifiedGutter + eC.selectionTransparency,
 
+			// Editor overview ruler
+			"editorOverviewRuler.addedForeground": eC.addedGutter,
+			"editorOverviewRuler.modifiedForeground": eC.modifiedGutter,
+			"editorOverviewRuler.deletedForeground": eC.deletedGutter,
+			"editorOverviewRuler.errorForeground": eC.error,
+			"editorOverviewRuler.infoForeground": eC.info,
+			"editorOverviewRuler.warningForeground": eC.warning,
+			"editorOverviewRuler.bracketMatchForeground": eC.selectionHighlight,
+			"editorOverviewRuler.findMatchForeground": eC.selectionHighlight,
+			"editorOverviewRuler.rangeHighlightForeground":
+				eC.selectionHighlight,
+			"editorOverviewRuler.selectionHighlightForeground":
+				eC.selectionHighlight,
+			"editorOverviewRuler.wordHighlightForeground":
+				eC.selectionHighlight,
+			"editorOverviewRuler.wordHighlightStrongForeground":
+				eC.selectionHighlightStrongBorder,
+			"editorOverviewRuler.border": eC.transparent,
+
 			// Minimap
 			"minimap.warningHighlight": eC.warning,
 			"minimap.errorHighlight": eC.error,
+			"minimap.selectionHighlight": eC.selectionHighlight,
 			"minimap.findMatchHighlight": eC.selectionHighlight,
 			"minimap.selectionOccurrenceHighlight": eC.selectionHighlight,
 			"minimapGutter.addedBackground": eC.addedGutter,
