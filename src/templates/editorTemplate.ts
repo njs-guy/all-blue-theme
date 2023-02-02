@@ -29,6 +29,7 @@ export function createEditorTemplate(theme: Themes) {
 			"editorGroup.dropBackground":
 				eC.selectionBright + eC.selectionTransparency,
 			"editorGroupHeader.tabsBackground": eC.bgSideBar,
+			"editorGroup.border": eC.borderDim,
 			"editorInfo.foreground": eC.info,
 			"editorWarning.foreground": eC.warning,
 			"editorError.foreground": eC.error,
@@ -132,7 +133,7 @@ export function createEditorTemplate(theme: Themes) {
 			"tab.inactiveModifiedBorder": eC.borderBright,
 
 			// Scrollbar slider
-			"editorOverviewRuler.border": eC.borderDim,
+			"editorOverviewRuler.border": eC.transparent,
 			"scrollbarSlider.background":
 				eC.selectionBright + eC.selectionTransparency,
 			"scrollbarSlider.hoverBackground":

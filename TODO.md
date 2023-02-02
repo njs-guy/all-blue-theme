@@ -14,8 +14,8 @@
 With how it works now, the color changing for constants
 is just confusing.
 - [x] Change variable.other.property to tag color.
-- [ ] Change minimap find colors
-- [ ] Change scrollbar border colors and split view separators.
+- [x] Change minimap find colors
+- [x] Change scrollbar border colors and split view separators.
 They look pretty out of place.
 - [ ] Maybe tweak Waves pink
 - [ ] Input validation colors

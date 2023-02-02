@@ -121,10 +121,17 @@ export function createSyntaxTemplate(theme: Themes) {
 					"support.constant",
 					"constant.character",
 					"constant.escape",
-					"keyword.other",
 				],
 				settings: {
 					fontStyle: "italic",
+					foreground: colors.bool,
+				},
+			},
+			{
+				name: "Keyword other",
+				scope: ["keyword.other"],
+				settings: {
+					fontStyle: "",
 					foreground: colors.bool,
 				},
 			},
