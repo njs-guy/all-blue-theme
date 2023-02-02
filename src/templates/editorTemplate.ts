@@ -123,11 +123,13 @@ export function createEditorTemplate(theme: Themes) {
 			"titleBar.inactiveForeground": eC.fgDisabled,
 
 			// Tabs
-			"tab.inactiveBackground": eC.bgStatusBar,
+			"tab.inactiveBackground": eC.bgSideBar,
 			"tab.inactiveForeground": eC.fgDisabled,
 			"tab.activeForeground": eC.fgSecondary,
-			"tab.activeModifiedBorder": "#0086E6",
-			"tab.inactiveModifiedBorder": "#0086E6",
+			"tab.border": eC.transparent,
+			"tab.activeBorder": eC.fgFourth,
+			"tab.activeModifiedBorder": eC.badges,
+			"tab.inactiveModifiedBorder": eC.badges,
 
 			// Scrollbar slider
 			"scrollbarSlider.background":

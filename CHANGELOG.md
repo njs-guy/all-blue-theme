@@ -8,6 +8,11 @@ For the source of each release, see [releases](https://github.com/njshockey/all-
 being manually edited by hand.
     - This brings a lot more consistency and fixes a lot of minor issues.
     - Also it's way less annoying to make changes. (The important part.)
+- Swapped around editor background colors.
+    - Editor background:  #002540 -> #002138
+    - Side Bar background: #002138 -> #001E33
+    - Status Bar background: #001E33 -> #002540
+- Tabs now have a bottom border when active.
 - Reworked selection highlighting.
 - Escape characters now use the function color. (Blue in variants.)
 - JS Constants and Objects now use the regex color. (Green in variants.)

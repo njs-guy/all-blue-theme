@@ -6,10 +6,10 @@ These are the base colors for All Blue.
 
 | Property                  | Color   |
 | ------------------------- | ------- |
-| Editor background         | #002540 |
+| Editor background         | #002138 |
 | Editor foreground         | #63C5DA |
-| SideBar background        | #002138 |
-| StatusBar background      | #001E33 |
+| SideBar background        | #001E33 |
+| StatusBar background      | #002540 |
 | Line highlight background | #003154 |
 | Cursor                    | #0094FF |
 | Badges                    | #007FFF |
