@@ -19,6 +19,6 @@ is just confusing.
 They look pretty out of place.
 - [ ] Maybe tweak Waves pink
 - [ ] Input validation colors
-- [ ] Keybinding labels
+- [x] Keybinding labels
 - [ ] Terminal colors
 - [ ] Color palette image for the docs.

@@ -19,6 +19,7 @@ being manually edited by hand.
 - JS Constants and Objects now use the component color. (Green in variants.)
 - Tabs now have a bottom border when active.
 - Reworked selection highlighting.
+- Keybindings menu is now themed
 
 ## v1.0.2 (Jan. 25, 2023)
 

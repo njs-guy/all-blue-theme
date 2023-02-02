@@ -285,6 +285,13 @@ export function createEditorTemplate(theme: Themes) {
 			"terminal.dropBackground":
 				eC.selectionBright + eC.selectionTransparency,
 
+			// Keybindings
+			"keybindingLabel.foreground": eC.fg,
+			"keybindingLabel.background": eC.bgCurrentLine,
+			"keybindingLabel.border": eC.borderDim,
+			"keybindingTable.rowsBackground": eC.bgSideBar,
+			"keybindingTable.headerBackground": eC.bgCurrentLine,
+
 			// Debug tool bar
 			"debugToolBar.background": eC.selectionDim,
 			"debugIcon.stopForeground": eC.error,
