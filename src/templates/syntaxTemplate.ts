@@ -94,17 +94,21 @@ export function createSyntaxTemplate(theme: Themes) {
 				},
 			},
 			{
-				name: "JS Constants",
-				scope: ["variable.other.constant"],
+				name: "Objects",
+				scope: ["variable.other.object"],
 				settings: {
 					foreground: colors.component,
 				},
 			},
 			{
-				name: "Objects",
-				scope: ["variable.other.object"],
+				name: "Property",
+				scope: [
+					"variable.other.property",
+					"variable.other.object.property",
+				],
 				settings: {
-					foreground: colors.component,
+					fontStyle: "italic",
+					foreground: colors.tag,
 				},
 			},
 
@@ -120,6 +124,7 @@ export function createSyntaxTemplate(theme: Themes) {
 					"keyword.other",
 				],
 				settings: {
+					fontStyle: "italic",
 					foreground: colors.bool,
 				},
 			},
@@ -127,6 +132,7 @@ export function createSyntaxTemplate(theme: Themes) {
 				name: "Colors",
 				scope: ["constant.other.color"],
 				settings: {
+					fontStyle: "italic",
 					foreground: colors.bool,
 				},
 			},
