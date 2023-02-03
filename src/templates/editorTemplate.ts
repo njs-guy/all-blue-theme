@@ -95,7 +95,7 @@ export function createEditorTemplate(theme: Themes) {
 			"activityBarBadge.background": eC.badges,
 			"activityBarBadge.foreground": "#ffffff",
 			"activityBar.background": eC.bgSideBar,
-			"activityBar.foreground": eC.fg,
+			"activityBar.foreground": eC.fgFourth,
 
 			// Status bar
 			"statusBar.background": eC.bgStatusBar,
@@ -257,6 +257,15 @@ export function createEditorTemplate(theme: Themes) {
 			"input.border": eC.borderInactive,
 			"input.foreground": eC.fg,
 			"input.placeholderForeground": eC.fgDisabled,
+			"inputValidation.errorBackground": eC.bgEditor,
+			"inputValidation.errorForeground": eC.fg,
+			"inputValidation.errorBorder": eC.error,
+			"inputValidation.infoBackground": eC.bgEditor,
+			"inputValidation.infoForeground": eC.fg,
+			"inputValidation.infoBorder": eC.info,
+			"inputValidation.warningBackground": eC.bgEditor,
+			"inputValidation.warningForeground": eC.fg,
+			"inputValidation.warningBorder": eC.warning,
 			"button.background": eC.selectionBright,
 			"button.foreground": eC.fgSecondary,
 			"button.separator": eC.fgDisabled,
@@ -265,6 +274,8 @@ export function createEditorTemplate(theme: Themes) {
 			"selection.background": eC.selectionBright,
 
 			// Quick input
+			"pickerGroup.border": eC.borderDim,
+			"pickerGroup.foreground": syntax.operator,
 			"quickInput.background": eC.bgSideBar,
 			"quickInput.foreground": eC.fg,
 			"quickInputList.focusBackground": eC.selectionNormal,

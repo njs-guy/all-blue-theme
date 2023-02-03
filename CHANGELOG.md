@@ -15,6 +15,7 @@ being manually edited by hand.
     - Current line: #003154 -> #002C4C
 - Changed Waves pink: #FF80DD -> #F77FBE
 - Changed Calm yellow: #FFFC79 -> #FEF08A
+- Changed error/deleted color from Calm red to Waves red.
 - Booleans and numbers are now *italic*.
 - Properties now use the tag color. (Red in variants.)
 - Escape characters now use the function color. (Blue in variants.)

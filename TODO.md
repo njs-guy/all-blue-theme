@@ -20,7 +20,8 @@ They look pretty out of place.
 - [x] Maybe tweak Waves pink
 - [x] Maybe tweak Calm yellow
 - [x] Change menu separators
-- [ ] Input validation colors
+- [x] Input validation colors
 - [x] Keybinding labels
 - [ ] Terminal colors
 - [ ] Color palette image for the docs.
+- [ ] Update screenshots in readme
