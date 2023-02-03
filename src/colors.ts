@@ -55,8 +55,6 @@ interface SyntaxColorsGeneric {
 	beige: string;
 }
 
-// TerminalColors
-
 export const allBlueColors: SyntaxColors = {
 	comment: "#006680",
 	operator: "#00CCFF",
@@ -134,6 +132,8 @@ export const calmColors: SyntaxColors = {
 	bracket5: calmGeneric.blue,
 	bracket6: calmGeneric.green,
 };
+
+export const terminalColors = {};
 
 const editorColorsGeneric = {
 	fg: "#63C5DA",

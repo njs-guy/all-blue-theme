@@ -284,7 +284,7 @@ export function createEditorTemplate(theme: Themes) {
 			"quickInputTitle.background": eC.selectionNormal,
 
 			// Panel
-			"panel.border": eC.borderInactive,
+			"panel.border": eC.borderDim,
 			"panelTitle.activeForeground": eC.fgSecondary,
 			"panelTitle.inactiveForeground": eC.fg,
 			"panelSection.dropBackground":
@@ -298,6 +298,15 @@ export function createEditorTemplate(theme: Themes) {
 			"terminalCursor.foreground": eC.cursor,
 			"terminal.dropBackground":
 				eC.selectionBright + eC.selectionTransparency,
+			"terminal.selectionBackground": eC.selectionBright,
+			"terminal.findMatchBackground": eC.selectionHighlight,
+			"terminal.findMatchBorder": eC.selectionHighlightBorder,
+			"terminal.inactiveSelectionBackground": eC.selectionDim,
+			"terminalOverviewRuler.cursorForeground": eC.cursor,
+			"terminalOverviewRuler.findMatchForeground": eC.selectionHighlight,
+			"terminalCommandDecoration.defaultBackground": eC.fg,
+			"terminalCommandDecoration.successBackground": eC.info,
+			"terminalCommandDecoration.errorBackground": eC.error,
 
 			// Keybindings
 			"keybindingLabel.foreground": eC.fg,
