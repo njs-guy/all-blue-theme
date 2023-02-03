@@ -14,6 +14,7 @@ being manually edited by hand.
     - Status Bar background: #001E33 -> #002540
     - Current line: #003154 -> #002C4C
 - Changed Waves pink: #FF80DD -> #F77FBE
+- Changed Calm yellow: #FFFC79 -> #FEF08A
 - Booleans and numbers are now *italic*.
 - Properties now use the tag color. (Red in variants.)
 - Escape characters now use the function color. (Blue in variants.)

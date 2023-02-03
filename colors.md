@@ -31,7 +31,7 @@ These are the base colors for All Blue.
 | Untracked/Added | #50C878 |
 | Modified        | #85A1F2 |
 | Deleted         | #FF7566 |
-| Staged          | #FFFC79 |
+| Staged          | #FEF08A |
 | Ignored         | #006680 |
 
 #### Gutter
@@ -57,7 +57,7 @@ pastel colors for more of a smooth sailing vibe.
 | Operator, modifier, units                | #00CCFF  | #00CCFF | #8BC6FC |
 | Variables, CSS ID's                      | #85A1F2  | #FFAD00 | #FFAC40 |
 | Booleans, numbers, null, this            | #1974D2  | #F77FBE | #FC8EAC |
-| Types, attributes, classes               | #4F86F7  | #FFFD37 | #FFB7C5 |
+| Types, attributes, classes               | #4F86F7  | #FFFD37 | #FEF08A |
 | Functions, Pseudo-classes, esc chars     | #a5b4fc  | #079BF5 | #85A1F2 |
 | HTML tags                                | #0892D0  | #FF7566 | #F9968B |
 | Strings                                  | #AEC6CF  | #DBD59D | #D5C2A5 |

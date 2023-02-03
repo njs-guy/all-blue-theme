@@ -109,7 +109,7 @@ export const calmGeneric: SyntaxColorsGeneric = {
 	red: "#F9968B",
 	blue: "#85A1F2",
 	green: "#50C878",
-	yellow: "#FFFC79",
+	yellow: "#FEF08A",
 	orange: "#FFAC40",
 	pink: "#FC8EAC",
 	cyan: "#8BC6FC",

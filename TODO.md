@@ -13,12 +13,13 @@
     - Maybe make it more consistent in the future.
 With how it works now, the color changing for constants
 is just confusing.
-- [x] Change variable.other.property to tag color.
+- [ ] Change variable.other.property to operator color.
 - [x] Change minimap find colors
 - [x] Change scrollbar border colors and split view separators.
 They look pretty out of place.
 - [x] Maybe tweak Waves pink
-- [ ] Maybe tweak Calm yellow
+- [x] Maybe tweak Calm yellow
+- [ ] Change menu separators
 - [ ] Input validation colors
 - [x] Keybinding labels
 - [ ] Terminal colors
