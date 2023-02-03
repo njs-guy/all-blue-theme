@@ -108,7 +108,7 @@ export function createSyntaxTemplate(theme: Themes) {
 				],
 				settings: {
 					fontStyle: "italic",
-					foreground: colors.tag,
+					foreground: colors.operator,
 				},
 			},
 

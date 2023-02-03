@@ -112,11 +112,13 @@ export function createEditorTemplate(theme: Themes) {
 			"statusBarItem.focusBorder": eC.transparent,
 
 			// Menu
+			"menubar.selectionBackground": eC.selectionNormal,
+			"menubar.selectionForeground": eC.fgSecondary,
 			"menu.background": eC.bgEditor,
 			"menu.foreground": eC.fg,
 			"menu.selectionBackground": eC.selectionNormal,
 			"menu.selectionForeground": eC.fgSecondary,
-			"menu.separatorBackground": eC.fgDisabled,
+			"menu.separatorBackground": eC.borderDim,
 
 			// Title bar
 			"titleBar.activeBackground": eC.bgSideBar,
