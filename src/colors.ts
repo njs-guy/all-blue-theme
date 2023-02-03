@@ -81,7 +81,7 @@ export const wavesGeneric: SyntaxColorsGeneric = {
 	green: "#0BDA51",
 	yellow: "#FFFD37",
 	orange: "#FFAD00",
-	pink: "#FF80DD",
+	pink: "#F77FBE",
 	cyan: "#00CCFF",
 	grey: "#006680",
 	beige: "#DBD59D",
@@ -165,7 +165,6 @@ const editorColorsGeneric = {
 	selectionBright: "#003A63",
 	selectionVeryBright: "#00528C",
 	selectionTransparency: "8e", // Hex transparency. Ex: "8e"
-	// selectionHighlight:  // Selection for word highlighting and find match
 	selectionHighlightBorder: allBlueColors.operator,
 	selectionHighlightStrongBorder: allBlueColors.type,
 	linkEditor: allBlueColors.tag,
@@ -195,6 +194,7 @@ export const editorColors = {
 	selectionBright: editorColorsGeneric.selectionBright,
 	selectionVeryBright: editorColorsGeneric.selectionVeryBright,
 	selectionTransparency: editorColorsGeneric.selectionTransparency,
+	// Selection for word highlighting and find match
 	selectionHighlight:
 		editorColorsGeneric.selectionVeryBright +
 		editorColorsGeneric.selectionTransparency,

@@ -56,7 +56,7 @@ pastel colors for more of a smooth sailing vibe.
 | Comments                                 | #006680  | #006680 | #006680 |
 | Operator, modifier, units                | #00CCFF  | #00CCFF | #8BC6FC |
 | Variables, CSS ID's                      | #85A1F2  | #FFAD00 | #FFAC40 |
-| Booleans, numbers, null, this            | #1974D2  | #FF80DD | #FC8EAC |
+| Booleans, numbers, null, this            | #1974D2  | #F77FBE | #FC8EAC |
 | Types, attributes, classes               | #4F86F7  | #FFFD37 | #FFB7C5 |
 | Functions, Pseudo-classes, esc chars     | #a5b4fc  | #079BF5 | #85A1F2 |
 | HTML tags                                | #0892D0  | #FF7566 | #F9968B |

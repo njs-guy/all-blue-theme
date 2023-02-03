@@ -17,7 +17,8 @@ is just confusing.
 - [x] Change minimap find colors
 - [x] Change scrollbar border colors and split view separators.
 They look pretty out of place.
-- [ ] Maybe tweak Waves pink
+- [x] Maybe tweak Waves pink
+- [ ] Maybe tweak Calm yellow
 - [ ] Input validation colors
 - [x] Keybinding labels
 - [ ] Terminal colors

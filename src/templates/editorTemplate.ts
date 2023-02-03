@@ -10,6 +10,7 @@ export function createEditorTemplate(theme: Themes) {
 		name: "All Blue",
 		colors: {
 			// Editor
+			"errorForeground": eC.error,
 			"editor.background": eC.bgEditor,
 			"editor.foreground": eC.fg,
 			"editor.lineHighlightBackground": eC.bgCurrentLine,
