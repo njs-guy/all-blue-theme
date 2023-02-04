@@ -133,7 +133,24 @@ export const calmColors: SyntaxColors = {
 	bracket6: calmGeneric.green,
 };
 
-export const terminalColors = {};
+export const terminalColors = {
+	black: "#000000",
+	brightBlack: "#2E3440",
+	white: "#E5E9F0",
+	brightWhite: "#FFFFFF",
+	red: calmGeneric.red,
+	brightRed: wavesGeneric.red,
+	green: calmGeneric.green,
+	brightGreen: wavesGeneric.green,
+	blue: allBlueColors.type,
+	brightBlue: wavesGeneric.blue,
+	yellow: calmGeneric.yellow,
+	brightYellow: wavesGeneric.yellow,
+	cyan: allBlueColors.string,
+	brightCyan: wavesGeneric.cyan,
+	magenta: calmGeneric.pink,
+	brightMagenta: wavesGeneric.pink,
+};
 
 const editorColorsGeneric = {
 	fg: "#63C5DA",

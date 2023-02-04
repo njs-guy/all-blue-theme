@@ -4,23 +4,26 @@ These are the base colors for All Blue.
 
 ## Editor colors
 
-| Property                  | Color   |
-| ------------------------- | ------- |
-| Editor background         | #002138 |
-| Editor foreground         | #63C5DA |
-| SideBar background        | #001E33 |
-| StatusBar background      | #002540 |
-| Current line background   | #003154 |
-| Cursor                    | #0094FF |
-| Badges                    | #007FFF |
-| Foreground secondary      | #eceff4 |
-| Disabled foreground       | #006680 |
-| Selection Hover Normal    | #003459 |
-| Selection Hover Dim       | #002E4F |
-| Selection Hover Bright    | #003A63 |
-| Info squiggle             | #0086E6 |
-| Warning squiggle          | #FFAC40 |
-| Error squiggle            | #FF7566 |
+| Property                | Color   |
+| ----------------------- | ------- |
+| Editor foreground       | #63C5DA |
+| Foreground 2            | #ECEFF4 |
+| Foreground 3            | #D8DEE9 |
+| Foreground 4            | #00CCFF |
+| Foreground disabled     | #006680 |
+| Editor background       | #002138 |
+| SideBar background      | #001E33 |
+| StatusBar background    | #002540 |
+| Current line background | #002C4C |
+| Cursor                  | #0094FF |
+| Badges                  | #007FFF |
+| Selection Dim           | #002E4F |
+| Selection Normal        | #003459 |
+| Selection Bright        | #003A63 |
+| Selection Very Bright   | #00528C |
+| Info squiggle           | #079BF5 |
+| Warning squiggle        | #FFAC40 |
+| Error squiggle          | #FF7566 |
 
 ### Version control
 
@@ -29,7 +32,7 @@ These are the base colors for All Blue.
 | Property        | Color   |
 | --------------- | ------- |
 | Untracked/Added | #50C878 |
-| Modified        | #85A1F2 |
+| Modified        | #079BF5 |
 | Deleted         | #FF7566 |
 | Staged          | #FEF08A |
 | Ignored         | #006680 |

@@ -52,7 +52,8 @@
 	"scripts": {
 		"build-themes": "ts-node src/main.ts && prettier --write themes/**/*.json",
 		"build-themes-ugly": "ts-node src/main.ts",
-		"build-ext": "vsce package"
+		"build-ext": "vsce package",
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.18",

@@ -22,6 +22,7 @@ They look pretty out of place.
 - [x] Change menu separators
 - [x] Input validation colors
 - [x] Keybinding labels
-- [ ] Terminal colors
+- [x] Terminal colors
+- [ ] Proper default theme generics
 - [ ] Color palette image for the docs.
 - [ ] Update screenshots in readme

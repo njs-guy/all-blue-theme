@@ -1,6 +1,10 @@
 // Template for creating the editor portion of the theme
 
-import { Themes, editorColors as eC } from "../colors";
+import {
+	Themes,
+	editorColors as eC,
+	terminalColors as terminal,
+} from "../colors";
 import { checkTheme } from "./checkTheme";
 
 export function createEditorTemplate(theme: Themes) {
@@ -307,6 +311,24 @@ export function createEditorTemplate(theme: Themes) {
 			"terminalCommandDecoration.defaultBackground": eC.fg,
 			"terminalCommandDecoration.successBackground": eC.info,
 			"terminalCommandDecoration.errorBackground": eC.error,
+
+			// Terminal colors
+			"terminal.ansiBlack": terminal.black,
+			"terminal.ansiBrightBlack": terminal.brightBlack,
+			"terminal.ansiWhite": terminal.white,
+			"terminal.ansiBrightWhite": terminal.brightWhite,
+			"terminal.ansiRed": terminal.red,
+			"terminal.ansiBrightRed": terminal.brightRed,
+			"terminal.ansiGreen": terminal.green,
+			"terminal.ansiBrightGreen": terminal.brightGreen,
+			"terminal.ansiBlue": terminal.blue,
+			"terminal.ansiBrightBlue": terminal.brightBlue,
+			"terminal.ansiYellow": terminal.yellow,
+			"terminal.ansiBrightYellow": terminal.brightYellow,
+			"terminal.ansiCyan": terminal.cyan,
+			"terminal.ansiBrightCyan": terminal.brightCyan,
+			"terminal.ansiMagenta": terminal.magenta,
+			"terminal.ansiBrightMagenta": terminal.brightMagenta,
 
 			// Keybindings
 			"keybindingLabel.foreground": eC.fg,

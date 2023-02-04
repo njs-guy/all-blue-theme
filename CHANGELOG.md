@@ -8,6 +8,7 @@ For the source of each release, see [releases](https://github.com/njshockey/all-
 being manually edited by hand.
     - This brings a lot more consistency and fixes a lot of minor issues.
     - Also it's way less annoying to make changes. (The important part.)
+- Terminal colors are now themed.
 - Swapped around editor background colors.
     - Editor background:  #002540 -> #002138
     - Side Bar background: #002138 -> #001E33
@@ -23,6 +24,7 @@ being manually edited by hand.
 - Tabs now have a bottom border when active.
 - Reworked selection highlighting.
 - Keybindings menu is now themed
+- Along with other various changes to make the look and feel more cohesive.
 
 ## v1.0.2 (Jan. 25, 2023)
 
