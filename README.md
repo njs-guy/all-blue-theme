@@ -50,6 +50,8 @@ and `./src/templates/syntaxTemplate.ts`.
 and press F5 to test changes.
     - Run `yarn build-themes-ugly` to build the themes without Prettier.
 This should save you a few seconds.
+5. To build the extension file (VSIX), install VSCE with
+`npm install -g @vscode/vsce` then run `yarn build-ext`.
 
 ## Image credit
 
