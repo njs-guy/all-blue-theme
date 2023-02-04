@@ -23,6 +23,6 @@ They look pretty out of place.
 - [x] Input validation colors
 - [x] Keybinding labels
 - [x] Terminal colors
-- [ ] Proper default theme generics
+- [x] Proper default theme generics
 - [ ] Color palette image for the docs.
 - [ ] Update screenshots in readme

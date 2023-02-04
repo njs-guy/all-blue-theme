@@ -55,22 +55,34 @@ interface SyntaxColorsGeneric {
 	beige: string;
 }
 
+export const allBlueGeneric = {
+	blue: "#4F86F7",
+	darkBlue: "#1974D2",
+	lightBlue: "#a5b4fc",
+	teal: "#06B6D4",
+	darkTeal: "#0892D0",
+	lightTeal: "#AEC6CF",
+	blueGrey: "#006680",
+	cyan: "#00CCFF",
+	lilac: "#85A1F2",
+};
+
 export const allBlueColors: SyntaxColors = {
-	comment: "#006680",
-	operator: "#00CCFF",
-	variable: "#85A1F2",
-	bool: "#1974D2",
-	type: "#4F86F7",
-	function: "#a5b4fc",
-	tag: "#0892D0",
-	string: "#AEC6CF",
-	component: "#06B6D4",
-	bracket1: "#00CCFF",
-	bracket2: "#4F86F7",
-	bracket3: "#06B6D4",
-	bracket4: "#B0E0E6",
-	bracket5: "#a5b4fc",
-	bracket6: "#AEC6CF",
+	comment: allBlueGeneric.blueGrey,
+	operator: allBlueGeneric.cyan,
+	variable: allBlueGeneric.lilac,
+	bool: allBlueGeneric.darkBlue,
+	type: allBlueGeneric.blue,
+	function: allBlueGeneric.lightBlue,
+	tag: allBlueGeneric.darkTeal,
+	string: allBlueGeneric.lightTeal,
+	component: allBlueGeneric.teal,
+	bracket1: allBlueGeneric.cyan,
+	bracket2: allBlueGeneric.blue,
+	bracket3: allBlueGeneric.lilac,
+	bracket4: "#63C5DA",
+	bracket5: allBlueGeneric.lightBlue,
+	bracket6: allBlueGeneric.darkBlue,
 };
 
 export const wavesGeneric: SyntaxColorsGeneric = {
@@ -80,8 +92,8 @@ export const wavesGeneric: SyntaxColorsGeneric = {
 	yellow: "#FFFD37",
 	orange: "#FFAD00",
 	pink: "#F77FBE",
-	cyan: "#00CCFF",
-	grey: "#006680",
+	cyan: allBlueGeneric.cyan,
+	grey: allBlueGeneric.blueGrey,
 	beige: "#DBD59D",
 };
 
@@ -111,7 +123,7 @@ export const calmGeneric: SyntaxColorsGeneric = {
 	orange: "#FFAC40",
 	pink: "#FC8EAC",
 	cyan: "#8BC6FC",
-	grey: "#006680",
+	grey: allBlueGeneric.blueGrey,
 	beige: "#D5C2A5",
 };
 

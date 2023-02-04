@@ -18,12 +18,13 @@ being manually edited by hand.
 - Changed Calm yellow: #FFFC79 -> #FEF08A
 - Changed error/deleted color from Calm red to Waves red.
 - Booleans and numbers are now *italic*.
+- Tweaked All Blue bracket colors.
 - Properties now use the tag color. (Red in variants.)
 - Escape characters now use the function color. (Blue in variants.)
 - JS Constants and Objects now use the component color. (Green in variants.)
 - Tabs now have a bottom border when active.
 - Reworked selection highlighting.
-- Keybindings menu is now themed
+- Keybindings menu is now themed.
 - Along with other various changes to make the look and feel more cohesive.
 
 ## v1.0.2 (Jan. 25, 2023)
