@@ -5,13 +5,13 @@ A VS Code theme that's a little too obsessed with a certain primary color.
 ## Screenshots
 
 Default theme
-![All Blue screenshot](https://raw.githubusercontent.com/njshockey/all-blue-theme/main/img/default-preview.png "All Blue screenshot")
+![All Blue screenshot](img/default-preview.png "All Blue screenshot")
 
 Calm
-![All Blue screenshot](https://raw.githubusercontent.com/njshockey/all-blue-theme/main/img/calm-preview.png "Calm screenshot")
+![All Blue screenshot](img/calm-preview.png "Calm screenshot")
 
 Waves
-![All Blue screenshot](https://raw.githubusercontent.com/njshockey/all-blue-theme/main/img/waves-preview.png "Waves screenshot")
+![All Blue screenshot](img/waves-preview.png "Waves screenshot")
 
 The editor font used is [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 with ligatures turned off.
