@@ -24,10 +24,14 @@ I'm also shilling my other projects from the screenshots:
 - [BST Graph](https://github.com/njshockey/bst-graph),
     create Pokemon Base Stat Total charts.
 
-## Colors
+## Syntax Colors
 
-To find out what colors are used in All Blue,
-head to [colors.md](colors.md).
+![Syntax colors](img/all-blue-colors.png)
+
+The font used is [Cabin SemiCondensed](https://fonts.google.com/specimen/Cabin?query=cabin).
+The Hex code font is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
+
+For more details, head to [colors.md](colors.md).
 
 ## Demo
 

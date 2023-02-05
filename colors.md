@@ -63,5 +63,5 @@ pastel colors for more of a smooth sailing vibe.
 | Types, attributes, classes               | #4F86F7  | #FFFD37 | #FEF08A |
 | Functions, Pseudo-classes, esc chars     | #a5b4fc  | #079BF5 | #85A1F2 |
 | HTML tags                                | #0892D0  | #FF7566 | #F9968B |
-| Strings                                  | #AEC6CF  | #DBD59D | #D5C2A5 |
 | Objects, Components, JS Constants, Regex | #06B6D4  | #0BDA51 | #50C878 |
+| Strings                                  | #AEC6CF  | #DBD59D | #D5C2A5 |
