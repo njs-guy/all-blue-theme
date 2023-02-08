@@ -2,7 +2,7 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
-## v1.1.0
+## v1.1.0 (Feb. 4, 2023)
 
 - The themes are now generated through TypeScript instead of
 being manually edited by hand.
