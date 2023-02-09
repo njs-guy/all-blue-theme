@@ -5,6 +5,8 @@ For the source of each release, see [releases](https://github.com/njshockey/all-
 ## v1.1.1
 
 - Active line number now uses the foreground color. #D8DEE9 -> #63C5DA
+- Suggest widget is now themed.
+- Codelens foreground is now themed.
 
 ## v1.1.0 (Feb. 4, 2023)
 

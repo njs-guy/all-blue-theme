@@ -57,17 +57,27 @@ export function createEditorTemplate(theme: Themes) {
 			"editorHoverWidget.background": eC.bgSideBar,
 			"editorHoverWidget.border": eC.borderDim,
 			"editorHoverWidget.foreground": eC.fgFourth,
+			"editorHoverWidget.statusBarBackground": eC.bgStatusBar,
 
 			// Editor widget
 			"editorWidget.background": eC.bgSideBar,
 			"editorWidget.foreground": eC.fg,
 			"editorWidget.resizeBorder": eC.borderBright,
+			"editorSuggestWidget.foreground": eC.fg,
+			"editorSuggestWidget.background": eC.bgStatusBar,
+			"editorSuggestWidget.border": eC.borderDim,
+			"editorSuggestWidget.selectedBackground": eC.selectionNormal,
+			"editorSuggestWidget.selectedForeground": eC.fgTertiary,
+			"editorSuggestWidget.highlightForeground": eC.fgFourth,
+			"editorSuggestWidget.focusHighlightForeground": eC.fgFourth,
+			"editorGhostText.foreground": eC.fgDisabled,
 
 			// Inlay hints
 			"editorInlayHint.background": eC.bgSideBar,
 			"editorInlayHint.foreground": eC.fgSecondary,
 			"editorInlayHint.typeForeground": eC.fgFourth,
 			"editorInlayHint.parameterForeground": eC.inlayHintParameterFg,
+			"editorCodeLens.foreground": eC.fgDisabled,
 
 			// Breadcrumbs
 			"breadcrumb.foreground": eC.fg,
