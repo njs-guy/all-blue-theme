@@ -3,8 +3,5 @@
 ## General
 
 - [ ] Finish markdown highlighting.
-
-## v1.1.1
-
-- [ ] Settings sidebar hover
-- [ ] Autocomplete widget
+- [ ] Figure out how to theme suggest widget hints.
+    - Change the grey to comment grey.

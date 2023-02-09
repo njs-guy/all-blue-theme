@@ -228,6 +228,9 @@ export function createEditorTemplate(theme: Themes) {
 			"settings.headerForeground": eC.fgSecondary,
 			"settings.modifiedItemIndicator": eC.cursor,
 			"settings.rowHoverBackground": eC.bgSideBar,
+			"settings.focusedRowBorder": eC.borderDim,
+			"settings.focusedRowBackground": eC.bgSideBar,
+			"settings.settingsHeaderHoverForeground": eC.fgSecondary,
 
 			// Text
 			"foreground": eC.fg,
