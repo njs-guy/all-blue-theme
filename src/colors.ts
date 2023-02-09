@@ -241,7 +241,7 @@ export const editorColors = {
 	addedGutter: editorColorsGeneric.addedGutter,
 	modifiedGutter: editorColorsGeneric.modifiedGutter,
 	deletedGutter: editorColorsGeneric.deletedGutter,
-	lineNumberActiveFg: editorColorsGeneric.fgFourth,
+	lineNumberActiveFg: editorColorsGeneric.fg,
 	inlayHintParameterFg: allBlueColors.tag,
 	peekPreviewTitle: allBlueColors.comment,
 	linkEditor: editorColorsGeneric.linkEditor,

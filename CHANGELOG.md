@@ -2,6 +2,10 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
+## v1.1.1
+
+- Active line number now uses the foreground color. #D8DEE9 -> #63C5DA
+
 ## v1.1.0 (Feb. 4, 2023)
 
 - The themes are now generated through TypeScript instead of
