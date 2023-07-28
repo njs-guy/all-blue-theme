@@ -33,6 +33,20 @@ The Hex code font is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
 
 For more details, head to [colors.md](colors.md).
 
+## Installation
+
+In the extensions panel in VS Code, type in `njshockey.all-blue` or visit one of the following links.
+
+- [VS Marketplace (recommended)](https://marketplace.visualstudio.com/items?itemName=njshockey.all-blue)
+- [Open VSX Registry](https://open-vsx.org/extension/njshockey/all-blue)
+
+### Manual
+
+TODO: Manual installation instructions
+
+- [GitHub releases](https://github.com/njshockey/all-blue-theme/releases)
+- [Itch](https://njshockey.itch.io/all-blue)
+
 ## Demo
 
 For a downloadable demo, check out the [All Blue demo](https://github.com/njshockey/all-blue-demo).
