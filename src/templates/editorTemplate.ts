@@ -77,6 +77,7 @@ export function createEditorTemplate(theme: Themes) {
 			"editorInlayHint.foreground": eC.fgDisabled,
 			"editorInlayHint.typeForeground": eC.fgFourth,
 			"editorInlayHint.parameterForeground": eC.inlayHintParameterFg,
+			"editorInlayHint.parameterBackground": eC.bgEditor,
 			"editorCodeLens.foreground": eC.fgDisabled,
 
 			// Breadcrumbs

@@ -9,8 +9,10 @@ Mostly a maintenance release, but with a few nice tweaks for better readability.
 - Adjusted Status Bar. #002540 -> #001E33
 - Adjusted sidebar section headers. #002540 -> #001E33
 - Active tab background now uses what was previously the status bar background color for better contrast. #002138 -> #002540
-- Adjusted inlay hint foreground color. #ffffff -> #006680
-- Adjusted inlay hint background color. #001E33 -> #002138
+- Adjusted inlay hints
+  - Foreground color. #ffffff -> #006680
+  - Background color. #001E33 -> #002138
+  - Parameter foreground. #0892D0 -> #006680
 - Several Rust keywords now use the operator color.
 - Added download links to the readme.
 
