@@ -20,6 +20,14 @@ export function createSyntaxTemplate(theme: Themes) {
 				},
 			},
 
+			{
+				name: "Editor Config keyword",
+				scope: ["keyword.other.definition"],
+				settings: {
+					foreground: "#ff0000",
+				},
+			},
+
 			// Operator, Units
 			{
 				name: "Operator, Misc",
@@ -44,7 +52,13 @@ export function createSyntaxTemplate(theme: Themes) {
 			},
 			{
 				name: "Keyword, Storage",
-				scope: ["keyword", "storage.type", "storage.modifier"],
+				scope: [
+					"keyword",
+					"storage.type",
+					"storage.modifier",
+					"keyword.other.definition",
+					"support.type.property-name",
+				],
 				settings: {
 					foreground: colors.operator,
 				},

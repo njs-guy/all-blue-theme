@@ -14,6 +14,8 @@ Mostly a maintenance release, but with a few nice tweaks for better readability.
   - Background color. #001E33 -> #002138
   - Parameter foreground. #0892D0 -> #006680
 - Adjusted editor suggest widget selected foreground. #003459 -> #003A63
+- Definition keywords now use the operator color (#00CCFF, #8BC6FC) to be more consistent with JSON.
+  - This effects several file types like editorconfig, toml, gitattributes, etc.
 - Several Rust keywords now use the operator color.
 - Added download links to the readme.
 
