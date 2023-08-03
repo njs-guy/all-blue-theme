@@ -6,6 +6,8 @@ For the source of each release, see [releases](https://github.com/njshockey/all-
 Mostly a maintenance release, but with a few nice tweaks for better readability and consistency.
 
 - Active tab background now uses what was previously the status bar background color for better contrast. #002138 -> #002540
+- Adjusted inlay hint foreground color. #ffffff -> #006680
+- Several Rust keywords now use the operator color.
 
 ## v1.1.1 (Feb. 9, 2023)
 

@@ -74,7 +74,7 @@ export function createEditorTemplate(theme: Themes) {
 
 			// Inlay hints
 			"editorInlayHint.background": eC.bgSideBar,
-			"editorInlayHint.foreground": eC.fgSecondary,
+			"editorInlayHint.foreground": eC.fgDisabled,
 			"editorInlayHint.typeForeground": eC.fgFourth,
 			"editorInlayHint.parameterForeground": eC.inlayHintParameterFg,
 			"editorCodeLens.foreground": eC.fgDisabled,

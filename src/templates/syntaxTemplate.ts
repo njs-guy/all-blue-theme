@@ -36,6 +36,7 @@ export function createSyntaxTemplate(theme: Themes) {
 					"keyword.other.template",
 					"keyword.other.substitution",
 					"keyword.other.fn.rust",
+					"keyword.other.rust",
 				],
 				settings: {
 					foreground: colors.operator,
