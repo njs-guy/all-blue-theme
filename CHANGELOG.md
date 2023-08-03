@@ -13,6 +13,7 @@ Mostly a maintenance release, but with a few nice tweaks for better readability.
   - Foreground color. #ffffff -> #006680
   - Background color. #001E33 -> #002138
   - Parameter foreground. #0892D0 -> #006680
+- Adjusted editor suggest widget selected foreground. #003459 -> #003A63
 - Several Rust keywords now use the operator color.
 - Added download links to the readme.
 

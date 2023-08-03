@@ -66,7 +66,7 @@ export function createEditorTemplate(theme: Themes) {
 			"editorSuggestWidget.foreground": eC.fg,
 			"editorSuggestWidget.background": eC.bgStatusBar,
 			"editorSuggestWidget.border": eC.borderDim,
-			"editorSuggestWidget.selectedBackground": eC.selectionNormal,
+			"editorSuggestWidget.selectedBackground": eC.selectionBright,
 			"editorSuggestWidget.selectedForeground": eC.fgTertiary,
 			"editorSuggestWidget.highlightForeground": eC.fgFourth,
 			"editorSuggestWidget.focusHighlightForeground": eC.fgFourth,
