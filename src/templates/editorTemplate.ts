@@ -73,7 +73,7 @@ export function createEditorTemplate(theme: Themes) {
 			"editorGhostText.foreground": eC.fgDisabled,
 
 			// Inlay hints
-			"editorInlayHint.background": eC.bgSideBar,
+			"editorInlayHint.background": eC.bgEditor,
 			"editorInlayHint.foreground": eC.fgDisabled,
 			"editorInlayHint.typeForeground": eC.fgFourth,
 			"editorInlayHint.parameterForeground": eC.inlayHintParameterFg,
@@ -101,7 +101,7 @@ export function createEditorTemplate(theme: Themes) {
 			"sideBar.foreground": eC.fg,
 			"sideBar.dropBackground":
 				eC.selectionBright + eC.selectionTransparency,
-			"sideBarSectionHeader.background": eC.bgEditor,
+			"sideBarSectionHeader.background": eC.bgSideBar,
 			"sash.hoverBorder": eC.borderBright,
 			"focusBorder": eC.borderDim,
 
@@ -112,10 +112,10 @@ export function createEditorTemplate(theme: Themes) {
 			"activityBar.foreground": eC.fgFourth,
 
 			// Status bar
-			"statusBar.background": eC.bgStatusBar,
+			"statusBar.background": eC.bgSideBar,
 			"statusBar.foreground": eC.fg,
 			"statusBar.focusBorder": eC.transparent,
-			"statusBar.noFolderBackground": eC.bgStatusBar,
+			"statusBar.noFolderBackground": eC.bgSideBar,
 			"statusBar.noFolderForeground": eC.fg,
 			"statusBar.debuggingBackground": "#004B80",
 			"statusBar.debuggingForeground": eC.fgSecondary,
