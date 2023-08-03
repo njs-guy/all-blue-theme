@@ -144,6 +144,7 @@ export function createEditorTemplate(theme: Themes) {
 			"tab.inactiveBackground": eC.bgSideBar,
 			"tab.inactiveForeground": eC.fgDisabled,
 			"tab.activeForeground": eC.fgSecondary,
+			"tab.activeBackground": eC.bgStatusBar,
 			"tab.border": eC.transparent,
 			"tab.activeBorder": eC.fgFourth,
 			"tab.activeModifiedBorder": eC.borderBright,

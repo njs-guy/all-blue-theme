@@ -2,6 +2,11 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
+## v1.2.0
+Mostly a maintenance release, but with a few nice tweaks for better readability and consistency.
+
+- Active tab background now uses what was previously the status bar background color for better contrast. #002138 -> #002540
+
 ## v1.1.1 (Feb. 9, 2023)
 
 - Active line number now uses the foreground color. #D8DEE9 -> #63C5DA
