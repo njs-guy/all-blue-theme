@@ -2,7 +2,7 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
-## v1.2.0
+## v1.2.0 (Aug. 8, 2023)
 
 Mostly a maintenance release, but with a few nice tweaks for better readability.
 

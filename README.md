@@ -19,8 +19,8 @@ The file icons are [Material Icons](https://marketplace.visualstudio.com/items?i
 
 I'm also shilling my other projects from the screenshots:
 
-- [NJS React Template](https://github.com/njs-templates/njs-react)
-- [Keysmith](https://github.com/njshockey/keysmith-rs), a rust keygen library
+- [My resume site](https://github.com/njshockey/njshockey-resume)
+- [Keysmith](https://github.com/njshockey/keysmith-rs), a Rust keygen library
 - [BST Graph](https://github.com/njshockey/bst-graph),
     create Pokemon Base Stat Total charts.
 
