@@ -49,8 +49,8 @@ export function createEditorTemplate(theme: Themes) {
 			"editorGutter.commentRangeForeground": eC.fgDisabled,
 
 			// Indents and whitespace
-			"editorIndentGuide.background": eC.selectionNormal,
-			"editorIndentGuide.activeBackground": eC.fg,
+			"editorIndentGuide.background1": eC.selectionNormal,
+			"editorIndentGuide.activeBackground1": eC.fg,
 			"editorWhitespace.foreground": eC.fgDisabled,
 
 			// Hover widget
