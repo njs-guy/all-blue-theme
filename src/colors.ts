@@ -242,7 +242,7 @@ export const editorColors = {
 	modifiedGutter: editorColorsGeneric.modifiedGutter,
 	deletedGutter: editorColorsGeneric.deletedGutter,
 	lineNumberActiveFg: editorColorsGeneric.fg,
-	inlayHintParameterFg: allBlueColors.tag,
+	inlayHintParameterFg: allBlueColors.comment,
 	peekPreviewTitle: allBlueColors.comment,
 	linkEditor: editorColorsGeneric.linkEditor,
 	linkText: editorColorsGeneric.linkText,

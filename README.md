@@ -19,8 +19,8 @@ The file icons are [Material Icons](https://marketplace.visualstudio.com/items?i
 
 I'm also shilling my other projects from the screenshots:
 
-- [NJS React Template](https://github.com/njs-templates/njs-react)
-- [Keysmith](https://github.com/njshockey/keysmith-rs), a rust keygen library
+- [My resume site](https://github.com/njshockey/njshockey-resume)
+- [Keysmith](https://github.com/njshockey/keysmith-rs), a Rust keygen library
 - [BST Graph](https://github.com/njshockey/bst-graph),
     create Pokemon Base Stat Total charts.
 
@@ -32,6 +32,26 @@ The font used is [Cabin SemiCondensed](https://fonts.google.com/specimen/Cabin?q
 The Hex code font is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
 
 For more details, head to [colors.md](colors.md).
+
+## Installation
+
+In the extensions panel in VS Code, type in `njshockey.all-blue` or visit one of the following links.
+
+- [VS Marketplace (recommended)](https://marketplace.visualstudio.com/items?itemName=njshockey.all-blue)
+- [Open VSX Registry](https://open-vsx.org/extension/njshockey/all-blue)
+
+### Manual
+
+To install this extension manually, download it from one of the following places:
+
+- [GitHub releases](https://github.com/njshockey/all-blue-theme/releases)
+- [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=njshockey.all-blue)
+  - This is under resources -> Download Extension
+- [Open VSX Registry](https://open-vsx.org/extension/njshockey/all-blue)
+  - This is under resources -> Download
+- [Itch](https://njshockey.itch.io/all-blue)
+
+Then, in the extensions panel, click on the three dots(...) left of your open tabs, then click on `Install from VSIX...`.
 
 ## Demo
 

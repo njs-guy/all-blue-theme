@@ -66,17 +66,18 @@ export function createEditorTemplate(theme: Themes) {
 			"editorSuggestWidget.foreground": eC.fg,
 			"editorSuggestWidget.background": eC.bgStatusBar,
 			"editorSuggestWidget.border": eC.borderDim,
-			"editorSuggestWidget.selectedBackground": eC.selectionNormal,
+			"editorSuggestWidget.selectedBackground": eC.selectionBright,
 			"editorSuggestWidget.selectedForeground": eC.fgTertiary,
 			"editorSuggestWidget.highlightForeground": eC.fgFourth,
 			"editorSuggestWidget.focusHighlightForeground": eC.fgFourth,
 			"editorGhostText.foreground": eC.fgDisabled,
 
 			// Inlay hints
-			"editorInlayHint.background": eC.bgSideBar,
-			"editorInlayHint.foreground": eC.fgSecondary,
+			"editorInlayHint.background": eC.bgEditor,
+			"editorInlayHint.foreground": eC.fgDisabled,
 			"editorInlayHint.typeForeground": eC.fgFourth,
 			"editorInlayHint.parameterForeground": eC.inlayHintParameterFg,
+			"editorInlayHint.parameterBackground": eC.bgEditor,
 			"editorCodeLens.foreground": eC.fgDisabled,
 
 			// Breadcrumbs
@@ -101,7 +102,7 @@ export function createEditorTemplate(theme: Themes) {
 			"sideBar.foreground": eC.fg,
 			"sideBar.dropBackground":
 				eC.selectionBright + eC.selectionTransparency,
-			"sideBarSectionHeader.background": eC.bgEditor,
+			"sideBarSectionHeader.background": eC.bgSideBar,
 			"sash.hoverBorder": eC.borderBright,
 			"focusBorder": eC.borderDim,
 
@@ -112,10 +113,10 @@ export function createEditorTemplate(theme: Themes) {
 			"activityBar.foreground": eC.fgFourth,
 
 			// Status bar
-			"statusBar.background": eC.bgStatusBar,
+			"statusBar.background": eC.bgSideBar,
 			"statusBar.foreground": eC.fg,
 			"statusBar.focusBorder": eC.transparent,
-			"statusBar.noFolderBackground": eC.bgStatusBar,
+			"statusBar.noFolderBackground": eC.bgSideBar,
 			"statusBar.noFolderForeground": eC.fg,
 			"statusBar.debuggingBackground": "#004B80",
 			"statusBar.debuggingForeground": eC.fgSecondary,
@@ -144,6 +145,7 @@ export function createEditorTemplate(theme: Themes) {
 			"tab.inactiveBackground": eC.bgSideBar,
 			"tab.inactiveForeground": eC.fgDisabled,
 			"tab.activeForeground": eC.fgSecondary,
+			"tab.activeBackground": eC.bgStatusBar,
 			"tab.border": eC.transparent,
 			"tab.activeBorder": eC.fgFourth,
 			"tab.activeModifiedBorder": eC.borderBright,

@@ -2,6 +2,23 @@
 
 For the source of each release, see [releases](https://github.com/njshockey/all-blue-theme/releases).
 
+## v1.2.0 (Aug. 8, 2023)
+
+Mostly a maintenance release, but with a few nice tweaks for better readability.
+
+- Adjusted Status Bar. #002540 -> #001E33
+- Adjusted sidebar section headers. #002540 -> #001E33
+- Active tab background now uses what was previously the status bar background color for better contrast. #002138 -> #002540
+- Adjusted inlay hints
+  - Foreground color. #ffffff -> #006680
+  - Background color. #001E33 -> #002138
+  - Parameter foreground. #0892D0 -> #006680
+- Adjusted editor suggest widget selected foreground. #003459 -> #003A63
+- Definition keywords now use the operator color (#00CCFF, #8BC6FC) to be more consistent with JSON.
+  - This effects several file types like editorconfig, toml, gitattributes, etc.
+- Several Rust keywords now use the operator color.
+- Added download links to the readme.
+
 ## v1.1.1 (Feb. 9, 2023)
 
 - Active line number now uses the foreground color. #D8DEE9 -> #63C5DA
