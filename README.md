@@ -42,10 +42,16 @@ In the extensions panel in VS Code, type in `njshockey.all-blue` or visit one of
 
 ### Manual
 
-TODO: Manual installation instructions
+To install this extension manually, download it from one of the following places:
 
 - [GitHub releases](https://github.com/njshockey/all-blue-theme/releases)
+- [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=njshockey.all-blue)
+  - This is under resources -> Download Extension
+- [Open VSX Registry](https://open-vsx.org/extension/njshockey/all-blue)
+  - This is under resources -> Download
 - [Itch](https://njshockey.itch.io/all-blue)
+
+Then, in the extensions panel, click on the three dots(...) left of your open tabs, then click on `Install from VSIX...`.
 
 ## Demo
 
